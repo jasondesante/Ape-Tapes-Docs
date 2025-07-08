@@ -6,15 +6,21 @@ description: >-
 
 # Welcome
 
+## What is Listen?
+
+Listen is the open library of music in web3 that consists of all tokens and files on Ethereum and Arweave.  Listeners curate this vast library feeding value back into the system.  Listen is a website about music.
+
+Listen is a portal to web3 music that you can enter.  As a listener, browse and search any collection or wallet.  Create playlists that can be shared and played without a server.  An important part in building a Decentralized.Autonomous.Music.Network.(D.A.M.N.)
+
 ## What is the Contract Wizard?
 
-The Contract Wizard is a website about Music NFTs.  It's a web3 music player.  The Contract Wizard is a character who loves music that has a talking hat.  The Contract Wizard's mission is to contribute meaningfully to building a decentralized autonomous music network.
+The Contract Wizard is a character who loves music that has a talking hat.  The Contract Wizard is also the name of the suite of tools for artists. The Contract Wizard's mission is to contribute meaningfully to building a decentralized autonomous music network.
 
 The [Contract Wizard](create/the-contract-wizard/) uses magic to create [721J](create/smart-contracts/721j-concepts/) contracts with ease.  The wizard's library is part of a decentralized autonomous music network.  Artists own their contracts, mint their digital masters, and mint copies with on chain rarity.
 
-In The Wizard's Library is a portal to web3 music that you can enter.  Browse and search any collection or wallet.  Create playlists that can be shared and played without a server.  An important part in building a D.A.M.N.
+The Wizard's Library is a collection of independently owned record label contracts created with The Contract Wizard.  Anyone can create a contract. &#x20;
 
-You can listen to music, collect and create with the Contract Wizard.
+You can listen to music, collect and create.
 
 ## [721J](create/smart-contracts/721j-concepts/)
 
@@ -26,7 +32,7 @@ Github for the 721J code
 
 ## What the Gitbook Covers
 
-This Gitbook covers all the current functionality of the Contract Wizard and the 721J token.
+This Gitbook covers all the current functionality of the ar://listen, the Contract Wizard and the 721J token.
 
 
 
@@ -34,23 +40,7 @@ This Gitbook covers all the current functionality of the Contract Wizard and the
 
 
 
-
-
-
-
-
-
-
-
-Old videos (outdated):
-
-
-
-{% embed url="https://youtu.be/zZcI2r0cNFw" %}
-
-{% embed url="https://youtu.be/tyggc2q8ho4" %}
-
-{% embed url="https://youtu.be/zZcI2r0cNFw" %}
+{% embed url="https://youtu.be/AM7tutVqLls" %}
 
 
 
