@@ -7,14 +7,15 @@
 
 ## 🍏 Consume
 
-* [Music Player](consume/music-player/README.md)
-  * [Player Page](consume/music-player/player-page.md)
-  * [Controls](consume/music-player/controls.md)
-  * [Embedded Player](consume/music-player/embedded-player.md)
-  * [Visualizer](consume/music-player/visualizer.md)
-* [The Featured Page](consume/the-featured-page.md)
-* [The Browse Page](consume/the-browse-page.md)
-* [The Library Page](consume/the-library-page.md)
+* [Universal Music Player](consume/universal-music-player/README.md)
+  * [Player Page](consume/universal-music-player/player-page.md)
+  * [Controls](consume/universal-music-player/controls.md)
+  * [Embedded Player](consume/universal-music-player/embedded-player.md)
+  * [Visualizer](consume/universal-music-player/visualizer.md)
+* [Discover](consume/discover/README.md)
+  * [The Featured Page](consume/discover/the-featured-page.md)
+  * [The Browse Page](consume/discover/the-browse-page.md)
+  * [The Library Page](consume/discover/the-library-page.md)
 * [Search](consume/search.md)
 * [For The Metaverse](consume/for-the-metaverse.md)
 

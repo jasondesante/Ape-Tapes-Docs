@@ -1,3 +1,0 @@
-# Controls
-
-Player controls

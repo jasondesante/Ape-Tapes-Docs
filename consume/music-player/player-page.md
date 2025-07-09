@@ -1,3 +1,0 @@
-# Player Page
-
-Player page

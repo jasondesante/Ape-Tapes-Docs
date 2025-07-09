@@ -1,4 +1,4 @@
-# Music Player
+# Universal Music Player
 
 You can listen to any music that's a part of web3 with ar://listen.  If it's a file uploaded to decentralized storage, or a token, it can be found and added to playlists.&#x20;
 
@@ -8,7 +8,7 @@ The player page loads up when you click on collections like in the Featured page
 
 ## Where To Listen
 
-You can see your wallet in the [Library](../the-library-page.md), look up your friends' collections, any label contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../the-browse-page.md) , check out the featured collections and published playlists in the [Featured page](../the-featured-page.md), and more with The Contract Wizard!
+You can see your wallet in the [Library](../discover/the-library-page.md), look up your friends' collections, any label contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../discover/the-browse-page.md) , check out the featured collections and published playlists in the [Featured page](../discover/the-featured-page.md), and more with The Contract Wizard!
 
 You can also listen to serverless playlists directly and easily with a link.
 
