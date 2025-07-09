@@ -12,6 +12,12 @@ Read some boring articles I wrote about the things
 
 {% embed url="https://medium.com/@jasondesante" %}
 
+## Mirror
+
+Mirror is like Medium but on Arweave
+
+{% embed url="https://mirror.xyz/desante.eth" %}
+
 ## ArDrive
 
 You can upload files to Arweave using ArDrive.

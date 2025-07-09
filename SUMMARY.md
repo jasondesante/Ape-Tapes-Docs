@@ -5,15 +5,38 @@
 * [Welcome](README.md)
   * [Target Audiences](introduction/welcome/target-audiences.md)
 
+## 🍏 Consume
+
+* [Music Player](consume/music-player/README.md)
+  * [Player Page](consume/music-player/player-page.md)
+  * [Controls](consume/music-player/controls.md)
+  * [Embedded Player](consume/music-player/embedded-player.md)
+  * [Visualizer](consume/music-player/visualizer.md)
+* [The Featured Page](consume/the-featured-page.md)
+* [The Browse Page](consume/the-browse-page.md)
+* [The Library Page](consume/the-library-page.md)
+* [Search](consume/search.md)
+* [For The Metaverse](consume/for-the-metaverse.md)
+
 ## 💿 Create
 
-* [The Contract Wizard](create/the-contract-wizard/README.md)
-  * [The Wizard's Library](create/the-contract-wizard/the-wizards-library.md)
-  * [Hat Helper](create/the-contract-wizard/hat-helper.md)
 * [Playlists](create/playlists/README.md)
   * [Playlist Image](create/playlists/playlist-image.md)
   * [Playlist Tags](create/playlists/playlist-tags.md)
   * [Playlist Specs](create/playlists/playlist-specs.md)
+* [The Metadata Maker](create/the-metadata-maker/README.md)
+  * [Concepts](create/the-metadata-maker/concepts/README.md)
+    * [What is a Metadata File?](create/the-metadata-maker/concepts/what-is-a-metadata-file.md)
+    * [Adding Licenses](create/the-metadata-maker/concepts/adding-licenses.md)
+  * [Metadata Standards](create/the-metadata-maker/metadata-standards/README.md)
+    * [Token Metadata](create/the-metadata-maker/metadata-standards/token-metadata.md)
+    * [Contract Metadata](create/the-metadata-maker/metadata-standards/contract-metadata.md)
+  * [Profile Metadata (contract URI)](create/the-metadata-maker/profile-metadata-contract-uri.md)
+  * [Song Metadata](create/the-metadata-maker/song-metadata.md)
+  * [Manifest Maker](create/the-metadata-maker/manifest-maker.md)
+* [The Contract Wizard](create/the-contract-wizard/README.md)
+  * [The Wizard's Library](create/the-contract-wizard/the-wizards-library.md)
+  * [Hat Helper](create/the-contract-wizard/hat-helper.md)
 * [Smart Contracts](create/smart-contracts/README.md)
   * [721J Concepts](create/smart-contracts/721j-concepts/README.md)
     * [Originals / Generations](create/smart-contracts/721j-concepts/originals-generations.md)
@@ -36,15 +59,6 @@
       * [Promo System Functions](create/smart-contracts/the-code/721j-code/promo-system-functions.md)
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
-* [The Metadata Maker](create/the-metadata-maker/README.md)
-  * [Metadata Standards](create/the-metadata-maker/metadata-standards/README.md)
-    * [Token Metadata](create/the-metadata-maker/metadata-standards/token-metadata.md)
-    * [Contract Metadata](create/the-metadata-maker/metadata-standards/contract-metadata.md)
-  * [Profile Metadata (contract URI)](create/the-metadata-maker/profile-metadata-contract-uri.md)
-  * [Song Metadata](create/the-metadata-maker/song-metadata.md)
-  * [Manifest Maker](create/the-metadata-maker/manifest-maker.md)
-  * [Add License](create/the-metadata-maker/add-license.md)
-  * [What is a Metadata File?](create/the-metadata-maker/what-is-a-metadata-file.md)
 * [The Manager](create/the-manager/README.md)
   * [View Data](create/the-manager/view-data.md)
   * [Mint Originals](create/the-manager/mint-originals.md)
@@ -53,17 +67,6 @@
   * [Promotion System](create/the-manager/promotion-system.md)
   * [More Features](create/the-manager/more-features.md)
 * [Conclusion](create/conclusion.md)
-
-## 🍏 Consume
-
-* [Music Player](consume/music-player/README.md)
-  * [Embedded Player](consume/music-player/embedded-player.md)
-  * [Visualizer](consume/music-player/visualizer.md)
-* [The Featured Page](consume/the-featured-page.md)
-* [The Browse Page](consume/the-browse-page.md)
-* [The Library Page](consume/the-library-page.md)
-* [Search](consume/search.md)
-* [For The Metaverse](consume/for-the-metaverse.md)
 
 ## 📼 Collect
 
@@ -103,6 +106,7 @@
 * [External Links](misc/external-links/README.md)
   * [0xSplits](https://www.0xsplits.xyz/)
   * [Medium](https://medium.com/@jasondesante)
+  * [Mirror](https://mirror.xyz/desante.eth)
   * [ArDrive](https://ardrive.io/)
   * [EZGif](https://ezgif.com/optimize)
   * [Testnet Faucet](https://www.alchemy.com/faucets/ethereum-sepolia)

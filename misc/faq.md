@@ -4,4 +4,4 @@
 
 Use a VPN!  Your ISP must be blocking Arweave. &#x20;
 
-This is a common issue if you live in Australia and other places.
+This is a common issue if you live in Australia and similar countries.

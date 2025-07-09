@@ -6,7 +6,7 @@ You can do three main things with the metadata maker:
 * Create Song Metadata [here](song-metadata.md)
 * Update your Collection Manifest [here](manifest-maker.md)
 
-Metadata files are [.json file type](what-is-a-metadata-file.md).
+Metadata files are [.json file type](concepts/what-is-a-metadata-file.md).
 
 ### Before You Start
 
@@ -39,3 +39,6 @@ Testnet is also supported on Irys. Eth Sepolia, Base Sepolia, and Polygon Amoy n
 
 
 The mega music metadata maker is very awesome and took a long time to make.&#x20;
+
+
+

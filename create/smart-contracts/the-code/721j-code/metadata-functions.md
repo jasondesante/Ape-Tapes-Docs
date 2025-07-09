@@ -2,7 +2,7 @@
 
 ## Metadata Functions
 
-These functions have to do with getting and setting metadata. For more information about metadata, see [what is a metadata file?](../../../the-metadata-maker/what-is-a-metadata-file.md)
+These functions have to do with getting and setting metadata. For more information about metadata, see [what is a metadata file?](../../../the-metadata-maker/concepts/what-is-a-metadata-file.md)
 
 ## Read Functions
 

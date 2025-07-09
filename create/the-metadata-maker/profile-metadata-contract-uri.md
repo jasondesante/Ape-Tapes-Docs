@@ -32,7 +32,7 @@ Making metadata is easy.  First thing is to gather your files.  Fill out the req
 
 ## Saving
 
-Click save when you're finished adding files.  [Add a license](add-license.md), upload to Arweave, or skip and use IPFS. &#x20;
+Click save when you're finished adding files.  [Add a license](concepts/adding-licenses.md), upload to Arweave, or skip and use IPFS. &#x20;
 
 It's highly recommended to upload your files to Arweave. To do that you'll need to have a balance on [Irys](./#irys) larger than the price. You can deposit to the [Irys](./#irys) contract with the button in the details.
 

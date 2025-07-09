@@ -1,10 +1,14 @@
 # Music Player
 
-The player page is where you can listen to all sorts of music. The player loads up in places like when you click on collections in the Featured page, or looking at your wallet in the Library page.  You can filter by contracts and attributes.  You can sort by attributes.  You can favorite the songs and collections.  You can create and publish your own playlists.
+You can listen to any music that's a part of web3 with ar://listen.  If it's a file uploaded to decentralized storage, or a token, it can be found and added to playlists.&#x20;
+
+The player is made up of two parts, the top part and the bottom part. The top part is the player page, and the bottom part shows up whenever a song is playing.
+
+The player page loads up when you click on collections like in the Featured page, or looking at your wallet in the Library page.  You can then filter and sort by contracts and attributes. You can favorite the songs and collections.
 
 ## Where To Listen
 
-You can look up your collection in the [Library](../the-library-page.md), look up your friends collections, an artist's collection, or label contract with [search](../search.md), browse the library in the [Browse page](../the-browse-page.md) , check out the featured collections and published playlists in the [Featured page](../the-featured-page.md), and more on many chains with The Contract Wizard!
+You can see your wallet in the [Library](../the-library-page.md), look up your friends' collections, any label contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../the-browse-page.md) , check out the featured collections and published playlists in the [Featured page](../the-featured-page.md), and more with The Contract Wizard!
 
 You can also listen to serverless playlists directly and easily with a link.
 

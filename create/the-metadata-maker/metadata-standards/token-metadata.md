@@ -10,6 +10,7 @@ Check the version of the template on GitHub with examples to see what is require
 
 {% embed url="https://github.com/jasondesante/721J-Token/blob/master/Metadata%20Templates/token_uri_template_blank.json" %}
 
+{% code fullWidth="false" %}
 ```
 // Token Metadata Template
 {
@@ -209,6 +210,7 @@ Check the version of the template on GitHub with examples to see what is require
 }
 
 ```
+{% endcode %}
 
 
 
@@ -234,7 +236,7 @@ Alternate mixes are a special feature that lets you provide any amount of extra 
 
 Some example conditions that have been built into [The Metadata Maker](../) are:
 
-* Weight - set the number to weigh the mix's chance of being chosen when randomized.  For example if there are 3 mixes, with weights 1, 2, and 3. The mix with weight 3 will occupy 3/6 total chances of being picked.  The mix with weight 1 will have a 1/6 chance.  The mix with weight 2 will have a 1/3 chance of being picked.  The mix with weight 3 will have a 1/2 chance of being picked.  Because the weights are all added up, and that's how you get your probability.
+* Weight - set the number to weigh the mix's chance of being chosen when randomized.  For example if there are 3 mixes, with weights 1, 2, and 3. That adds up to 6 points across 3 mixes. The mix with weight 3 will occupy 3/6 total chances of being picked.  The mix with weight 1 will have a 1/6 chance.  The mix with weight 2 will have a 1/3 chance of being picked.  The mix with weight 3 will have a 1/2 chance of being picked.  Because the weights are all added up, and that's how you get your probability.
 * Weather - set the weather to be able to play the mix
 * Day - set the day of the week to be able to play the mix
 * Start Time - set the start time of day to be able to play the mix.  Before the start time the mix is unplayable, starting at midnight, unless an End Time is also set.

@@ -10,9 +10,9 @@ Currently using:
 
 ## Future Backend Considerations
 
-The Graph and WeaveDB is the future plan for indexing just the contracts from the Contract Wizard. AO is another thing to look into.
+I don't know AO or something.
 
-Alchemy instead of Moralis for querying an index of the blockchain.
+Alchemy instead of Moralis for querying an index of the blockchain. Or both or whatever. BYO Api key.
 
 ## Alternatives
 

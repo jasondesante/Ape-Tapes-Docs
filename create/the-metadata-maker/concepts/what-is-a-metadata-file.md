@@ -8,5 +8,5 @@ Metadata files are json Objects, which is a fancy term for a fancy text file wit
 
 JSON stands for JavaScript Object Notation.
 
-Read more about metadata standards [here](metadata-standards/).
+Read more about metadata standards [here](../metadata-standards/).
 
