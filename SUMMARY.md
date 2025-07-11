@@ -9,7 +9,7 @@
 
 * [Universal Music Player](consume/universal-music-player/README.md)
   * [Player Page](consume/universal-music-player/player-page.md)
-  * [Controls](consume/universal-music-player/controls.md)
+  * [Player Controls](consume/universal-music-player/player-controls.md)
   * [Embedded Player](consume/universal-music-player/embedded-player.md)
   * [Visualizer](consume/universal-music-player/visualizer.md)
 * [Discover](consume/discover/README.md)

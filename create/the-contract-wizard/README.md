@@ -47,7 +47,7 @@ Goerli: 0x9256A71305A1f26C1530f70Fb7594eA2493CB18B [Link](https://goerli.ethersc
 
 ### Future
 
-It would be cool to have a subgraph index all the contracts in the wizard's library and then use that to backup all the metadata to arweave with a smart contract based database or using AO or something.  Who knows what the future holds!
+Smart contract databases and shit!
 
 
 
