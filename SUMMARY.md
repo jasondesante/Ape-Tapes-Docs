@@ -39,7 +39,8 @@
 
 ## 💿 Create
 
-* [Upload Audio](create/upload-audio.md)
+* [Upload Audio](create/upload-audio/README.md)
+  * [Audio Tags](create/upload-audio/audio-tags.md)
 * [The Metadata Maker](create/the-metadata-maker/README.md)
   * [Concepts](create/the-metadata-maker/concepts/README.md)
     * [What is a Metadata File?](create/the-metadata-maker/concepts/what-is-a-metadata-file.md)
