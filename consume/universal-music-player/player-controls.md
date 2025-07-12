@@ -2,6 +2,8 @@
 
 When you're playing a track, the controls show up at the bottom.&#x20;
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-11 at 11.30.01 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Standard Controls
 
 Play/pause, skip forward, go back, repeat one/all, and shuffle are the main controls that everyone knows and loves. &#x20;
@@ -42,3 +44,4 @@ You can change the color of the sliders in the player to suit your vibe.
 
 If you want to change the colors of the sliders in the player, go to the settings and click custom colors. Then pick from the list of presets or choose your exact color gradient that fits your vibe.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-11 at 11.38.18 PM.png" alt=""><figcaption></figcaption></figure>

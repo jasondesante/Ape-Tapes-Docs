@@ -17,7 +17,7 @@ There's also:
 
 * &#x20;Select Image - Opens the menu to select images. There's a list of default images you can toggle through which include different animations of NFT characters, the list of images associated with the playlist/album, and the list of images associated with the track itself.  This is mostly for Contract Wizard thicc metadata tokens, because I haven't seen other music nfts that include arrays of images for vibes.
 * Add to Playlist - Adds the entire list to a playlist.  This is way faster than adding every individual song to a playlist.
-* Share - Copies a link to share that exact page.
+* Share - Copies a link to share the page you're on. Filter and sort parameters included.
 * External Link - Goes to an external link of choice if available in contract metadata
 
 ## Filtering and Sorting
@@ -30,9 +30,9 @@ You can filter in or out any contract from the list of tokens. Click expand to s
 
 #### ![](<../../.gitbook/assets/Screenshot 2025-07-10 at 6.46.27 PM (2).png>)&#x20;
 
-### Filter Any Token
+### Filter Any Trait
 
-You can filter traits and values from the attributes, and only show the matches.  You can filter just the trait, or for a trait and value.  You can even search two sets of trait type and values, by clicking "+".&#x20;
+You can filter traits and values from the attributes, and only show the matches.  You can filter just the trait, or trait and value.  You can even search two sets of trait type and values, by clicking "+".&#x20;
 
 &#x20;![](<../../.gitbook/assets/Screenshot 2025-07-11 at 8.07.10 PM (1).png>)
 
@@ -40,36 +40,20 @@ You can filter traits and values from the attributes, and only show the matches.
 
 ### Sort Any Token
 
-Once you have filtered list down to what you want, you can sort the list by traits.  This lets you order the list by track number or whatever you choose.
+You can rearrange and sort the list any way you want.  Just choose the trait at the top row of the list. Click the "..." (next to "Album" in the image below) to choose which trait to sort by. Then toggle order: ascending, descending and off.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-11 at 11.11.51 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## View Images
 
-You can view the main image for the track or collection, as well as optional banner image.  If you click on the image you will see if there are any additional images to view in the token or contract.  You can also view some default images for vibes, as well as click the visualizer icon to load up the visualizer instead.
-
-## Options
-
-#### Add To Playlist
-
-You have the option to add the list to a playlist, all at once, or one track at a time.  This is done with the + button in the Player page or the more options menu drawer for a song.&#x20;
-
-#### Favorite
-
-You have the option to favorite a collection, wallet, or playlist on the Player page.  You can also favorite any individual song.
-
-#### Share
-
-You have the option to share the link to what you're listening to on the Player page with the share button.
-
-#### Open Link
-
-You have the option to open an external link to a social media profile or marketplace page if the contract provides that.
+You can view the main image for the track or collection, as well as optional banner image.  You can see additional images by clicking Image Select, and then choosing "Next" to view the next image in that set, or view different sets, Default, Now Playing, and More.
 
 ## Explore Song Info
 
-Clicking on the options for a song will look up the owner and contract where you can then explore their collections.  You can also share or embed a link, add to playlist, favorite, play, download audio, view metadata and more from the song's more info menu.
+Click on the options for a song. It will look up the owner and contract where you can further explore.  You can also share or embed a link, add to playlist, favorite, play, download audio, view metadata and more from the song's info drawer.
 
-##
+![](<../../.gitbook/assets/Screenshot 2025-07-11 at 11.05.52 PM.png>)
 
 ## Safety First
 
-The player has a feature to hide the images by default if you are not sure the list you are loading.  So you have to tell the player when you are sure that the list you are loading has safe images, so your computer doesn't download something you don't want it to.
+The player has an extra feature available in the settings menu. This feature hides the images by default if you're adventuring into unknown territory (not sure the list you're loading).  So you can tell the player when you're sure that the list you're loading has safe images, so your computer doesn't download something you don't want it to.
