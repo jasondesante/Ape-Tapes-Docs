@@ -10,17 +10,17 @@ The player is made up of two parts, the player page (top), and the player contro
 
 ## Where To Listen
 
-In the [Library](../discover/the-library-page.md) you can see your wallet, playlists and collections you've followed.&#x20;
+Look up your friends' collections, any contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../discover/the-browse-page.md), or check out the featured collections and published playlists in the [Featured page](../discover/the-featured-page.md).
 
-Look up your friends' collections, any label contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../discover/the-browse-page.md), or check out the featured collections and published playlists in the [Featured page](../discover/the-featured-page.md).
+In the [Library](../discover/the-library-page.md) you can see your wallet, playlists and collections you've followed.&#x20;
 
 You can also listen to Serverless Playlists directly with a link that goes straight to the playlist.
 
 ## Why This Is Essential
 
-Since 2022 when this project was started, there wasn't a place you could sign in with your wallet and see all the potential tokens that might have music in them. &#x20;
+Since 2022 when this project was started, there wasn't a place you could sign in with your wallet and listen to all the tokens that have music in them. &#x20;
 
-This has been the only site I've seen that's been trying to do this.  It has been serving an important need for me this entire time, and has been getting better and better.  For example the player now recognizes thicc metadata with mp3 and wavs and knows to load really fast for the best experience, and also to load the HQ audio if the user chooses in the settings.
+This has been the only site that whole time. Other music NFT sites would show a smaller list, that always excluded my tokens (sad). This player has been serving an important personal desire, and is getting better and better. For example the player now recognizes mp3 and wavs and knows to load really fast for the best experience, provide the option for HQ audio if set.
 
-If you have any feedback and requests please let me know.  This player needs to be able to support all music in web3.
+If you have any feedback and requests please let me know. This player needs to be able to support all music in web3.
 

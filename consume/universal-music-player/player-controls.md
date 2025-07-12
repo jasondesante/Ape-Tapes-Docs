@@ -8,14 +8,6 @@ Play/pause, skip forward, go back, repeat one/all, and shuffle are the main cont
 
 You can also jump to any part of the song using the progress slider, and adjust volume with the volume slider.
 
-## Favorites and Fun
-
-Click the heart icon to add the track to your favorites. &#x20;
-
-Click the + to add the track to a custom playlist.
-
-Click the "Fun Mode" button to open a menu that lets you adjust the playback speed of the song.  There is even a button that adjusts the speed to the current daily Bitcoin candle. Turn volatility into fun.
-
 ## Deeper Listening Experience
 
 If the metadata has extra content, you can access some of it directly through the player.  Videos, lyrics, and alternate mixes are currently supported.
@@ -33,6 +25,16 @@ If the song has lyrics you will be able to read them in the player with the clic
 You can listen to alternate mixes of songs if the metadata has it in the mixes section.  The metadata creator has a helper to let you easily add alternate mixes to metadata. &#x20;
 
 Alternate mixes are one of the coolest features of the player because it has the possibility to provide really special listening experiences depending on the functionality and mixes.
+
+## Add to Playlists
+
+Click the heart icon to add the track to your favorites. &#x20;
+
+Click the + to add the track to a custom playlist.
+
+#### Fun Mode
+
+Click the "Fun Mode" button to open a menu that lets you adjust the playback speed of the song.  There's even a button that adjusts the speed to the current daily Bitcoin candle. Turn volatility into fun.
 
 ## Customize Colors
 

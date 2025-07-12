@@ -6,13 +6,13 @@ description: There are different features geared towards varying interests.
 
 ## Artists
 
-You can easily upload your files in a few seconds just like you can on SoundCloud or any other site like that.  Except there's no file limits and you own the files on permanent decentralized storage. So it's actually way better than SoundCloud.
+You can easily upload your files in a few seconds just like you can on SoundCloud.  Except there's no size limits and you own the files on permanent decentralized storage. So it's actually way better than SoundCloud.
 
-If you spent your life learning how to perfect your craft and create meaningful art, the last thing you want to do is rent some space on someone else's server and overpay them while signing some weird ToS agreement that gives them some rights to your art, when you can own it yourself and upload to Arweave instead.
+If you spent your life learning how to perfect your craft and create meaningful art, the last thing you want to do is rent some space on someone else's server and overpay them while signing some ToS agreement that gives them some rights to your art, when you can own it yourself and upload to decentralized storage.
 
-Anyone who makes a digital creation will need to show on a public blockchain cryptographic proof they made it, or you can't trust them.  That fact of life in the age of AI makes this concept of a digital original a very important idea.  The Contract Wizard lets you do that with the ability to create copies from the original.  Even if you don't want to sell copies, in a future where everything is infinite, it is important to make digital originals of your art work. &#x20;
+Currently anyone who makes a digital creation needs to show on a public blockchain the proof they made it, or you can't trust them.  That fact of life makes this concept of a digital original very important.  The Contract Wizard lets you do that with the ability to create copies from the original.  Even if you don't want to sell copies, in a future where everything is infinite, it is important to make digital originals of your art. &#x20;
 
-The important thing is when you upload your files to Arweave you're signing the proof that you uploaded that file, and they're hosted for at least 200 years.
+When you upload your files they are hosted on decentralized storage for over 200 years, signed by you, and tagged for discoverability.&#x20;
 
 
 

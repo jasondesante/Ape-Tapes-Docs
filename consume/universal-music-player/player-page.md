@@ -1,10 +1,8 @@
 # Player Page
 
-When you load up a list of tokens, it usually loads up in The Player Page.  You will be seeing this page often whenever you load up a new list of tokens.  On this page you will find the controls to filter the list by contract and attribute in the sidebar, as well as find the art for the list, name, and list of tokens in the body of the page.&#x20;
+The Player Page loads up when you click on collections and playlists. It shows lists of tracks. &#x20;
 
-
-
-The player page loads up when you click on collections and playlists.  Places like the Featured page, or looking at your wallet in the Library page.  You can then filter and sort by contracts and attributes.&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-11 at 8.01.17 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Main Buttons
 
@@ -15,21 +13,32 @@ The main buttons to the player are:
 * Visualizer - Opens a world of dancing wizards
 * Favorite - Add the playlist, collection, or file to the appropriate favorites list
 
-There are a lot of other buttons that do lots of other stuff too
+There's also:
+
+* &#x20;Select Image - Opens the menu to select images. There's a list of default images you can toggle through which include different animations of NFT characters, the list of images associated with the playlist/album, and the list of images associated with the track itself.  This is mostly for Contract Wizard thicc metadata tokens, because I haven't seen other music nfts that include arrays of images for vibes.
+* Add to Playlist - Adds the entire list to a playlist.  This is way faster than adding every individual song to a playlist.
+* Share - Copies a link to share that exact page.
+* External Link - Goes to an external link of choice if available in contract metadata
 
 ## Filtering and Sorting
 
-#### Filter Any Contract
+The filters for contracts and traits are in the sidebar.  Find exactly what you're looking for easily.
 
-You can filter in or out any contract from the list of tokens. &#x20;
+### Filter Any Contract
+
+You can filter in or out any contract from the list of tokens. Click expand to show a larger list of all the contracts and also toggle between contract address and name. To the right of expand is a hidden "-" button which will change the filter from include to exclude.  By default when you click a contract it will only show the tracks that match that contract, but if you click the exclude "-" it will change so every contract you select will be **removed** from the larger list.  So you can properly remove spam from your wallet, and then save the clean list as a playlist, for example.
 
 #### ![](<../../.gitbook/assets/Screenshot 2025-07-10 at 6.46.27 PM (2).png>)&#x20;
 
-#### Filter Any Token
+### Filter Any Token
 
-You can filter for any trait and trait value from the attributes, and only show the tokens with a match.  You can filter for any list of tokens that has a particular trait, or filter for a trait and value.  You can even search a second set of trait type and values.&#x20;
+You can filter traits and values from the attributes, and only show the matches.  You can filter just the trait, or for a trait and value.  You can even search two sets of trait type and values, by clicking "+".&#x20;
 
-#### Sort Any Token
+&#x20;![](<../../.gitbook/assets/Screenshot 2025-07-11 at 8.07.10 PM (1).png>)
+
+
+
+### Sort Any Token
 
 Once you have filtered list down to what you want, you can sort the list by traits.  This lets you order the list by track number or whatever you choose.
 
