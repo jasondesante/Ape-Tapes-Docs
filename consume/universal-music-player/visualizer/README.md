@@ -10,7 +10,7 @@ description: >-
 
 ## 3D Dance Party
 
-The visualizer has dancing 3d models in 3d worlds.  There's about 86 hotkeys, 100 animations, 48 avatars, 15 skies, 15 grounds, 17 props, and 6 sound guns with 9 samples each to load and play around with. Camera, speed controls, all sorts of controls!
+The visualizer has dancing 3d models in 3d worlds.  There's about 90 hotkeys, 100 animations, 48 avatars, 15 skies, 15 grounds, 17 props, and 6 sound guns with 9 samples each to load and play around with. Camera, speed controls, all sorts of controls!
 
 ## Layers of Effects
 

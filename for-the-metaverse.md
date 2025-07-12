@@ -16,7 +16,7 @@ There's a lot of examples down here [#examples-of-players](for-the-metaverse.md#
 
 ## What's Inside A Playlist?
 
-A serverless playlist is a json object with the fields detailed [here.](../create/playlists/playlist-specs.md#inside-a-playlist-object)  A playlist can have songs, videos, or anything that is a token.
+A serverless playlist is a json object with the fields detailed [here.](curate/playlists/playlist-specs.md#inside-a-playlist-object)  A playlist can have songs, videos, or anything that is a token.
 
 ## AI Prompts
 
@@ -80,7 +80,7 @@ A player with bouncing balls - [here](https://websim.ai/c/9u2o0g3goU0Twomwj)
 
 #### Getting Interesting
 
-3D VR/AR demo of a simple metaverse player - [here](https://node1.irys.xyz/hVtSQBCc8qCQsJR\_CkMp8z4ovJR7jHj89XZmF51yNCM)
+3D VR/AR demo of a simple metaverse player - [here](https://node1.irys.xyz/hVtSQBCc8qCQsJR_CkMp8z4ovJR7jHj89XZmF51yNCM)
 
 Generative theme park where every track in the playlist is a different rideable rollercoaster of different length - [here](https://websim.ai/c/iPH3f5nHPI0OZhmZU)
 

@@ -14,7 +14,9 @@ Listen is a portal to decentralized music streaming.  As a listener, browse and 
 
 ## What is the Contract Wizard?
 
-The Contract Wizard is the name of the suite of tools for artists that uses Arweave and Ethereum.  The Contract Wizard is also a character who loves music, has a talking hat, and creates smart contracts in 1 click. &#x20;
+The Contract Wizard is the name of the suite of tools for artists that uses Arweave and Ethereum.  It is also the name of a character who loves music, has a talking hat, and creates smart contracts in 1 click. &#x20;
+
+![](.gitbook/assets/TheContractWizard_ft.gif)
 
 * The Metadata Maker is an essential tool to upgrade audio and metadata to be as thicc as they can be.
 * The Contract Wizard helps Artists can create their own contracts, and manage their record labels.&#x20;
@@ -42,10 +44,6 @@ Github for the 721J code
 ## What the Gitbook Covers
 
 This Gitbook covers all the current functionality of the ar://listen, the Contract Wizard and the 721J token.
-
-
-
-
 
 
 

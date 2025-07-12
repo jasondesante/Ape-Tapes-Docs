@@ -4,18 +4,22 @@ description: Lots and lots of hotkeys
 
 # Hotkeys
 
-The visualizer has lots of hotkeys. 86 last time I counted. Hotkeys are case sensitive.\
+The visualizer has lots of hotkeys. 90 last time I counted. Hotkeys are case sensitive.\
 
 
 <div data-full-width="true"><figure><img src="../../../.gitbook/assets/Screenshot 2025-07-12 at 3.06.28 AM.png" alt="Visualizer Hotkeys keyboard map"><figcaption><p>Visualizer Hotkeys (made with <a href="https://archie-adams.github.io/keyboard-shortcut-map-maker/">https://archie-adams.github.io/keyboard-shortcut-map-maker/</a> )</p></figcaption></figure></div>
 
-#### Modes
+### Modes
 
-* Toggle Help Mode - Q (and q when not in fps mode and when a video isn't playing)
+* Toggle Help Mode - Q
 * Exit Mode - =
 * Toggle Fullscreen - f
 * Toggle UI Visibility - g
 * Add Random Avatar - z
+
+
+
+## Camera
 
 ### Orbit Camera
 
@@ -33,7 +37,10 @@ The visualizer has lots of hotkeys. 86 last time I counted. Hotkeys are case sen
 * Run - Shift
 * Toggle Traveler's Mode - t (only in fps mode) - When enabled, the spawn point will move when you next exit FPS mode.
 * Change Sound Guns - e - Guns make sounds and delete avatars when shot. Left click and right click the ground, sky, 3d model or avatars for different sounds.  Shift also makes a sound.
-* Cycle Gun Volumes - q (only in fps mode) (toggles between 4 volumes for the right sample volume)
+
+
+
+## Dancers
 
 ### Animations
 
@@ -46,6 +53,10 @@ The visualizer has lots of hotkeys. 86 last time I counted. Hotkeys are case sen
 
 * Spread Out Avatars - k
 * Line Up Avatars - l
+
+
+
+## Layers
 
 ### Resize Windows
 
@@ -93,7 +104,7 @@ When not in FPS mode you can use:
 
 
 
-### 3D World Stuff
+## 3D World Stuff
 
 * Next Sky - , (comma key)
 * Next Floor - . (period key)
@@ -121,7 +132,7 @@ When not in FPS mode you can use:
 * Model Scale Step Down 10x - {
 * Model Scale Step Up 10x - }
 
-#### Other Stuff
+### Other Stuff
 
 * COMMAND - change WASD mode
 * Secret - + - loads secret dance

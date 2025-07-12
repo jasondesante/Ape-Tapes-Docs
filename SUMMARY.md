@@ -15,17 +15,30 @@
     * [Hotkeys](consume/universal-music-player/visualizer/hotkeys.md)
 * [Discover](consume/discover/README.md)
   * [The Featured Page](consume/discover/the-featured-page.md)
-  * [The Browse Page](consume/discover/the-browse-page.md)
-  * [The Library Page](consume/discover/the-library-page.md)
+  * [The Browse Page](consume/discover/the-browse-page/README.md)
+    * [Arweave Explorer](consume/discover/the-browse-page/arweave-explorer.md)
+    * [Time Machine](consume/discover/the-browse-page/time-machine.md)
+  * [The Library Page](consume/discover/the-library-page/README.md)
+    * [Your Wallet](consume/discover/the-library-page/your-wallet.md)
+    * [Favorite Songs](consume/discover/the-library-page/favorite-songs.md)
+    * [Playlists](consume/discover/the-library-page/playlists.md)
+    * [Followed Collections](consume/discover/the-library-page/followed-collections.md)
 * [Search](consume/search.md)
-* [For The Metaverse](consume/for-the-metaverse.md)
+
+## 🍳 Curate
+
+* [Playlists](curate/playlists/README.md)
+  * [Playlist Image](curate/playlists/playlist-image.md)
+  * [Playlist Tags](curate/playlists/playlist-tags.md)
+  * [Playlist Specs](curate/playlists/playlist-specs.md)
+* [Expand](curate/expand.md)
+
+***
+
+* [For The Metaverse](for-the-metaverse.md)
 
 ## 💿 Create
 
-* [Playlists](create/playlists/README.md)
-  * [Playlist Image](create/playlists/playlist-image.md)
-  * [Playlist Tags](create/playlists/playlist-tags.md)
-  * [Playlist Specs](create/playlists/playlist-specs.md)
 * [The Metadata Maker](create/the-metadata-maker/README.md)
   * [Concepts](create/the-metadata-maker/concepts/README.md)
     * [What is a Metadata File?](create/the-metadata-maker/concepts/what-is-a-metadata-file.md)

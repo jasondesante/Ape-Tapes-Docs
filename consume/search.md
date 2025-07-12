@@ -8,11 +8,13 @@ The search bar will currently search in the chain you choose, using the button n
 
 ## Ethereum Searching
 
-When set to Ethereum, you can search any wallet or contract address on the Ethereum blockchain. This allows you to explore NFTs containing music metadata associated with those addresses. Simply input the wallet or contract address in the search bar while being on the Ethereum chain, and it will display relevant results.
+When set to Ethereum, you can search any wallet or contract address on the Ethereum blockchain. This allows you to explore NFTs containing music metadata associated with those addresses. Simply input the wallet or contract address in the search bar, and it will display relevant results.
 
 ### Ethereum Name Service
 
-ENS is supported.  You can search an ENS without the .eth and it should still work. You can even add spaces and it will get rid of them.  For example if I search "Cosmo Doris" it will search "cosmodoris.eth" or if I search "City Stranger" it will search "citystranger.eth".  Which lets you search artist and label names more naturally if the ENS is registered.
+ENS is supported.  You can search an ENS without the ".eth" and it should still work. You can even add spaces and it will get rid of them. &#x20;
+
+For example if I search "Cosmo Doris" it will search "cosmodoris.eth" or if I search "City Stranger" it will search "citystranger.eth".  Which lets you search artist and label names more naturally if the ENS is registered.
 
 Hopefully your favorite artists registered their wallets to their ENS and their record label contracts to their label names! If not, tell them to!
 

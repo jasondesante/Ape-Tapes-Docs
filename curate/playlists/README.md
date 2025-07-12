@@ -1,3 +1,7 @@
+---
+description: Of the Serverless variety
+---
+
 # Playlists
 
 Serverless Playlists are a new type of building block for web3.  You can load a pre indexed list of nfts with all the related info to point back to the nfts, without a server.  Metaverse ready.
@@ -27,4 +31,6 @@ Once you have published your playlist you'll see right away that you have button
 The link to your published playlist is a public Arweave link and will be usable for many years to come.  Now you can play your immutable playlist with an immutable player.
 
 
+
+Side note about playlists and curation - You should be able to choose how to curate your wallet and then present the curated version of your wallet across web3. Reduce the spam.  This is important when doing things in web3 like playing literally any game if it shows your full wallet it will show all the spam that you spent hours removing from your opensea account. That's crazy to have to curate your wallet on every game. You should be able to import your curated wallet playlist and have a clean experience across all web3 games without having to deal with spam in every feature that is trying to have fun open functionality. Don't let the spam the open nature of web3.
 

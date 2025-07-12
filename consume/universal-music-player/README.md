@@ -10,9 +10,9 @@ The player is made up of two parts, the player page (top), and the player contro
 
 ## Where To Listen
 
-Look up your friends' collections, any contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../discover/the-browse-page.md), or check out the featured collections and published playlists in the [Featured page](../discover/the-featured-page.md).
+Look up your friends' collections, any contract, or playlist with [search](../search.md). Browse all the music in the [Browse page](../discover/the-browse-page/), or check out the featured collections and published playlists in the [Featured page](../discover/the-featured-page.md).
 
-In the [Library](../discover/the-library-page.md) you can see your wallet, playlists and collections you've followed.&#x20;
+In the [Library](../discover/the-library-page/) you can see your wallet, playlists and collections you've followed.&#x20;
 
 You can also listen to Serverless Playlists directly with a link that goes straight to the playlist.
 
