@@ -28,7 +28,7 @@ To create a contract:
 
 ## Next Steps
 
-Now that you have your own contract, you can click the "Contract Manager" button to go to the Contract Manager and manage your contract. [the-manager](../../create/the-manager/ "mention")
+Now that you have your own contract, you can click the "Contract Manager" button to go to the Contract Manager and manage your contract. [the-manager](../../create/tokens/the-manager/ "mention")
 
 ## Videos
 

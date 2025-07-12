@@ -4,7 +4,7 @@ The metadata links are made up of two parts: the Base URI, and the path. &#x20;
 
 The path is the Token or Contract URI.
 
-For info on what a metadata file is, [click here](../the-metadata-maker/concepts/what-is-a-metadata-file.md).
+For info on what a metadata file is, [click here](../../the-metadata-maker/concepts/what-is-a-metadata-file.md).
 
 In the Manager page you can set the metadata for everything.  Set the Base URI, Contract URI. Add or change any amount of songURIs.
 
@@ -12,7 +12,7 @@ In the Manager page you can set the metadata for everything.  Set the Base URI, 
 
 Setting metadata requires two steps.  The first step is to set the Base URI.  This is a one time thing.  Step two is set the path of the contract/token URI.  Combined these pieces make up the result of a contractURI or tokenURI call.
 
-The metadata maker lets you create a manifest which lets you use the Base URI to be more efficient.  [Read more](../the-metadata-maker/)
+The metadata maker lets you create a manifest which lets you use the Base URI to be more efficient.  [Read more](../../the-metadata-maker/)
 
 ## Base URI
 

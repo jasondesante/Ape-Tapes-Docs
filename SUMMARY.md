@@ -39,6 +39,7 @@
 
 ## 💿 Create
 
+* [Upload Audio](create/upload-audio.md)
 * [The Metadata Maker](create/the-metadata-maker/README.md)
   * [Concepts](create/the-metadata-maker/concepts/README.md)
     * [What is a Metadata File?](create/the-metadata-maker/concepts/what-is-a-metadata-file.md)
@@ -49,9 +50,18 @@
   * [Profile Metadata (contract URI)](create/the-metadata-maker/profile-metadata-contract-uri.md)
   * [Song Metadata](create/the-metadata-maker/song-metadata.md)
   * [Manifest Maker](create/the-metadata-maker/manifest-maker.md)
-* [The Contract Wizard](create/the-contract-wizard/README.md)
-  * [The Wizard's Library](create/the-contract-wizard/the-wizards-library.md)
-  * [Hat Helper](create/the-contract-wizard/hat-helper.md)
+* [Tokens](create/tokens/README.md)
+  * [The Contract Wizard](create/tokens/the-contract-wizard/README.md)
+    * [Creating A Contract](create/tokens/the-contract-wizard/creating-a-contract.md)
+    * [The Wizard's Library](create/tokens/the-contract-wizard/the-wizards-library.md)
+    * [Hat Helper](create/tokens/the-contract-wizard/hat-helper.md)
+  * [The Manager](create/tokens/the-manager/README.md)
+    * [View Data](create/tokens/the-manager/view-data.md)
+    * [Mint Originals](create/tokens/the-manager/mint-originals.md)
+    * [Price Info](create/tokens/the-manager/price-info.md)
+    * [Manage Metadata](create/tokens/the-manager/manage-metadata.md)
+    * [Promotion System](create/tokens/the-manager/promotion-system.md)
+    * [More Features](create/tokens/the-manager/more-features.md)
 * [Smart Contracts](create/smart-contracts/README.md)
   * [721J Concepts](create/smart-contracts/721j-concepts/README.md)
     * [Originals / Generations](create/smart-contracts/721j-concepts/originals-generations.md)
@@ -74,13 +84,6 @@
       * [Promo System Functions](create/smart-contracts/the-code/721j-code/promo-system-functions.md)
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
-* [The Manager](create/the-manager/README.md)
-  * [View Data](create/the-manager/view-data.md)
-  * [Mint Originals](create/the-manager/mint-originals.md)
-  * [Price Info](create/the-manager/price-info.md)
-  * [Manage Metadata](create/the-manager/manage-metadata.md)
-  * [Promotion System](create/the-manager/promotion-system.md)
-  * [More Features](create/the-manager/more-features.md)
 * [Conclusion](create/conclusion.md)
 
 ## 📼 Collect

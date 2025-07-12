@@ -35,7 +35,7 @@ You can listen to music, collect and create, all at the same place.
 
 The [721J](create/smart-contracts/721j-concepts/) is a modified ERC721 that includes features such as digital masters with on chain rarity.
 
-The [Contract Wizard](create/the-contract-wizard/) uses magic to create [721J](create/smart-contracts/721j-concepts/) contracts with ease.
+The [Contract Wizard](create/tokens/the-contract-wizard/) uses magic to create [721J](create/smart-contracts/721j-concepts/) contracts with ease.
 
 {% embed url="https://github.com/jasondesante/721J-Token" %}
 Github for the 721J code

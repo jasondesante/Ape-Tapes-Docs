@@ -2,7 +2,7 @@
 
 
 
-With normal ERC-721 tokens, releases are limited to a 1/1 or editions (ex. 50, or 100 max supply).  Not with the [Contract Wizard](../../the-contract-wizard/).  With 721J you can make both 1/1 and editions for the same song, with the copies being verified copies derived from the original.
+With normal ERC-721 tokens, releases are limited to a 1/1 or editions (ex. 50, or 100 max supply).  Not with the [Contract Wizard](../../tokens/the-contract-wizard/).  With 721J you can make both 1/1 and editions for the same song, with the copies being verified copies derived from the original.
 
 ### Uses
 
