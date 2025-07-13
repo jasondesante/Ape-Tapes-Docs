@@ -14,7 +14,13 @@ You can download a blank file of the metadata standards [here](https://github.co
 
 {% embed url="https://github.com/jasondesante/721J-Token/tree/master/Metadata%20Templates" %}
 
-## snake\_case vs camelCase
+
+
+## How To Improve Metadata Standards
+
+We must improve metadata standards.  It's important.  One important first step is to make sure that you don't write things in different styles inside the same metadata file. Like using snake\_case and camelCase in the same file, like some platforms do.
+
+### snake\_case vs camelCase
 
 My suggested metadata standard files are all using snake case.
 

@@ -1,6 +1,6 @@
 # Arweave Explorer
 
-The Arweave Explorer page lets you search Arweave using tags. &#x20;
+The Arweave Explorer page lets you search using tags on Arweave. &#x20;
 
 You can search audio files, playlists, and all files.
 

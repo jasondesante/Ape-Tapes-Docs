@@ -1,30 +1,63 @@
+---
+description: These are the tags that playlists have
+---
+
 # Playlist Tags
+
+This is detailing the Arweave tags for the playlists.  These are all the tags that are put onto the playlist file that are queryable on chain tags.
+
+View an example of a playlist's tags [here](https://viewblock.io/arweave/tx/h_e_Y7Ea2hg2XCOuA6E-LHpGa8LDL3My7blT44vPkhU).&#x20;
+
+## Default Tags
+
+Every playlist uploaded with The Contract Wizard has these tags added to them:
+
+* App-Name:Contract-Wizard
+* Playlist-Version: 0.3
+* IPFS-CID:(ipfs content id)
+* Uploaded-Type:Playlist
+* Uploaded-By:(wallet that uploaded)
 
 ## Custom Tags
 
-Uploaded playlists have Contract Wizard playlist tags on Arweave to let anyone search all published playlists with these tags with a simple query using GraphQL. &#x20;
+Right now there are 3 playlist tags written by the user:
 
-Right now there are 4 playlist tags being used.  The playlists are currently being tagged with:
+* Title:(title)
+* Genre:(genre)
+* Audio-Tag:(audio tag)
 
-* Playlist: Contract-Wizard
-* Playlist-Version: 0.2
-* Playlist-Creator
-* Playlist-Name
+There's only ever one Genre tag but there can be multiple Audio-Tag tags.
 
-Setting the "Playlist" tag to "Contract-Wizard" is meant to signify that the type of playlist is from The Contract Wizard.
-
-Setting the "Playlist-Version" tag to "0.2" is the version of the metadata. It used to be 0.1 but then I changed something.
-
-The "Playlist-Creator" tag is the address of the creator of the playlist
-
-The "Playlist-Name" tag is the name of the playlist
-
-[Here](https://viewblock.io/arweave/tx/26kAioACfUPgri8iHxPf7d2zoWepwFies9Gw8rarCRM) is an example of a published playlist.
+[Here](https://viewblock.io/arweave/tx/ls3BcTDkEcqLUc3QD4yr0dgZ6UYjP1F8fmoRxEkw1-I) is an example of a published playlist.
 
 ### Query Playlist Data
 
-You can do a query and see what happens when you search Playlist: Contract-Wizard.
+You can query different tags directly at ar://listen with the [Arweave Explorer](../../consume/discover/the-browse-page/arweave-explorer.md) page.
 
-What happens if you search Playlist-Creator and add a wallet?
+{% embed url="https://listen.arweave.net/#/arweave-explorer" %}
+
+You can also do a query on other sites and see what happens when you search App-Name: Contract-Wizard, or any of the other tags. &#x20;
 
 {% embed url="https://arweave-search.goldsky.com/graphql" %}
+
+## Playlist Tags Explained
+
+**Uploaded-Type: The File Category** The most important tag for searching. Uploaded-Type can be:
+
+* **Playlist** - Serverless Playlists
+* **Audio** - Plain audio files or audio metadata
+* **Metadata** - Non-audio metadata files
+* **NFT-Manifest** - Collection folders
+
+### **System Tags (Always the Same)**
+
+* **App-Name** - Always "Contract-Wizard" to show what app uploaded the file
+* **Playlist-Version** - Always "0.3" for the current playlist metadata version
+* **IPFS-CID** - The IPFS content ID for permanent pinning
+* **Uploaded-By** - The wallet address of the uploader
+
+### **User-Controlled Tags**
+
+* **Title** - The name you give your playlist
+* **Genre** - Musical genres you assign
+* **Audio-Tag** - Custom tags for discovery

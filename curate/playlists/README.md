@@ -4,33 +4,33 @@ description: Of the Serverless variety
 
 # Playlists
 
-Serverless Playlists are a new type of building block for web3.  You can load a pre indexed list of nfts with all the related info to point back to the nfts, without a server.  Metaverse ready.
+Serverless Playlists are permanent building blocks for decentralized music curation. Instead of algorithms deciding what you hear, you create playlists that work across every platform forever. Curate once, use everywhere. Mix Ethereum NFTs with Arweave uploads, add your own metadata, then share playlists that can't be censored, deleted, or controlled by anyone but you.&#x20;
 
-With serverless playlists anyone can make a playlist using a compatible playlist creator.  Anyone can create a player that plays serverless playlists, because they're so simple.
+### Easy To Build On
+
+They're simple enough that anyone can build players or creators for them, opening up infinite possibilities for music experiences.
+
+## Enabling Decentralized Curation
+
+Serverless Playlists are a big deal because they take messy NFTs with bad or missing metadata and upgrade them while letting listeners add meaningful tags the artist didn't include. Most music NFT metadata isn't properly sorted, so we need an additional curation layer to know genres, albums, and other basics. Playlists and metadata upgrading solve this by cleaning up bare metadata and turning it into thicc, curated collections. The tools are here to easily upgrade bare tracks with images and tags, then organize everything into playlists. This improves the listening and browsing experience exponentially as more people actively curate with a love of music.
+
+## Many Such Uses
+
+Serverless Playlists are good for more than just curation in The Contract Wizard.  Other projects can also apply these ideas to solve problems in other domains.
+
+#### Spam Protection
+
+Serverless Playlists solve a critical web3 problem: wallet spam. Every web3 game with open wallet support gets flooded with junk NFTs, forcing users to manually curate their collections on every platform. The same tedious cleanup you've done on OpenSea, repeated endlessly. Instead of making each game responsible for filtering spam, users should create curated wallet playlists once and import them everywhere. This preserves web3's open nature while delivering clean experiences across all platforms, letting you showcase your actual collection instead of battling spam in every app.
+
+#### Instant Audio Library
+
+You can easily integrate a player into your project and have access to all the decentralized curation that's accumulated.
+
+#### Blockchain Indexing
+
+You can access dated blockchain indexer data using the playlist format.  It won't be the most up to date but it will let you load larger lists of known tokens faster than you can think.
+
+#### DAMN
 
 Serverless Playlists are an important part in a decentralized autonomous music network (DAMN).
-
-## Easy To Make
-
-Anyone can create a playlist when browsing and listening to music with The Contract Wizard.  You can search any contract or wallet address, add any token from anywhere to a playlist.  You can even add songs from different chains, and from Spinamp.&#x20;
-
-## Private Until Publish
-
-When you create a playlist it's private until you publish.  When you publish a playlist, it gets uploaded to Arweave and becomes playable across the permaweb.
-
-## Before Publishing
-
-Before publishing a playlist you should choose an image, and make any final changes.  Adding custom tags could be cool for anything special you want to do.  Adding a license like a UDL could be cool if you want to control access to the playlist itself.  This isn't useful right now but will be in the future.
-
-Once you're ready to publish your playlist, click the upload button.
-
-## After Publishing
-
-Once you have published your playlist you'll see right away that you have buttons to play and share.  You can also view the file itself, view the transaction data on the explorer, and view the file pinned to IPFS using an IPFS gateway that's possible because of tagging the file with it's content id.
-
-The link to your published playlist is a public Arweave link and will be usable for many years to come.  Now you can play your immutable playlist with an immutable player.
-
-
-
-Side note about playlists and curation - You should be able to choose how to curate your wallet and then present the curated version of your wallet across web3. Reduce the spam.  This is important when doing things in web3 like playing literally any game if it shows your full wallet it will show all the spam that you spent hours removing from your opensea account. That's crazy to have to curate your wallet on every game. You should be able to import your curated wallet playlist and have a clean experience across all web3 games without having to deal with spam in every feature that is trying to have fun open functionality. Don't let the spam the open nature of web3.
 

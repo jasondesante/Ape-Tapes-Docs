@@ -28,14 +28,13 @@
 ## 🍳 Curate
 
 * [Playlists](curate/playlists/README.md)
-  * [Playlist Image](curate/playlists/playlist-image.md)
   * [Playlist Tags](curate/playlists/playlist-tags.md)
-  * [Playlist Specs](curate/playlists/playlist-specs.md)
-* [Expand](curate/expand.md)
-
-***
-
-* [For The Metaverse](for-the-metaverse.md)
+  * [Playlist Objects](curate/playlists/playlist-objects.md)
+* [Creating A Playlist](curate/creating-a-playlist/README.md)
+  * [Name The Playlist](curate/creating-a-playlist/name-the-playlist.md)
+  * [Choosing An Image](curate/creating-a-playlist/choosing-an-image.md)
+  * [Adding Songs](curate/creating-a-playlist/adding-songs.md)
+  * [Uploading Playlist](curate/creating-a-playlist/uploading-playlist.md)
 
 ## 💿 Create
 
@@ -48,8 +47,8 @@
   * [Metadata Standards](create/the-metadata-maker/metadata-standards/README.md)
     * [Token Metadata](create/the-metadata-maker/metadata-standards/token-metadata.md)
     * [Contract Metadata](create/the-metadata-maker/metadata-standards/contract-metadata.md)
-  * [Profile Metadata (contract URI)](create/the-metadata-maker/profile-metadata-contract-uri.md)
   * [Song Metadata](create/the-metadata-maker/song-metadata.md)
+  * [Profile Metadata (contract URI)](create/the-metadata-maker/profile-metadata-contract-uri.md)
   * [Manifest Maker](create/the-metadata-maker/manifest-maker.md)
 * [Tokens](create/tokens/README.md)
   * [The Contract Wizard](create/tokens/the-contract-wizard/README.md)
@@ -85,7 +84,8 @@
       * [Promo System Functions](create/smart-contracts/the-code/721j-code/promo-system-functions.md)
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
-* [Conclusion](create/conclusion.md)
+* [Build More](create/build-more/README.md)
+  * [Infinite Players](create/build-more/infinite-players.md)
 
 ## 📼 Collect
 

@@ -1,10 +1,8 @@
-# For The Metaverse
+# Infinite Players
 
-## Infinite Players
+This page is all about how you can prompt any type of player into existence that supports Serverless Playlists. You can prompt AI to read the json for you by explaining how the data is organized. &#x20;
 
-You can make your own player for serverless playlists by reading the json of the playlist format.  You can also prompt ai to read the json for you by explaining how the data is organized.  That is what this page is about.
-
-The regular player is great for what it needs to do, but once the playlists are made, it's a whole new world.  You can take any public playlist anywhere in the metaverse.  Playlists are an easy to understand format, and this page will make it even easier to understand.
+The regular player is great for what it needs to do, but you can do anything with the playlists once they're made.  You can take Serverless Playlists anywhere in the metaverse.  Playlists are an easy to understand format, and this page will make it even easier to understand.
 
 ### Try It Out
 
@@ -12,11 +10,11 @@ Try prompting Websim to generate a player [here](https://websim.ai/).
 
 Try [this](https://websim.ai/c/yUo4sWe92Yiyw1t1t) one pre loaded with a playlist, or another that I generated in a couple minutes [here](https://websim.ai/c/7GHbCvRWBRs4C54Is). (Use any playlist hash, or use this hash: 26kAioACfUPgri8iHxPf7d2zoWepwFies9Gw8rarCRM if you need a quick one to test)
 
-There's a lot of examples down here [#examples-of-players](for-the-metaverse.md#examples-of-players "mention")
+There's a lot of examples down here [#examples-of-players](infinite-players.md#examples-of-players "mention")
 
 ## What's Inside A Playlist?
 
-A serverless playlist is a json object with the fields detailed [here.](curate/playlists/playlist-specs.md#inside-a-playlist-object)  A playlist can have songs, videos, or anything that is a token.
+A serverless playlist is a json object with the fields detailed [here.](../../curate/playlists/playlist-objects.md#inside-a-playlist-object)  A playlist can have songs, videos, or anything that is a token.
 
 ## AI Prompts
 

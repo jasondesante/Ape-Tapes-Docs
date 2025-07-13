@@ -2,8 +2,8 @@
 
 You can do three main things with the metadata maker:
 
-* Create Profile Metadata (contractURI) [here](profile-metadata-contract-uri.md)
 * Create Song Metadata [here](song-metadata.md)
+* Create Profile Metadata (contractURI) [here](profile-metadata-contract-uri.md)
 * Update your Collection Manifest [here](manifest-maker.md)
 
 Metadata files are [.json file type](concepts/what-is-a-metadata-file.md).
