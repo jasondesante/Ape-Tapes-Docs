@@ -40,7 +40,7 @@ Here is an example of a published audio file.
 
 ### **Query Audio Data**
 
-You can query different tags directly at ar://listen with the [Arweave Explorer](../../consume/discover/the-browse-page/arweave-explorer.md) page.
+You can query different tags directly at ar://listen with the [Arweave Explorer](../../../consume/discover/the-browse-page/arweave-explorer.md) page.
 
 {% embed url="https://listen.arweave.net/#/arweave-explorer" %}
 

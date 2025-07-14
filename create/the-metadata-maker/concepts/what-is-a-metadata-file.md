@@ -4,7 +4,7 @@ Metadata files are the most important piece of data for most NFTs.  This is wher
 
 
 
-Metadata files are json Objects, which is a fancy term for a fancy text file with lots of brackets and stuff.  It's very simple and organized, anyone can read a json file. Every NFT that has off chain data uses a json file for its metadata.
+Metadata files are JSON Objects, which is a fancy term for a fancy text file with lots of brackets and stuff.  It's very simple and organized, anyone can read a json file. Every NFT that has off chain data uses a json file for its metadata.
 
 JSON stands for JavaScript Object Notation.
 

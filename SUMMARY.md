@@ -42,13 +42,16 @@
 
 ## 💿 Create
 
-* [Audio Uploader](create/audio-uploader/README.md)
-  * [Audio Tags](create/audio-uploader/audio-tags.md)
-  * [Uploading Audio](create/audio-uploader/uploading-audio.md)
+* [Files](create/files/README.md)
+  * [Audio Uploader](create/files/audio-uploader/README.md)
+    * [Audio Tags](create/files/audio-uploader/audio-tags.md)
+    * [Uploading Audio](create/files/audio-uploader/uploading-audio.md)
+  * [Arweave Uploads Page](create/files/arweave-uploads-page.md)
 * [The Metadata Maker](create/the-metadata-maker/README.md)
   * [Concepts](create/the-metadata-maker/concepts/README.md)
     * [What is a Metadata File?](create/the-metadata-maker/concepts/what-is-a-metadata-file.md)
     * [Adding Licenses](create/the-metadata-maker/concepts/adding-licenses.md)
+    * [Arweave](create/the-metadata-maker/concepts/arweave.md)
   * [Metadata Standards](create/the-metadata-maker/metadata-standards/README.md)
     * [Token Metadata](create/the-metadata-maker/metadata-standards/token-metadata.md)
     * [Contract Metadata](create/the-metadata-maker/metadata-standards/contract-metadata.md)

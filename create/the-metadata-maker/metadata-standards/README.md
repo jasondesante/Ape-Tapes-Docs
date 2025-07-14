@@ -2,9 +2,9 @@
 
 ## Please Use My Template
 
-Music NFTs don't have an established standard for metadata, so that means we're all basically guessing.  Having standardized metadata will make front ends easier to build.  &#x20;
+Music NFTs don't have an established standard for metadata, so that means we're all basically guessing.  Having standardized metadata will make front ends easier to build. When I think of it, what standards do any NFT's have for metadata besides the gold standard [Opasea](https://docs.opensea.io/docs/metadata-standards) page.
 
-The pieces of metadata that I needed for a web3 music dapp weren't in the metadata standards that I looked at.  These are simple things like duration of the song, resized images, contract metadata, and more.  This is why I had to come up with my own metadata template.
+The pieces of metadata needed for a web3 music dapp weren't in the metadata standards that I looked at.  These are simple things like duration of the song, resized images, contract metadata, and more.  This is why I had to come up with my own template.
 
 ## Thicc = Good
 
