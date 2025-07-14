@@ -12,7 +12,9 @@ They're simple enough that anyone can build players or creators for them, openin
 
 ## Enabling Decentralized Curation
 
-Serverless Playlists are a big deal because they take messy NFTs with bad or missing metadata and upgrade them while letting listeners add meaningful tags the artist didn't include. Most music NFT metadata isn't properly sorted, so we need an additional curation layer to know genres, albums, and other basics. Playlists and metadata upgrading solve this by cleaning up bare metadata and turning it into thicc, curated collections. The tools are here to easily upgrade bare tracks with images and tags, then organize everything into playlists. This improves the listening and browsing experience exponentially as more people actively curate with a love of music.
+Serverless Playlists are a big deal because they take messy NFTs with bad or missing metadata and upgrade them while letting listeners add meaningful tags the artist didn't include.&#x20;
+
+The tools are here to easily upgrade bare tracks with images and tags, then organize everything into playlists. Most music NFT metadata isn't properly sorted, so we need an additional curation layer to know genres, albums, and other basics. Playlists and metadata upgrading solve this by cleaning up bare metadata and turning it into thicc, curated collections. This improves the listening and browsing experience exponentially as more people actively curate with a love of music.
 
 ## Many Such Uses
 

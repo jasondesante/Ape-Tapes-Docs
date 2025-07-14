@@ -13,6 +13,7 @@
   * [Embedded Player](consume/universal-music-player/embedded-player.md)
   * [Visualizer](consume/universal-music-player/visualizer/README.md)
     * [Hotkeys](consume/universal-music-player/visualizer/hotkeys.md)
+    * [Custom Shaders](consume/universal-music-player/visualizer/custom-shaders.md)
 * [Discover](consume/discover/README.md)
   * [The Featured Page](consume/discover/the-featured-page.md)
   * [The Browse Page](consume/discover/the-browse-page/README.md)
@@ -29,7 +30,10 @@
 
 * [Playlists](curate/playlists/README.md)
   * [Playlist Tags](curate/playlists/playlist-tags.md)
-  * [Playlist Objects](curate/playlists/playlist-objects.md)
+  * [Playlist Objects](curate/playlists/playlist-objects/README.md)
+    * [Playlist Structure](curate/playlists/playlist-objects/playlist-structure.md)
+    * [Track Objects](curate/playlists/playlist-objects/track-objects.md)
+    * [Track Metadata](curate/playlists/playlist-objects/track-metadata.md)
 * [Creating A Playlist](curate/creating-a-playlist/README.md)
   * [Name The Playlist](curate/creating-a-playlist/name-the-playlist.md)
   * [Choosing An Image](curate/creating-a-playlist/choosing-an-image.md)
@@ -38,8 +42,9 @@
 
 ## 💿 Create
 
-* [Upload Audio](create/upload-audio/README.md)
-  * [Audio Tags](create/upload-audio/audio-tags.md)
+* [Audio Uploader](create/audio-uploader/README.md)
+  * [Audio Tags](create/audio-uploader/audio-tags.md)
+  * [Uploading Audio](create/audio-uploader/uploading-audio.md)
 * [The Metadata Maker](create/the-metadata-maker/README.md)
   * [Concepts](create/the-metadata-maker/concepts/README.md)
     * [What is a Metadata File?](create/the-metadata-maker/concepts/what-is-a-metadata-file.md)

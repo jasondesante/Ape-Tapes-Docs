@@ -14,7 +14,7 @@ There's a lot of examples down here [#examples-of-players](infinite-players.md#e
 
 ## What's Inside A Playlist?
 
-A serverless playlist is a json object with the fields detailed [here.](../../curate/playlists/playlist-objects.md#inside-a-playlist-object)  A playlist can have songs, videos, or anything that is a token.
+A serverless playlist is a json object with the fields detailed [here.](../../curate/playlists/playlist-objects/#inside-a-playlist-object)  A playlist can have songs, videos, or anything that is a token.
 
 ## AI Prompts
 

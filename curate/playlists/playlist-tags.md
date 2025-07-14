@@ -42,12 +42,7 @@ You can also do a query on other sites and see what happens when you search App-
 
 ## Playlist Tags Explained
 
-**Uploaded-Type: The File Category** The most important tag for searching. Uploaded-Type can be:
-
-* **Playlist** - Serverless Playlists
-* **Audio** - Plain audio files or audio metadata
-* **Metadata** - Non-audio metadata files
-* **NFT-Manifest** - Collection folders
+**Uploaded-Type: The File Category** The most important tag for searching. For playlist uploads, this is always "Playlist" to distinguish from audio, metadata, and manifests.
 
 ### **System Tags (Always the Same)**
 
