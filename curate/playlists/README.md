@@ -14,11 +14,11 @@ They're simple enough that anyone can build players or creators for them, openin
 
 Serverless Playlists are a big deal because they take messy NFTs with bad or missing metadata and upgrade them while letting listeners add meaningful tags the artist didn't include.&#x20;
 
-The tools are here to easily upgrade bare tracks with images and tags, then organize everything into playlists. Most music NFT metadata isn't properly sorted, so we need an additional curation layer to know genres, albums, and other basics. Playlists and metadata upgrading solve this by cleaning up bare metadata and turning it into thicc, curated collections. This improves the listening and browsing experience exponentially as more people actively curate with a love of music.
+The tools are here to easily upgrade bare tracks to have images and tags, then organize everything into playlists. Most music NFT metadata isn't properly sorted, so we need an additional curation layer to know genres, albums, and other basics. Playlists and metadata upgrading solve this by cleaning up bare metadata and turning it into thicc, curated collections. This improves the listening and browsing experience exponentially as more people actively curate with a love of music.
 
-## Many Such Uses
+## Many Such Cases
 
-Serverless Playlists are good for more than just curation in The Contract Wizard.  Other projects can also apply these ideas to solve problems in other domains.
+Serverless Playlists can be used for more than just curation in The Contract Wizard.  These ideas can solve problems in other domains.
 
 #### Spam Protection
 
@@ -30,7 +30,7 @@ You can easily integrate a player into your project and have access to all the d
 
 #### Blockchain Indexing
 
-You can access dated blockchain indexer data using the playlist format.  It won't be the most up to date but it will let you load larger lists of known tokens faster than you can think.
+You can access dated blockchain indexer data using the playlist format.  It won't be the most up to date but it will let you load larger lists of known tokens faster than you can think. Curated dated indexing can be used to speed up loading of large lists and provide a safe fallback if the most up to date information isn't available fast enough.
 
 #### DAMN
 

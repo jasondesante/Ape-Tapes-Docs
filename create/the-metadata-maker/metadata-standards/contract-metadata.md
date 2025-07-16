@@ -6,7 +6,9 @@ description: 721J Metadata Standards
 
 ## Contract Metadata
 
-Every contract has a function for a contractURI, where metadata for the contract can go.  This lets you set a profile image, banner image, and any other images, which can be grabbed by any dapp.  Compare this to a contract like ape coin, which doesn't even have the ape coin logo available anywhere from the contract! &#x20;
+Every contract has a function for a contractURI, where metadata for the contract lives. &#x20;
+
+You can set a profile image, banner image, and more to be grabbed by any dapp.  Compare this to a contract like ape coin, which doesn't even have the ape coin logo available anywhere from the contract! That contract isn't special, it's really a thing no one does, but it could be a thing everyone does because it makes sense and isn't difficult. It also gives the owner of the contract more stuff to be creative with, when they have their spot in their contract to put a contractURI. &#x20;
 
 Contract metadata is something that needs to be added to the standard for all ERC-20 and ERC-721 tokens, in my opinion.&#x20;
 
@@ -66,10 +68,12 @@ There are a lot of options for social media links in the template, and you can a
 * Discord
 * OpenSea
 
-### [Images](token-metadata.md#images)
+### Images
 
-More info [here.](token-metadata.md#images)
+The images array is cool because you might want to provide a bunch of pictures for your contract metadata to have a lot of fun or tell a larger story.  There's many reasons you might want to do a little bit of world building.
 
-### [Resized Images](token-metadata.md#resized-images)
+### Resized Images
 
-More info [here.](token-metadata.md#resized-images)
+Resized images are important because you sometimes want a tiny thumbnail or an optimized small version of the image, rather than the original or uncompressed version of the image.  Having the different image sizes improves performance tremendously.
+
+It's thinking about the dapp ahead of you.

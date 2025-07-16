@@ -2,13 +2,15 @@
 
 The Profile Metadata Maker gathers the pictures, description, important links and more for your record label. &#x20;
 
-### Automatic IPFS Links
+### Metadata Functions
 
-The IPFS link shows up when you add any file.  You'll have the option later to upload to Arweave.
+Set with the setContractURI function.  &#x20;
 
-### contractURI Function
+View the profile metadata with the contractURI function on your smart contract.
 
-The profile metadata is what shows up when you use the contractURI function on your smart contract.  It's set with the setContractURI function. &#x20;
+### Automatic IPFS
+
+Before you upload to Arweave, newly added files will show the IPFS link in their url fields. You'll have the option later to upload to Arweave. &#x20;
 
 ## Input Fields
 

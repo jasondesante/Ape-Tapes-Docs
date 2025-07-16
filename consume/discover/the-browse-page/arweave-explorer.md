@@ -6,7 +6,7 @@ You can search audio files, playlists, and all files.
 
 ## Audio Search
 
-hi ![](<../../../.gitbook/assets/Screenshot 2025-07-12 at 5.07.36 AM.png>)
+![](<../../../.gitbook/assets/Screenshot 2025-07-12 at 5.07.36 AM.png>)
 
 Search by title, artist, genre, tag, isrc, uploader, and the mini time machine.  For files uploaded with The Contract Wizard, and all of Arweave.
 

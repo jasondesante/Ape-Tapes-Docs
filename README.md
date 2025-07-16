@@ -18,10 +18,10 @@ The Contract Wizard is the name of the suite of tools for artists that uses Arwe
 
 <figure><img src=".gitbook/assets/TheContractWizard_ft (1).gif" alt=""><figcaption></figcaption></figure>
 
-* The Metadata Maker is an essential tool to upgrade audio and metadata to be as thicc as they can be.
-* The Contract Wizard helps Artists can create their own contracts, and manage their record labels.&#x20;
-* The Manifest Maker is a powerful tool that helps you create and upgrade large collections.&#x20;
 * The uploader properly tags all files, whether they're audio, or playlists, setting the bar for discoverability. &#x20;
+* The Metadata Maker is an essential tool to upgrade audio and metadata to be as thicc as they can be.
+* The Manifest Maker is a powerful tool that helps you create and upgrade large collections.&#x20;
+* The Contract Wizard helps Artists can create their own contracts, and manage their record labels.&#x20;
 
 All these tools are available to be used together, or separately.  You can choose to use one tool, or the full pathway with The Contract Wizard helping you every step. &#x20;
 

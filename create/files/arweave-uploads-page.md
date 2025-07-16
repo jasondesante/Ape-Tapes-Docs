@@ -2,6 +2,8 @@
 
 This page shows files uploaded to Arweave. &#x20;
 
+### 5 Categories
+
 The files are separated into categories which are:
 
 * Audio

@@ -34,7 +34,9 @@ Track metadata follows the ultimate bedrock of NFT metadata standards: the [Open
 
 **The closer it is to thicc metadata, the better.** Rich metadata with detailed information, multiple audio formats, artwork, lyrics, and other content creates better experiences across different players and platforms.
 
-For the complete specification of thicc music NFT metadata, see [Token Metadata Standards →](../../../create/the-metadata-maker/metadata-standards/token-metadata.md) which includes the full template with fields for stems, alternate mixes, credits, VRM avatars, and much more.
+For the complete specification of thicc music NFT metadata, see [Token Metadata Standards →](../../../create/the-metadata-maker/metadata-standards/token-metadata/) which explains the full template with fields for stems, alternate mixes, credits, VRM avatars, and much more. The template can also be found on GitHub.
+
+{% embed url="https://github.com/jasondesante/721J-Token/blob/master/Metadata%20Templates/token_uri_template_blank.json" %}
 
 ### Example Parsed Metadata
 

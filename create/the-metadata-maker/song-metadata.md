@@ -1,14 +1,16 @@
 # Song Metadata
 
-The Song Metadata Maker gathers the pictures for every rarity, audio file and all the information about the song.
+The Song Metadata Maker gathers the audio file, pictures and everything else to create magic like you've never seen before.
 
-### Automatic IPFS Links
+### Metadata Functions
 
-The IPFS link shows up when you add any file.  You'll have the option later to upload to Arweave.
+Set the metadata with setSongURI function, or when an original is created.  &#x20;
 
-### tokenURI Function
+View the metadata with the tokenURI or songURI functions on your smart contract. &#x20;
 
-Using the tokenURI or songURI functions on your smart contract will show you the song metadata.  It's set with the setSongURI function, or when an original is created. &#x20;
+### Automatic IPFS
+
+Before you upload to Arweave, newly added files will show the IPFS link in their url fields. You'll have the option later to upload to Arweave.
 
 ## Input Fields
 
@@ -18,7 +20,7 @@ The required fields in the Song Metadata Maker are: &#x20;
 
 * Title
 * Artist
-* Song (Lossless)
+* Audio
 * Image
 
 ### Optional
@@ -30,61 +32,27 @@ The other fields are optional for the Song URI.  Some optional fields for song m
 * Collaborating Artists
 * Artist Image
 * Album Image
-* ISRC
+* [ISRC](metadata-standards/token-metadata/noteworthy-traits.md#isrc)
 * UPC
-* Lyrics
-* Genres
-* Tags
+* [Lyrics](song-metadata.md#lyrics)
+* [Genres](metadata-standards/token-metadata/noteworthy-traits.md#genre-tags)
+* [Tags](metadata-standards/token-metadata/noteworthy-traits.md#genre-tags)
 * Description
-* Song (Lossy, Mp3)
-* Video
-* Visualizer
-* Clone Hero Charts
-* Step Mania Charts
-* VRM (Avatar)
-* Merch (3D Model)
-* Midi
+* [Song (Lossy, Mp3)](metadata-standards/token-metadata/noteworthy-traits.md#audio)
+* [Video](metadata-standards/token-metadata/noteworthy-traits.md#video)
+* [Visualizer](metadata-standards/token-metadata/noteworthy-traits.md#visualizer)
+* [Clone Hero Charts](metadata-standards/token-metadata/noteworthy-traits.md#clone-hero)
+* [Step Mania Charts](metadata-standards/token-metadata/noteworthy-traits.md#step-mania)
+* [VRM (Avatar)](metadata-standards/token-metadata/noteworthy-traits.md#vrm)
+* [Merch (3D Model)](metadata-standards/token-metadata/noteworthy-traits.md#merch)
+* [Midi](metadata-standards/token-metadata/noteworthy-traits.md#midi)
 
 Additional categories of metadata that unlock new functionality are:
 
-* Attributes
-* Credits
-* Stems
-* Mixes
-
-### Stems
-
-Stems are a form of multi track.  You can include stems in the metadata which will give holders more content to remix with, as well as the ability to listen using a stem player.
-
-### Mixes
-
-Alternate mixes are another way to enhance the listening experience, similar to stems.  You can include as many alternate mixes as you can imagine.  You can even attach conditions to any mix which creates the possibility of a programmable experience to every song.  You can be as wild or subtle as you want with this powerful tool.  Think about Nintendo, Animal Crossing, Mario, the way the arrangements and mixes would change.  This is possible now with programmable mixes.
-
-
-
-
-
-#### Lyrics
-
-Adding lyrics allows the player to show the lyrics to the listener.
-
-#### Video
-
-Including a video with the song will make a video icon appear in the player.  Clicking on the video icon opens a video player.  Music videos are viewable right in the player next to everything else. &#x20;
-
-#### ISRC
-
-If you add the ISRC to the metadata, the ISRC will also get added to the audio file as an on chain tag on Arweave.  This is really cool to tag the file with the ISRC on Arweave because every time your file is read, you will be able to see the ISRC code related to the file.
-
-#### VRMs
-
-You can attach a VRM to the metadata which will let holders have an avatar that represents the song to use in metaverses.  You can also add your VRM to the music visualizer and watch your VRM dance with all the wizards.&#x20;
-
-#### Digital Merch
-
-Similar to VRM, you can attach a 3d file of a piece of digital merch that could be worn by your character in various games.
-
-
+* [Attributes](metadata-standards/token-metadata/grouped-traits.md#attributes)
+* [Credits](metadata-standards/token-metadata/grouped-traits.md#credits)
+* [Stems](metadata-standards/token-metadata/grouped-traits.md#stems)
+* [Mixes](metadata-standards/token-metadata/grouped-traits.md#mixes)
 
 
 
