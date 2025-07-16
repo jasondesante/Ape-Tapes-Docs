@@ -8,9 +8,7 @@ Set the metadata with setSongURI function, or when an original is created.  &#x2
 
 View the metadata with the tokenURI or songURI functions on your smart contract. &#x20;
 
-### Automatic IPFS
 
-Before you upload to Arweave, newly added files will show the IPFS link in their url fields. You'll have the option later to upload to Arweave.
 
 ## Input Fields
 
@@ -56,24 +54,3 @@ Additional categories of metadata that unlock new functionality are:
 
 
 
-## Creating Metadata
-
-Making metadata is easy.  First thing is to gather your files.  Fill out the required fields.  Fill out as many optional fields as you want.  Now you're ready for the next step.
-
-## Saving
-
-Click save when you're finished adding files.  [Add a license](concepts/adding-licenses.md), upload to Arweave, or skip and use IPFS.
-
-It's highly recommended to upload your files to Arweave. To do that you'll need to have a balance on [Irys](./#irys) larger than the price. You can deposit to the [Irys](./#irys) contract with the button in the details.
-
-Once you sign, the files are uploaded.  The IPFS links are replaced with the new Arweave links, and the metadata files are created. &#x20;
-
-### Downloading
-
-You will then see a button to download every rarity in a zip, as well as the IPFS links to the finished metadata.
-
-There's also the option to download the raw metadata.  The raw file is there to recover as a save state when updating the metadata later.  One reason the raw is best for updating is the rarities are in the one file.
-
-
-
-Now you're done creating the song metadata!

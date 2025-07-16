@@ -53,6 +53,7 @@
     * [Arweave](create/the-metadata-maker/concepts/arweave.md)
     * [Folders](create/the-metadata-maker/concepts/folders.md)
     * [Adding Licenses](create/the-metadata-maker/concepts/adding-licenses.md)
+    * [Creating Metadata](create/the-metadata-maker/concepts/creating-metadata.md)
   * [Metadata Standards](create/the-metadata-maker/metadata-standards/README.md)
     * [Token Metadata](create/the-metadata-maker/metadata-standards/token-metadata/README.md)
       * [Noteworthy Traits](create/the-metadata-maker/metadata-standards/token-metadata/noteworthy-traits.md)
