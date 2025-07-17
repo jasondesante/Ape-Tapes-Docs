@@ -14,6 +14,10 @@ The File Picker is very user friendly.  It works differently in different situat
 
 In the image below it's looking for metadata files. When it's looking for metadata files it has an option to show uploaded or local metadata files only.  Local metadata files haven't been uploaded yet, and were recently created with The Metadata Maker.  You can click a button to show the uploaded metadata files instead of local. &#x20;
 
-You can even click to group the metadata files by timestamp so you can add all of the rarities for one track at the same time, or view the rarities individually.  The order you click the metadata files matters because they will be imported into The Manifest Maker in that order. You can even click the arrow at the bottom to open a drawer that lets you rearrange the list and drag and move up and down the pieces if you need to. There's a lot of little things that go into the UI and functionality of The File Picker so it's easy to use and very powerful.
+You can click to group the metadata files by timestamp so you can add all of the rarities for one track at the same time. &#x20;
+
+The order you click the files matters because they will be imported in that order. You can even click the arrow at the bottom to open a drawer that lets you rearrange the list and drag up and down the pieces if you need to.&#x20;
+
+There's a lot of things that go into the UI and functionality of The File Picker so it's easy and versatile.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-17 at 3.22.10 AM.png" alt=""><figcaption></figcaption></figure>

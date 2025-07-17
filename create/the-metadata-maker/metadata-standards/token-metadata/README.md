@@ -1,5 +1,5 @@
 ---
-description: 721J Metadata Standards
+description: Music NFT Metadata Standards
 ---
 
 # Token Metadata

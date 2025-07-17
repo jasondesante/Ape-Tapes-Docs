@@ -1,14 +1,12 @@
 ---
-description: 721J Metadata Standards
+description: Contract Metadata Standards
 ---
 
 # Contract Metadata
 
 ## Contract Metadata
 
-Every contract has a function for a contractURI, where metadata for the contract lives. &#x20;
-
-You can set a profile image, banner image, and more to be grabbed by any dapp.  Compare this to a contract like ape coin, which doesn't even have the ape coin logo available anywhere from the contract! That contract isn't special, it's really a thing no one does, but it could be a thing everyone does because it makes sense and isn't difficult. It also gives the owner of the contract more stuff to be creative with, when they have their spot in their contract to put a contractURI. &#x20;
+You can set a profile image, banner image, and more. This important information about the collection can be grabbed by any dapp straight from the function on chain.  Compare this to a contract like ape coin, which doesn't have the logo available anywhere from the contract! It's really a thing no one does, but it could be a thing everyone does. It makes sense and is easy to add to a contract. It also gives the owner of the contract more to be creative with.
 
 Contract metadata is something that needs to be added to the standard for all ERC-20 and ERC-721 tokens, in my opinion.&#x20;
 
@@ -77,3 +75,7 @@ The images array is cool because you might want to provide a bunch of pictures f
 Resized images are important because you sometimes want a tiny thumbnail or an optimized small version of the image, rather than the original or uncompressed version of the image.  Having the different image sizes improves performance tremendously.
 
 It's thinking about the dapp ahead of you.
+
+#### Available In The Wizard's Library
+
+Every contract made by The Contract Wizard has a "contractURI" function. This is where metadata for the contract lives. &#x20;

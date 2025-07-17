@@ -4,19 +4,21 @@ These grouped traits are all found in the Extras tab in the song metadata maker.
 
 ### Attributes
 
-Attributes is an array of traits that show up when you view an NFT on a marketplace site like OpenSea, Magic Eden, Blur, etc. Those traits that show up are the attributes. It's an important section that every NFT needs if they want the traits to show up on secondary marketplaces the same way attributes show up for all other NFTs.
+Attributes are the traits that show up when you view an NFT on a marketplace site like OpenSea, Magic Eden, Blur, etc. Those traits that show up are the attributes. It's an important section that every NFT needs if they want the traits to show up on secondary marketplaces the same way attributes show up for all other NFTs.
 
 ### Credits
 
-Credits is an array of traits that describe the individual credits for the token.  In here you can be as detailed as you want. This is the spot where you can list every person involved in creating the audio.
+Credits is an array of traits that describe the individual credits for the token.  In here you can be as detailed as you want. This is the spot where you can list every person involved in the creation.
 
 ### Stems
 
-Stems are a form of multi track, where each "stem" is an individual or group of tracks, combined form the song.  Providing stems unlocks remixing potential, stem player potential.  This is an important option to have in a music nft metadata standard.
+Stems are a form of multi track, where each "stem" is an individual or group of tracks. When you combine the stems it forms the song.  Providing stems unlocks remixing potential, and stem player potential.  This is an important option to have in a music nft metadata standard.
 
 ### Mixes
 
-Alternate mixes are a powerful feature that lets you include unlimited variations of your track, each with programmable conditions that trigger different listening experiences. Think Nintendo's dynamic arrangements in Mario or Animal Crossing, now possible with music NFTs. You can be as wild or subtle as you want, programming experiences previously only found in video games while imagining entirely new possibilities that have never existed before. This is a very serious, important feature. This is why we're here.
+Alternate mixes are a powerful feature that lets you include unlimited variations of your track, each with programmable conditions that trigger different listening experiences.&#x20;
+
+Think Nintendo's dynamic arrangements in Mario or Animal Crossing, now possible with music NFTs. You can be as wild or subtle as you want, programming experiences previously only found in video games while imagining entirely new possibilities that have never existed before. This is a very serious, important feature. This is why we're here.
 
 Some example conditions that have been built into [The Metadata Maker](../../) are:
 

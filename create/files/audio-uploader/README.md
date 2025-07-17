@@ -14,14 +14,14 @@ This is your instant entry into the world of decentralized music.  After this is
 
 ### Path To Metadata
 
-Once you upload a track, then you'll quickly see the need to upgrade it into metadata. Add a picture and more information, make it as thicc as you can.
+Once you upload a track, you'll quickly see the need for metadata. Add pictures, credits, and more with The Metadata Maker.
 
-After you have created your thicc metadata, you can easily upload it to Arweave just like it's any other audio, but now it's thicc metadata with all sorts of goodies.  Then search the same tags and everything and find your enhanced metadata stand out from the plain audio files.
+After you create your thicc metadata, upload it to Arweave.  Then search the artist and genre tags to find your enhanced metadata stand out from the plain audio.
 
 ### Path To Token
 
-Once you have created some thicc metadata you will see that you might want to create your own record label contract and mint your digital masters on Ethereum for the highest security and provenance on the original smart contract blockchain.  Then you will create your own contract with The Contract Wizard, create a manifest with The Manifest Maker, and then mint some masters.
+Once you have created some thicc metadata you will see the next steps. Create your own record label contract and mint your digital masters on Ethereum for the highest security and provenance on the original smart contract blockchain. The Contract Wizard makes this easy, create a manifest with The Manifest Maker, and then mint some masters.
 
-Before you know it you'll have accumulated many files across your creations, and understand the benefits of these tools. Imagine how difficult things would be without them.
+Before you know it you'll have accumulated many files across your creations. Then you will fully understand the benefits of these tools.
 
 #### What Will You Create?

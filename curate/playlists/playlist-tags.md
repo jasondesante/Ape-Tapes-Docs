@@ -28,7 +28,7 @@ Right now there are 3 playlist tags written by the user:
 
 There's only ever one Genre tag but there can be multiple Audio-Tag tags.
 
-[Here](https://viewblock.io/arweave/tx/ls3BcTDkEcqLUc3QD4yr0dgZ6UYjP1F8fmoRxEkw1-I) is an example of a published playlist.
+[Here](https://viewblock.io/arweave/tx/4WCirOpvoCEOa_SwBqzyyxSXIBmSQ6kfkfAEueXa0IQ) is an example of a published playlist's tags.
 
 ### Query Playlist Data
 

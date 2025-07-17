@@ -54,7 +54,7 @@ Including the lyrics in the metadata lets them show up when playing the song, wh
 
 ### Images
 
-The images array is a cool trait to have because what if you want to include 20 images or something, like a large amount of liner notes and stuff?  I used to love that stuff when an album would have really cool notes, or a cd having a really good booklet.  This stuff matters.  You have the option to expand and do whatever you want with an endless list of images here. &#x20;
+The images array is a cool trait to have because what if you want to include 20 images or something, or a large amount of liner notes?  I used to love that stuff when an album would have really cool notes and pictures.  This stuff matters, it might sound corny but it's world building and that's important.  You have the option to expand and do whatever you want with an endless list of images here. &#x20;
 
 ### Video
 

@@ -2,9 +2,9 @@
 
 ## Please Use My Template
 
-Music NFTs don't have an established standard for metadata, so that means we're all basically guessing.  Having standardized metadata will make front ends easier to build. Besides music NFTs, what standards do any NFT's really have for metadata besides the gold standard [Opasea](https://docs.opensea.io/docs/metadata-standards) page?
+Music NFTs don't have an established standard for metadata, so that means we're all basically guessing.  Having standardized metadata will make front ends easier to build. What standards do any NFT's really have for metadata besides the gold standard [Opasea](https://docs.opensea.io/docs/metadata-standards) page?
 
-The pieces of metadata needed for a web3 music dapp weren't in the metadata standards that I looked at.  These are simple things like duration of the song, resized images, contract metadata, and more.  This is why I had to come up with my own template.
+The pieces of metadata needed for a web3 music dapp weren't in the metadata standards that I looked at.  What I'm talking about are simple things like duration of the song, resized images, contract metadata, and more.  This is why I had to come up with my own templates.
 
 ## Thicc = Good
 
@@ -18,7 +18,7 @@ You can download a blank file of the metadata standards [here](https://github.co
 
 ## How To Improve Metadata Standards
 
-We must improve metadata standards.  It's important.  One important first step is to make sure that you don't write things in different styles inside the same metadata file. Like using snake\_case and camelCase in the same file, like some platforms do.&#x20;
+We must improve metadata standards.  It's important.  One important first step is to make sure that you don't write things in different styles inside the same metadata file. Like using snake\_case and camelCase in the same file, which some platforms do.&#x20;
 
 Standardizing music NFT metadata deserves serious attention. When everyone agrees on data organization, it becomes more efficient and enables builders to work from the same playbook. Having shared standards, with clear guidelines on where to find what, makes the entire ecosystem stronger, especially as those standards evolve over time. My goal is to see regular thicc metadata become ultra thicc one day.
 

@@ -36,7 +36,7 @@ Audio-Tag:(audio tag)
 
 There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags.
 
-Here is an example of a published audio file.
+[Here](https://viewblock.io/arweave/tx/BDhxHebKarvMgDtM5t7fX2S6eGGroRF_7NLFgQ7ixgE) is an example of a published audio file's tags.
 
 ### **Query Audio Data**
 
