@@ -4,7 +4,7 @@ The metadata links are made up of two parts: the Base URI, and the path. &#x20;
 
 The path is the Token or Contract URI.
 
-For info on what a metadata file is, [click here](../../the-metadata-maker/concepts/what-is-a-metadata-file.md).
+For info on what a metadata file is, [click here](../../the-metadata-maker/using-the-metadata-maker/metadata.md).
 
 In the Manager page you can set the metadata for everything.  Set the Base URI, Contract URI. Add or change any amount of songURIs.
 

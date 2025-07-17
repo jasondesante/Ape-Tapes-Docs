@@ -6,9 +6,9 @@ There are three tools in the Metadata Maker:
 
 * [Song Maker](song-metadata.md) - Create a piece for each track. Easily upgrade audio into thicc metadata.
 * [Profile Maker](profile-metadata-contract-uri.md) (contractURI) - The overall collection needs it's own piece of metadata
-* [Manifest Maker](manifest-maker.md) - Combine your metadata files into one folder
+* [Manifest Maker](manifest-maker/) - Combine your metadata files into one folder
 
 Each tool is important in creating a finished collection. Start with metadata for one track, and eventually create dozens of tracks that share files.  Combine with the contractURI and it's a full collection.
 
-[Click here](concepts/what-is-a-metadata-file.md) to learn what a Metadata file is.
+[Click here](using-the-metadata-maker/metadata.md) to learn what a Metadata file is.
 

@@ -6,7 +6,7 @@ This is just a selection of all the traits in the Required and Optional tabs in 
 
 Resized images are important because sometimes the main image is giant, and the act of downloading and resizing it can be a lot more difficult than simply seeing that there is an image\_small or image\_thumb included and grab that directly.  Including resized images is such an important thing. &#x20;
 
-It's the courteous thing to do in web3 is to think for the dapp ahead of you.
+It's the courteous thing to do in web3 is to think for the dapp ahead of you. That is a core value of this project.
 
 ### License
 
