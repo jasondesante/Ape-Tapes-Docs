@@ -6,7 +6,7 @@ description: Contract Metadata Standards
 
 ## Contract Metadata
 
-You can set a profile image, banner image, and more. This important information about the collection can be grabbed by any dapp straight from the function on chain.  Compare this to a contract like ape coin, which doesn't have the logo available anywhere from the contract! It's really a thing no one does, but it could be a thing everyone does. It makes sense and is easy to add to a contract. It also gives the owner of the contract more to be creative with.
+You can set a profile image, banner image, and more. This important information about the collection can be grabbed by any dapp straight from the function on chain.  Compare this to a contract like ape coin, which doesn't have the logo available anywhere from the contract! It's really a thing no one did, but it could be a thing everyone does. It makes sense and is easy to add to a contract. It also gives the owner of the contract more to be creative with.
 
 Contract metadata is something that needs to be added to the standard for all ERC-20 and ERC-721 tokens, in my opinion.&#x20;
 
@@ -55,7 +55,7 @@ The description of the collection is important because we are naturally curious.
 
 ### Social Media Links
 
-There are a lot of options for social media links in the template, and you can add any amount more that aren't in the template.  It's meant to be customizable.  The social media platforms in the template are:
+There's a lot of options for links in the template, and you can add any that aren't there.  It's meant to be customizable.  The social media platforms in the template are:
 
 * X
 * Spotify
@@ -72,7 +72,7 @@ The images array is cool because you might want to provide a bunch of pictures f
 
 ### Resized Images
 
-Resized images are important because you sometimes want a tiny thumbnail or an optimized small version of the image, rather than the original or uncompressed version of the image.  Having the different image sizes improves performance tremendously.
+Resized images are important because you often need a tiny thumbnail or an optimized small version of the image, rather than the original or uncompressed version of the image.  Having the different image sizes improves performance tremendously.
 
 It's thinking about the dapp ahead of you.
 

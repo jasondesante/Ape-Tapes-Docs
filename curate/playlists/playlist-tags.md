@@ -12,19 +12,19 @@ View an example of a playlist's tags [here](https://viewblock.io/arweave/tx/h_e_
 
 Every playlist uploaded with The Contract Wizard has these tags added to them:
 
-* App-Name:Contract-Wizard
-* Playlist-Version: 0.3
-* IPFS-CID:(ipfs content id)
-* Uploaded-Type:Playlist
-* Uploaded-By:(wallet that uploaded)
+* `App-Name:Contract-Wizard`
+* `Playlist-Version: 0.3`
+* `Uploaded-Type:Playlist`
+* `IPFS-CID:`(ipfs content id)
+* `Uploaded-By:`(wallet that uploaded)
 
 ## Custom Tags
 
 Right now there are 3 playlist tags written by the user:
 
-* Title:(title)
-* Genre:(genre)
-* Audio-Tag:(audio tag)
+* `Title:`(title)
+* `Genre:`(genre)
+* `Audio-Tag:`(audio tag)
 
 There's only ever one Genre tag but there can be multiple Audio-Tag tags.
 

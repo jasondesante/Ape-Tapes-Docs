@@ -10,29 +10,27 @@ Every audio file is tagged this way with the default and custom tags. This ensur
 
 Every audio file uploaded with The Contract Wizard has these tags added to them:
 
-App-Name:Contract-Wizard
+`App-Name:Contract-Wizard`
 
-Audio-Version: 0.3
+`Uploaded-Type:Audio`
 
-IPFS-CID:(ipfs content id)
+`IPFS-CID:`(ipfs content id)
 
-Uploaded-Type:Audio
-
-Uploaded-By:(wallet that uploaded)
+`Uploaded-By:`(wallet that uploaded)
 
 ## **Custom Tags**
 
 Right now there are 5 audio tags written by the user:
 
-Title:(title)
+`Title:`(title)
 
-Artist:(artist)
+`Artist:`(artist)
 
-Genre:(genre)
+`Genre:`(genre)
 
-ISRC:(isrc code)
+`ISRC:`(isrc code)
 
-Audio-Tag:(audio tag)
+`Audio-Tag:`(audio tag)
 
 There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags.
 
@@ -54,23 +52,23 @@ You can also do a query on other sites and see what happens when you search App-
 
 ### **System Tags (Always the Same)**
 
-App-Name - Always "Contract-Wizard" to show what app uploaded the file
+**App-Name** - Always "Contract-Wizard" to show what app uploaded the file
 
-Audio-Version - Always "0.3" for the current audio metadata version
+**Audio-Version** - Always "0.3" for the current audio metadata version
 
-IPFS-CID - The IPFS content ID for permanent pinning
+**IPFS-CID** - The IPFS content ID for permanent pinning
 
-Uploaded-By - The wallet address of the uploader
+**Uploaded-By** - The wallet address of the uploader
 
 ### **User-Controlled Tags**
 
-Title - The name of your track
+**Title** - The name of your track
 
-Artist - The performing artist
+**Artist** - The performing artist
 
-Genre - Musical genre you assign
+**Genre** - Musical genre you assign
 
-ISRC - International Standard Recording Code for the track
+**ISRC** - International Standard Recording Code for the track
 
-Audio-Tag - Custom tags for discovery
+**Audio-Tag** - Custom tags for discovery
 

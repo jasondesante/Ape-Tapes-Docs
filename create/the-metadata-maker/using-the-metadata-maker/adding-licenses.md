@@ -2,7 +2,7 @@
 
 There's two places you can add licenses to your files and tokens.  Directly on the file, or in the token metadata. &#x20;
 
-Each comes with their own unique characteristics.  One is involving a specific upload of a file, and the other is involving a collection of files, with rarities and copies.
+Each comes with their own unique characteristics.  One is involving a specific upload of a file, and the other is involving a collection of files, with rarities and token ids.
 
 ### Where To Add
 
@@ -12,11 +12,9 @@ To use licenses on your tokens, get a lawyer and figure it out! Someone's gotta 
 
 ## Licenses On Files
 
-You can put a license on a file like a UDL or CC license.  These licenses are tags that are added to the file when it's uploaded.
-
-You can also put licenses on metadata files which have files inside of them.
-
 You can add a license to an Arweave upload with tags.  This is applied directly to the file.  The most common licenses to add are a Creative Commons license (CC) or a Universal Data License (UDL).
+
+You can put licenses on audio or metadata files (which have files inside of them).
 
 You can read the UDL document [here](https://arweave.net/IVjAM1C3x3GFdc3t9EqMnbtGnpgTuJbaiYZa1lk09_8).  In short, a UDL is an allegedly upcoming feature of Arweave that is supposed to be programmable licenses.  Encryption is another tool that is needed to unlock more creative possibilities with your data.
 
