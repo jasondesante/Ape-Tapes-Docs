@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create a contract and then mint your masters, skate your copies, set
+  Create a contract and then mint your masters, stake your copies, set
   promotions and more
 ---
 

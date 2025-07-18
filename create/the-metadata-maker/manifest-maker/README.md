@@ -6,11 +6,11 @@ description: New and improved! Try it now!
 
 This page is where you upload all the metadata files for your collection into one folder. &#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 2.59.32 AM.png" alt=""><figcaption></figcaption></figure>
-
 ## Creating A Manifest
 
-#### Step 1 - Import/Create
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 2.59.32 AM.png" alt=""><figcaption></figcaption></figure>
+
+### Step 1 - Import/Create
 
 Making a manifest is easy.  First name your folder and choose to create a new manifest or import an existing manifest to upgrade it. &#x20;
 
@@ -20,47 +20,39 @@ Clicking "Import Existing Manifest" opens the file picker and shows your manifes
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 3.32.05 AM.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 2 - Select Files
+### Step 2 - Select Files
 
-Add files from your computer by dragging and dropping the files into the box, or click the box to bring up a menu. &#x20;
+Add files from your computer by dragging and dropping the files into the box. &#x20;
 
-Click the "Select Metadata Files" button to open the File Picker and choose already uploaded metadata, as well as locally saved metadata that has yet to be uploaded.
+Click the "Select Metadata Files" button to open the File Picker and choose already uploaded metadata, as well as locally saved metadata that still needs to be uploaded.
 
 You can replace metadata files if you imported an existing folder. This is very awesome and simplifies upgrading an existing collection by a lot of steps. &#x20;
 
-Prepare all your metadata files.  Add them in the order you want.  Don't add them in a random order.
+***
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 11.22.28 PM (1).png" alt=""><figcaption></figcaption></figure>
+
+### Step 3 - Configure Manifest
+
+Review the files, make sure you're cool with the ordering.  Manifests are small so you should have enough credits in your balance to upload.&#x20;
+
+In the "Options" tab you have buttons to download a numbered list of the files so you can more easily keep track of the manifest's file order. There's also an option to make the paths in the manifest be numbers or the original file names.  When the path is a number it's way less characters than the file names.  The default is to rename all the file paths to numbers because The Manifest Maker is meant to create folders for NFT collections, and you save a lot of gas when writing shorter tokenURIs.
+
+Once you're ready click upload and sign. The new files will be uploaded along with the manifest file detailing the folder structure.
 
 ***
 
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 11.21.19 PM.png" alt=""><figcaption></figcaption></figure>
 
+### Step 4 - Upload Complete
 
-#### Step 3 - Configure Manifest
+Now the metadata for your collection is uploaded into one folder. You have some buttons suggesting what to do next:
 
-Review the files, make sure you're cool with the ordering.  Make sure you got enough in your balance.  Then upload the metadata to create your manifest.
+* **Update Collection** - You can go straight to The Contract Manager to update your collection.
+* **View Manifest** - View the index of your new folder to see the list of files and their paths.
+* **Library** - Goes to the Arweave Uploads Page. Notice how uploaded local metadata files now say "uploaded", letting you know they're safe to delete.
 
-## Saving
-
-Click the upload button and sign.  Now the metadata for your collection is uploaded.
-
-
-
-
-
-#### Step 4 - Upload Complete
-
-
-
-
-
-### Downloading
-
-Once your manifest is uploaded to Arweave you'll see a link for the index, with the file name of the manifest id.
-
-The index is a handy file showing you the name of every file you uploaded.  You can use the index to see the file name corresponding with each path. &#x20;
-
-To get to each file you add the path to the manifest.  You can see that when viewing the index link because the index's path is "index", and what comes before it is the manifest transaction id.  It's recommended to download and bookmark the index and manifest.
-
-
+It's recommended to download and bookmark the index and manifest url.
 
 ### Metadata Functions
 
