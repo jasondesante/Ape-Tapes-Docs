@@ -4,7 +4,7 @@
 
 On the Manager page, artists can mint new originals, set the price for a copy, set promos and more.  The Contract Manager is the page that only the owner of a contract has access to. From there they can manage all the settings of their contracts. &#x20;
 
-The manager page is where the owner of a contract goes to do all the managerial things.
+The manager page is where the owner of a contract goes to do all the managerial things...
 
 ## Functionality
 
