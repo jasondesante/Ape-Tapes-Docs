@@ -59,7 +59,7 @@
     * [Metadata](create/the-metadata-maker/using-the-metadata-maker/metadata.md)
     * [Adding Licenses](create/the-metadata-maker/using-the-metadata-maker/adding-licenses.md)
   * [Song Metadata](create/the-metadata-maker/song-metadata.md)
-  * [Profile Metadata (contract URI)](create/the-metadata-maker/profile-metadata-contract-uri.md)
+  * [Profile Metadata (contractURI)](create/the-metadata-maker/profile-metadata-contracturi.md)
   * [Manifest Maker](create/the-metadata-maker/manifest-maker/README.md)
     * [Folders](create/the-metadata-maker/manifest-maker/folders.md)
     * [For Metadata Only](create/the-metadata-maker/manifest-maker/for-metadata-only.md)

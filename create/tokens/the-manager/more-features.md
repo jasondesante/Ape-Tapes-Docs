@@ -1,18 +1,22 @@
 # More Features
 
-Here are some more various features of The Manager page.
+Here are some of the other important features of The Manager page.
 
 ## Mint Copies
 
-The owner of a contract can mint copies of any rarity.  This lets the owner of the contract set up interesting promotional rarities that are way outside the normal range, creating separate branches to the rarity tree.
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-19 at 3.43.07 AM.png" alt=""><figcaption></figcaption></figure>
+
+The owner of a contract can mint copies of any rarity.  This lets the owner set up interesting promotional rarities that are outside the normal range, creating separate branches to the rarity tree.
 
 ## Toggle Recycling
 
-You can toggle recycling, which lets holders burn 2 old tokens to mint 1 new token when enabled.  This is an optional mode that adds a mechanic that tries to balance supply and demand.
+You can toggle recycling, which unlocks the ability for holders to burn 2 old tokens to mint 1 new token.  This is an optional mode that adds a mechanic that tries to balance supply and demand.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-19 at 3.42.42 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Stake Tokens
 
-You can stake multiple tokens at once.  You can view all staked tokens
+You can stake multiple tokens at once.
 
 ## View ENS
 

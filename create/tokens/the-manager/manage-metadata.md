@@ -1,48 +1,46 @@
 # Manage Metadata
 
-The metadata links are made up of two parts: the Base URI, and the path. &#x20;
+Set the Base metadata, Contract metadata, add or change any amount of song metadata files.
 
-The path is the Token or Contract URI.
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-19 at 12.58.52 AM.png" alt=""><figcaption></figcaption></figure>
 
-For info on what a metadata file is, [click here](../../the-metadata-maker/using-the-metadata-maker/metadata.md).
+## Formula For A Link
 
-In the Manager page you can set the metadata for everything.  Set the Base URI, Contract URI. Add or change any amount of songURIs.
+The metadata links are made up of two parts: the Base URI + the path. &#x20;
+
+The path is either the songURI or contractURI.
 
 #### Setting Metadata
 
-Setting metadata requires two steps.  The first step is to set the Base URI.  This is a one time thing.  Step two is set the path of the contract/token URI.  Combined these pieces make up the result of a contractURI or tokenURI call.
+Setting metadata requires two steps.  First set the Base URI for the collection.  Step two is set the path of the contract/song.  Combined these pieces make up the result of a contractURI or songURI call.
 
-The metadata maker lets you create a manifest which lets you use the Base URI to be more efficient.  [Read more](../../the-metadata-maker/)
+The Manifest Maker lets you create a folder which uses the Base URI to be more efficient.  [Read more](../../the-metadata-maker/manifest-maker/)
 
-## Base URI
+## Options
 
-The Base URI is the common part of metadata links.  It's used to reduce gas when creating new songs by splitting the metadata links into two parts, the Base URI and the rest of it.
+### Base URI
 
-Base URI + Token/Contract URI = Finished Metadata
+The Base URI is the common part of metadata links.  The metadata links are created by two parts, the Base URI and the rest of it.
+
+Base URI + Song/Contract path = Finished Metadata
 
 You can view and set the Base URI on the Manager page.
 
-If you created a manifest in the Metadata Maker page, you can use that while setting the Base URI.  If the manifest you want to use was the most recent one you created, it should give you a button to set the newly created manifest as the Base URI without having to enter anything manually.
+If you created a folder with the Manifest Maker, you can use that while setting the Base URI. Click the "Use Saved Manifest" button to assign the most recently created manifest to your baseURI. You can also manually enter in a baseURI.
 
-### Why Do I Need A "Base URI"??
+### Contract Metadata
 
-* More efficient
-* Better organized
-* 1 of 2 parts that make up a metadata link
+Base URI + Contract metadata path = Contract URI
 
-## Contract Metadata
+The Contract URI is a link to the contract metadata file.  The contract metadata is a JSON object which contains information like the description, images, and more. Read about contract metadata standards [here.](../../the-metadata-maker/metadata-standards/contract-metadata.md)
 
-Base URI + Contract URI = Contract Metadata
+You can view the contract metadata on the Manager page. It's important that you set a Contract URI to your contract.  Without a profile image, it won't properly show up in the browser.
 
-The Contract URI is a link to the contract metadata file.  The contract metadata file is a json object which contains all sorts of information like the description of the contract, images, and more.
+### Add / Edit Any Metadata
 
-You can view the contract metadata on the Manager page.  You can set the Contract URI.  It is important that you set a Contract URI to your contract.  Without a profile image, it won't properly show up in the browser.
+Base URI + Song metadata path = Song URI
 
-## Add / Edit Any Metadata
-
-Base URI + Token URI = Token Metadata
-
-You can add/edit metadata files to any rarity of a song after it has been created. &#x20;
+You can add/edit metadata files to any rarity of a song after it's been created. &#x20;
 
 You can edit multiple rarities of metadata in one transaction.  You can edit multiple songs and multiple rarities in one transaction.  You can fix mistakes in the token URIs, or enhance the amount of rarities.
 
