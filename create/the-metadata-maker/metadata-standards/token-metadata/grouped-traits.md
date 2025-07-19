@@ -18,6 +18,8 @@ Stems are a form of multi track, where each "stem" is an individual or group of 
 
 Alternate mixes are a powerful feature that lets you include unlimited variations of your track, each with programmable conditions that trigger different listening experiences.&#x20;
 
+Think instrumental, acapella, demos, variations of the solo, bridge or outro. Endless ways to enhance.
+
 Think Nintendo's dynamic arrangements in Mario or Animal Crossing, now possible with music NFTs. You can be as wild or subtle as you want, programming experiences previously only found in video games while imagining entirely new possibilities that have never existed before. This is a very serious, important feature. This is why we're here.
 
 Some example conditions that have been built into [The Metadata Maker](../../) are:

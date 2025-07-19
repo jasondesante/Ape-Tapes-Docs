@@ -24,7 +24,7 @@ Other optional fields include bonus images, and [social media links](metadata-st
 
 When you look at how NFTs have their own tokenURI, why doesn't the contract itself have it's own piece of metadata? It only makes sense. Why not call it contractURI? This is definitely one of those things that needs to be a part of the NFT standards. It also seems like a bunch of other people have also came to the same conclusion and decided on the same name, contractURI. It makes so much sense, and feels like a natural evolution to do so.
 
-This is why having a Mega Music Metadata Maker with a Profile Maker is important. People could use The Metadata Maker to create metadata for their own projects, they're not being forced to make a contract or tokens or anything. The Metadata Maker is a powerful tool for artists that enhances any platform it's used in combination with.
+This is why having a Mega Music Metadata Maker with a Profile Maker is important. People could use The Metadata Maker to create metadata for their own projects, they're not being forced to make a contract or tokens or anything. The Metadata Maker is a powerful tool that enhances any platform it's used with.
 
 ### Metadata Functions
 

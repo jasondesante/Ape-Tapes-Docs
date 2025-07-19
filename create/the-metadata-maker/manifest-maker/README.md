@@ -12,7 +12,7 @@ This page is where you upload all the metadata files for your collection into on
 
 ### Step 1 - Import/Create
 
-Making a manifest is easy.  First name your folder and choose to create a new manifest or import an existing manifest to upgrade it. &#x20;
+Making a manifest is easy.  First name your folder and choose to create a new manifest or import an existing manifest. &#x20;
 
 Clicking "Import Existing Manifest" opens the file picker and shows your manifests so you can choose which collection to upgrade.
 
@@ -36,7 +36,9 @@ You can replace metadata files if you imported an existing folder. This is very 
 
 Review the files, make sure you're cool with the ordering.  Manifests are small so you should have enough credits in your balance to upload.&#x20;
 
-In the "Options" tab you have buttons to download a numbered list of the files so you can more easily keep track of the manifest's file order. There's also an option to make the paths in the manifest be numbers or the original file names.  When the path is a number it's way less characters than the file names.  The default is to rename all the file paths to numbers because The Manifest Maker is meant to create folders for NFT collections, and you save a lot of gas when writing shorter tokenURIs.
+In the "Options" tab you have buttons to download a numbered list of the files so you can more easily keep track of the manifest's file order.&#x20;
+
+There's also an option to make the paths in the manifest be numbers or the original file names.  When the path is a number it's way less characters than the file names.  The default is to rename all the file paths to numbers because The Manifest Maker is meant to create folders for NFT collections, and you save a lot of gas when writing shorter tokenURIs.
 
 Once you're ready click upload and sign. The new files will be uploaded along with the manifest file detailing the folder structure.
 
@@ -58,4 +60,4 @@ It's recommended to download and bookmark the index and manifest url.
 
 For contract owners, when you're done creating the manifest, the next step is to set the Base URI.
 
-The manifest is what will return at the baseURI function on your smart contract.  It's set with the setBaseURI function.  By putting the manifest in the baseURI, you reduce the amount of characters needed to enter for each tokenURI.
+The manifest is what will return at the baseURI function on your smart contract.  It's set with the setBaseURI function.  By putting the manifest in the baseURI, you reduce the amount of characters needed to enter for each songURI.

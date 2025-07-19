@@ -1,10 +1,10 @@
 # File Picker
 
-You can pick files with ease with The File Picker.
+Pick files with ease.
 
 ## No More Forgetting
 
-Instead of having to keep track of all the tx\_ids and urls for all the files you've uploaded, or going back and forth from ArDrive to the metadata form, you can just use The File Picker.  You can open it up, click the files and be good.
+Instead of having to keep track of all the tx\_ids and urls for all the files you've uploaded, or going back and forth from ArDrive to the metadata form, you can just use The File Picker.  Open it up, click the files and be good.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-17 at 3.20.25 AM (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -12,7 +12,7 @@ Instead of having to keep track of all the tx\_ids and urls for all the files yo
 
 The File Picker is very user friendly.  It works differently in different situations.
 
-In the image below it's looking for metadata files. When it's looking for metadata files it has an option to show uploaded or local metadata files only.  Local metadata files haven't been uploaded yet, and were recently created with The Metadata Maker.  You can click a button to show the uploaded metadata files instead of local. &#x20;
+In the image below it's looking for metadata files. It has an option to show uploaded or local metadata files.  Local metadata files haven't been uploaded yet, and were recently created with The Metadata Maker.  Uploaded files are exactly that, files on Arweave.
 
 You can click to group the metadata files by timestamp so you can add all of the rarities for one track at the same time. &#x20;
 

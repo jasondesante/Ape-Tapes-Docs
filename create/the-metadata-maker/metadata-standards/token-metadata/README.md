@@ -220,6 +220,6 @@ You can create your metadata files manually by hand using this template, like it
 
 There are a lot of traits in the metadata template that are redundant, meaning the same thing is written in more than one place. &#x20;
 
-For example "name" and "title" will always have the same thing. Some of the redundant traits are duplicated into the Attributes so they show up on the marketplaces, but they're still kept in the normal non attribute form because the attributes array is a pain in the ass to deal with.
+For example "name" and "title" will always have the same thing. Some of the redundant traits are duplicated into the Attributes so they show up on the marketplaces, but they're still kept in the normal non attribute form because the attributes array is a supplementary list of traits.
 
 Another example is with the Audio traits being "animation\_url", "audio\_url", "lossless\_audio", "mp3\_url", and "lossy\_audio".

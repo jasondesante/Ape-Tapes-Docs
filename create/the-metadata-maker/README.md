@@ -8,7 +8,7 @@ There are three tools in the Metadata Maker:
 * [Profile Maker](profile-metadata-contract-uri.md) (contractURI) - The overall collection needs it's own piece of metadata
 * [Manifest Maker](manifest-maker/) - Combine your metadata files into one folder
 
-Each tool is important in creating a finished collection. Start with metadata for one track, and eventually create dozens of tracks.  Combine with the contractURI and it's a full collection.
+Each tool is important in creating a finished collection. Start with metadata for one track, and eventually create dozens of tracks.  Combine with the profile metadata and it's a full collection.
 
 [Click here](using-the-metadata-maker/metadata.md) to learn what a Metadata file is.
 

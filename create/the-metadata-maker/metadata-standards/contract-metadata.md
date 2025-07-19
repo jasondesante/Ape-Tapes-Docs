@@ -6,7 +6,7 @@ description: Contract Metadata Standards
 
 ## Contract Metadata
 
-You can set a profile image, banner image, and more. This important information about the collection can be grabbed by any dapp straight from the function on chain.  Compare this to a contract like ape coin, which doesn't have the logo available anywhere from the contract! It's really a thing no one did, but it could be a thing everyone does. It makes sense and is easy to add to a contract. It also gives the owner of the contract more to be creative with.
+You can set a profile image, banner image, and more. This important information about the collection can be grabbed by any dapp straight from the contract function.  Compare this to a contract like ape coin (just an example), which doesn't have the logo available anywhere from the contract! It's really a thing no one did, some do now, but it could be a thing everyone does. It makes sense and is easy to add to a contract. It also gives the owner of the contract more to be creative with.
 
 Contract metadata is something that needs to be added to the standard for all ERC-20 and ERC-721 tokens, in my opinion.&#x20;
 
@@ -51,7 +51,7 @@ Please use this template below for inspiration when writing contract metadata.
 
 ### Description
 
-The description of the collection is important because we are naturally curious.
+The description of the collection is important because we are naturally curious and want to know more.
 
 ### Social Media Links
 

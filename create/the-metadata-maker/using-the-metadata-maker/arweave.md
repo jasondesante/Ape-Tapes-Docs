@@ -18,6 +18,6 @@ Turbo Credits are measured 1:1 with AR.
 
 ### Irys
 
-Irys is a layer 2 for Arweave that also has a testnet mode where you can upload with testnet tokens. Test everything out for free before uploading with real money.  Irys also lets you use an Ethereum wallet to sign Arweave uploads.
+Irys is a layer 2 for Arweave that also has a testnet mode where you can upload with testnet tokens. Test everything out for free before uploading with real money.  Irys also lets you use an Ethereum wallet to sign Arweave uploads. Temporary files uploaded to Irys Testnet are free and available for 60 days.
 
 Testnet is supported on Irys. Eth Sepolia, Base Sepolia, and Polygon Amoy networks were tested.

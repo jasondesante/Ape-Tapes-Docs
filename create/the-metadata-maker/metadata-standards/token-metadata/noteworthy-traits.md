@@ -4,33 +4,33 @@ This is just a selection of all the traits in the Required and Optional tabs in 
 
 ### Resized Images
 
-Resized images are important because sometimes the main image is giant, and you only need a thumbnail or small version of the image.  The act of downloading and resizing it can be a lot more difficult than simply seeing that there is an image\_small or image\_thumb included.  Including resized images is such an important thing. &#x20;
+Resized images are important because sometimes the main image is giant, and you only need a thumbnail or small version of the image.  The act of downloading and resizing it can be a lot more difficult than grabbing the image\_small or image\_thumb field.  Including resized images is such an important thing. &#x20;
 
 It's the courteous thing to do in web3 is to think for the dapp ahead of you. That is a core value of this project.
 
 ### License
 
-Similar to adding a license to the files themselves on Arweave, adding a license to the metadata file puts a license on the token, which is a collection of files that each have their own separate licenses.  It's like a license sandwich or something, licenseception. &#x20;
+Similar to adding a license to the files themselves on Arweave, adding a license to the metadata file puts a license on the token. Token licenses are a level above the files. &#x20;
 
 You could put different licenses on different rarities of tokens and then allow for all sorts of creative applications of the token.
 
 ## Audio
 
-The audio metadata traits are separated into lossless and lossy categories.  That old "standard" field is "animation\_url".  This is where you will normally see the metadata for the audio on NFTs.  This is problematic because it's also suggested to put all sorts of stuff there, so you never really know if it's an audio file if it's in "animation\_url".  It's a possibility, but it's not the way you'd want to do things in the future.\
+The audio metadata traits are separated into lossless and lossy categories.  The "standard" field is "animation\_url".  This is where you'll normally see the metadata for the audio on NFTs.  This is problematic because it's also suggested to put all sorts of stuff there, so you never really know if it's an audio file when it's in "animation\_url".  It's not the way you'd want to do things in the future, because having something in "animation\_url" doesn't guarantee it's audio, it could be a video or something else.\
 \
 For audio you should still put it in "animation\_url" because who knows whether or not the marketplace or dapp or whatever will look for the better traits, just use "animation\_url" until the overall crypto community decides or whatever.
 
 The actual traits you should care about for music are to use "audio\_url" and or "lossless\_audio" for the high quality uncompressed audio, and use  "mp3\_url" and or "lossy\_audio" for the lossy mp3 quality audio. I think those are more understandable, though it isn't clear which is the winner.  "audio\_url" and "mp3\_url" or "lossless\_audio" and "lossy\_audio".  My vote would be lossless\_audio and lossy\_audio because the pair makes the most sense.
 
-Either way there are 5 fields in the metadata for audio.  The lossless audio is in 3 of those spots, and the lossy audio is in the other 2.  Hopefully one day we decide and reduce the 5 down to 2.
+Either way there are 5 fields in the metadata template for audio.  The lossless audio is in 3 of those spots, and the lossy audio is in the other 2.  Hopefully one day we decide and reduce the 5 down to 2.
 
 ### Bit Depth / Sample Rate / Audio Quality
 
-In the traits there's the bit\_depth and sample\_rate fields which each keep track of their respective values.  In the Attributes, there is something called Audio Quality which is the combination of the two traits.  Laid out as "sample rate/bit depth".  So an example of Audio Quality would be 44.1/16, or 96/24.
+In the metadata there's the bit\_depth and sample\_rate fields which each keep track of their respective values.  In the Attributes, there is something called Audio Quality which is the combination of the two traits.  Laid out as "sample rate/bit depth".  So an example of the Audio Quality attribute would be 44.1/16, or 96/24.
 
 ### Duration
 
-This number is the length (in seconds) of the track.  If it's 1 minute and 9 seconds long you would enter 69.  Duration is very important because the player can then see the length of the track without having to download it.  This is good when you are looking at a large list of tracks, you don't want to have to download every audio file just to see how long it is. You want to be able to see the duration of each track quickly.
+This number is the length (in seconds) of the track.  If it's 1 minute and 9 seconds long you would enter 69.  Duration is very important because the player can then see the length of the track without having to download it.  This is good when you're looking at a large list of tracks. You don't want to have to download every file just to see how long each track in the playlist is. You want to be able to know the duration of each track from the metadata.
 
 ### ISRC
 
@@ -40,13 +40,13 @@ When you include an ISRC code in the metadata, it also gets added as an on-chain
 
 ### Genre / Tags
 
-The genre and tags are important because curation is important for tracks and playlists. &#x20;
+The genre and tags are important because they are core to curation. Curation is important for both tracks and playlists, because it's how quality will rise.
 
-If a song doesn't include this metadata, then the track won't be curated as well. It will lead to cooler things if we properly tag stuff to begin with.
+If a song doesn't include this metadata, then the track won't be curated as well. Tagging stuff is an essential part of the uploading routine.
 
 ### Lyrics
 
-Including the lyrics in the metadata lets them show up when playing the song, which is always a nice option.  Everyone likes the option of being able to view the lyrics while listening. Adding lyrics allows the player to show the lyrics to the listener.
+Including the lyrics in the metadata lets them show up when playing the song.  Everyone likes the option to view the lyrics while listening. Adding lyrics allows all players to show the lyrics to the listener.
 
 
 
@@ -66,13 +66,13 @@ The visualizer in this context is a video that plays the song.  Also known as a 
 
 ### Midi
 
-Midi files are awesome.  Who doesn't like midi files?  If you're like me you probably have a folder of midi files of a bunch of your favorite songs.
+Midi files are awesome.  Who doesn't like midi files? Including the midi charts of the music is some next level stuff.
 
 ## Make The Metaverse Real
 
 ### VRM
 
-A VRM stands for Virtual Reality Modeling and is an easy to use format for 3d characters.  If you include a VRM in your metadata, holders will have an avatar that represents the track in virtual worlds.
+A VRM is a file type for 3d characters and stands for Virtual Reality Modeling.  If you include a VRM in your metadata, holders will have an avatar to be used in virtual worlds.
 
 You can also add your VRM to the music visualizer and watch your VRM dance with all the wizards.&#x20;
 
@@ -88,4 +88,4 @@ This could be a normal shirt or hat with just the design being unique, or it cou
 
 ### Clone Hero
 
-[Clone Hero](https://clonehero.net/) is a free cross platform (Linux, Mac, PC, and Android) rhythm game that is similar to Guitar Hero and Rock Band by Harmonix.  You can make your own Clone Hero charts.  You can play Clone Hero with a guitar controller, midi drum kit and more. This just like Step Mania is something that we should all aspire towards.  I would love to see tokenized Clone Hero charts.  This is how we make the metaverse real by fixing the problems of old dlc.
+[Clone Hero](https://clonehero.net/) is a free cross platform (Linux, Mac, PC, and Android) rhythm game that is similar to Guitar Hero and Rock Band by Harmonix.  You can make your own Clone Hero charts.  You can play Clone Hero with a guitar controller, midi drum kit and more. This just like Step Mania is something that we should all aspire towards.  I would love to see tokenized Clone Hero charts.  A good step to making the metaverse real is by fixing the problems of old dlc.

@@ -28,7 +28,7 @@ The "Required" tab also contains some optional fields such as:
 
 The optional tab is broken down into 3 main categories: Album/Project, Metadata, and Files. &#x20;
 
-Album contains all the fields related to the album, like separate album art from song art.  The "Metadata" named section contains all the extra general metadata for the track, like genre, tags, description, year, and much more. The Files section contains all the extra files you would upload like video, mp3, extra images, and more.
+Album contains all the fields related to the album, like album art.  The "Metadata" named section contains all the extra general metadata for the track, like genre, tags, description, year, and much more. The Files section contains all the extra files you would upload like video, mp3, extra images, and more.
 
 These other fields are all optional for the Song URI.  Some notable optional fields include:
 

@@ -1,14 +1,14 @@
 ---
-description: These are the tags that audio files have
+description: On chain and searchable.
 ---
 
 # Audio Tags
 
-Every audio file is tagged this way with the default and custom tags. This ensures a nice base layer of discoverability. Every audio file gets these tags, whether they are uploaded with the audio uploader or in a bundle with the metadata maker.
+Every audio file is tagged this way. This ensures a nice base layer of discoverability. Every audio file gets tagged whether they're uploaded with the audio uploader or in a bundle with The Metadata Maker.
 
 ## Default Tags
 
-Every audio file uploaded with The Contract Wizard has these tags added to them:
+Every audio file uploaded has these tags added to them:
 
 `App-Name:Contract-Wizard`
 
@@ -20,7 +20,7 @@ Every audio file uploaded with The Contract Wizard has these tags added to them:
 
 ## **Custom Tags**
 
-Right now there are 5 audio tags written by the user:
+Custom tags are written by the user. Right now there are 5 optional audio tags:
 
 `Title:`(title)
 
