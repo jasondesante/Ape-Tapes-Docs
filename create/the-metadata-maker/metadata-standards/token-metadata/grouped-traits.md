@@ -12,7 +12,7 @@ Credits is an array of traits that describe the individual credits for the token
 
 ### Stems
 
-Stems are a form of multi track, where each "stem" is an individual or group of tracks. When you combine the stems it forms the song.  Providing stems unlocks remixing potential, and stem player potential.  This is an important option to have in a music nft metadata standard.
+Stems are a form of multi track, where each "stem" is an individual or group of tracks. When you combine the stems it forms the song.  Providing stems unlocks remixing potential, and stem player potential.  This is an important option to have in a music NFT metadata standard.
 
 ### Mixes
 
@@ -24,7 +24,7 @@ Think Nintendo's dynamic arrangements in Mario or Animal Crossing, now possible 
 
 Some example conditions that have been built into [The Metadata Maker](../../) are:
 
-* Weight - set the number to weigh the mix's chance of being chosen when randomized.  For example if there are 3 mixes, with weights 1, 2, and 3. That adds up to 6 points across 3 mixes. The mix with weight 3 will occupy 3/6 total chances of being picked.  The mix with weight 1 will have a 1/6 chance.  The mix with weight 2 will have a 1/3 chance of being picked.  The mix with weight 3 will have a 1/2 chance of being picked.  Because the weights are all added up, and that's how you get your probability.
+* Weight - set the number to weigh the mix's chance of being chosen when randomized.  For example if there are 3 mixes, with weights 1, 2, and 3. That adds up to 6 points across 3 mixes. The mix with weight 3 will occupy 3/6 total chances of being picked.  The mix with weight 2 will have a 2/6 chance.  The mix with weight 1 will have a 1/6 chance of being picked. The weights are all added up, that's how you get your probability.
 * Weather - set the weather to be able to play the mix
 * Day - set the day of the week to be able to play the mix
 * Start Time - set the start time of day to be able to play the mix.  Before the start time the mix is unplayable, starting at midnight, unless an End Time is also set.

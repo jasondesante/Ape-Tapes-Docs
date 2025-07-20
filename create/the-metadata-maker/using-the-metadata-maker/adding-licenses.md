@@ -8,7 +8,7 @@ Each comes with their own unique characteristics.  One is involving a specific u
 
 To add a license on your track, just upload a file at ar://listen, and when you're about to upload, look for the licenses button, and apply a license to your file. &#x20;
 
-To use licenses on your tokens, get a lawyer and figure it out! Someone's gotta figure it out, you can be one of the first!  The idea is the same, you would put a link to a larger file in the "license" field of the song metadata which would go to a larger document with all the details of the license provided similar to the [UDL tag](https://arweave.net/IVjAM1C3x3GFdc3t9EqMnbtGnpgTuJbaiYZa1lk09_8).  Except for your tokens you would have your own custom license, rather than a standardized one.
+To use licenses on your tokens, get a lawyer and figure it out! Someone's gotta figure it out, you can be one of the first!  The idea is the same as a file, you would put a link to the license file in the "license" field of the song metadata which would go to a larger document with all the details of the license provided similar to the [UDL tag](https://arweave.net/IVjAM1C3x3GFdc3t9EqMnbtGnpgTuJbaiYZa1lk09_8).  Except for your tokens you would have your own custom license, rather than a standardized one.
 
 ## Licenses On Files
 

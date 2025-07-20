@@ -2,6 +2,8 @@
 
 ## Gas Usage By Function
 
+Here are some examples of the amount of gas units it takes to execute different functions, with example transactions as proof.
+
 ### Contract Wizard Gas Usage
 
 CreateClone (Minting a new contract from the Contract Wizard)- 213,863 gas units

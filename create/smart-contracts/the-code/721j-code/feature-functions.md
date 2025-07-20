@@ -19,7 +19,7 @@ There are various features in the ERC721J contract.  Here are the functions rela
 
 * **publicMint** - From [IERC721JFull.](../../interface-contracts/ierc721jfull.sol.md)
 * _**togglePublicMint**_ - Toggles public minting on a token id. Also known as staking.
-* _**togglePublicMints**_ - Toggles more than one token id at once.  For staking multiple songs at once.
+* _**togglePublicMints**_ - Toggles more than one token id at once.  For staking multiple songs.
 
 ### Recycle Functions
 
@@ -34,7 +34,7 @@ There are various features in the ERC721J contract.  Here are the functions rela
 ### Rarity Multiplier Functions
 
 * **rarityMultiplier** - From [IERC721JFull.](../../interface-contracts/ierc721jfull.sol.md)
-* _**setRarityMultiplier**_ - Sets the % rarity multiplier for a rarity.  This lets you have different rarities be different amounts relative to the regular mint price.
+* _**setRarityMultiplier**_ - Sets the % rarity multiplier for a rarity.  This lets you have different rarities be different mint prices relative to the normal price.
 
 ### Royalty Functions
 

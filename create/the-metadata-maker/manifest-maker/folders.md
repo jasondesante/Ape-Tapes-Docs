@@ -12,7 +12,7 @@ For Arweave, a "manifest" is a special file that defines a folder structure by l
 
 In the context of "The Manifest Maker", that tool creates a specific type of manifest that includes only JSON metadata files meant to be used as the baseURI for an NFT collection.
 
-For NFT Collections the suggested way to create links is to set a long baseURI and short path for each token, so the unique parts of the tokenURI are kept to a minimum.  This maximizes efficiency and minimizes gas. You set the gateway + manifest tx\_id as the baseURI and the file path as the token path, aka songURI.
+For NFT Collections the suggested way to create links is to set a long baseURI and short path for each token, so the unique parts of the tokenURI are kept to a minimum.  This maximizes efficiency and minimizes gas. You set the gateway + manifest tx\_id as the baseURI and the file path as the songURI.
 
 ### File URLs
 

@@ -4,13 +4,13 @@ The Contract Wizard's Library is the name for the larger list of all the contrac
 
 ## Together Strong
 
-Any feature made for one contract will work for all contracts in the library.  This idea can be seen in The Store Page.  It treats every contract in the library the same.  It's possible for anyone to build new things that work for every contract in the list.
+Any feature made for one contract will work for all contracts in the library.  This idea can be seen in The Store Page.  It treats every contract in the library the same.  It's possible for anyone to build new pages that work for every contract in the library.
 
 ### The Store Page
 
 The Store Page shows all the tokens that are staked across all contracts in the Wizard's Library.&#x20;
 
-### &#x20;The Promo Page
+### The Promo Page
 
 The Promo Page shows all the tokens in your library that are eligible for promotions across all contracts in the Wizard's Library.
 
@@ -26,5 +26,7 @@ Uniquely owned by each artist, while the whole library can be treated as a set o
 
 ### Nerd Speak
 
-In technical terms all the contracts in the Wizard's Library have the same "abi". That means that all the contracts in the library can share extra features if anyone builds new cool functionality, if it works for one, it works for all, because of that shared contract code.
+In technical terms all the contracts in the Wizard's Library have the same "abi". This means they are the same code.&#x20;
+
+That means that all the contracts in the library can share extra features if anyone builds new cool functionality, if it works for one, it works for all, because of that shared contract code.
 

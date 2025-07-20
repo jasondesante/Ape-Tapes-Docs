@@ -25,35 +25,33 @@ There are 10 events in ERC721J.sol and 3 events imported from interfaces, making
 * **Approval** - from [IERC721](../../interface-contracts/other.md#ierc721.sol)
 * **ApprovalForAll** - from [IERC721](../../interface-contracts/other.md#ierc721.sol)
 
-
-
 ## Functions
 
-There are a lot of functions in the ERC721J.sol contract. 72 public functions, and a bunch of private functions too!  I'll do my best to organize the public functions in an understandable order here. &#x20;
+There are lots of functions in ERC721J.sol. 72 public functions, and a bunch of private functions too!  I'll do my best to organize the public functions in an understandable order here. &#x20;
 
 Functions are separated into categories because there are so many.  Every function that isn't from an interface is properly noted.
 
 ### Categories
 
-#### Metadata Functions
+#### [Metadata Functions](metadata-functions.md)
 
 There are 4 read and 5 write functions related to metadata.  Read more [here.](metadata-functions.md)
 
-#### Minting Functions
+#### [Minting Functions](minting-functions.md)
 
 There are 10 write functions related to minting. Read more [here.](minting-functions.md)
 
-#### Feature Functions
+#### [Feature Functions](feature-functions.md)
 
 There are 7 features that have their 19 functions detailed [here.](feature-functions.md)
 
-#### Promo System Functions
+#### [Promo System Functions](promo-system-functions.md)
 
 There are 4 read and 6 write functions related to the promo system. Read more [here.](promo-system-functions.md)
 
 ### Other Functions
 
-The unsorted misfit functions are below.
+The unsorted misfit functions are below:
 
 #### Write Functions
 

@@ -68,7 +68,11 @@ You can also do a query on other sites and see what happens when you search App-
 
 **Genre** - Musical genre you assign
 
-**ISRC** - International Standard Recording Code for the track
-
 **Audio-Tag** - Custom tags for discovery
+
+**ISRC** - International Standard Recording Code for the track (case sensitive)
+
+#### Importance of Lower Case Tags
+
+Every user controlled tag gets turned into lower case, except ISRC, so it's easier to search. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags.
 

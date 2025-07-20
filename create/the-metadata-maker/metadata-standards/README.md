@@ -26,7 +26,7 @@ Standardizing music NFT metadata deserves serious attention. When everyone agree
 
 My suggested metadata standard files are all using snake case.
 
-There's something called camelCase.  And something else called snake\_case.  noSpacesAndCapitalizeEveryWord. Camel case is seen a lot in Javascript. snake\_case\_is\_all\_underscores.
+There's something called camelCase.  And something else called snake\_case.  camelCaseLooksLikeThis. Camel case is seen a lot in Javascript. snake\_case\_is\_all\_underscores.
 
 Is snake case named that way because the long snake of words, I don't know?  I guess camel case is named that because the capitals are like humps on a camel?
 

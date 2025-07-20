@@ -8,7 +8,7 @@ You'll see a folder for the 721J contracts, a folder for the Contract Wizard con
 
 The 721J contract is made up of the main ERC721J.sol file and also includes five interface contracts.
 
-The Contract Wizard contract is made up of the Contract Wizard contract and one interface contract.
+The Contract Wizard factory is made up of the Contract Wizard contract and one interface contract.
 
 ## 721J Contracts
 

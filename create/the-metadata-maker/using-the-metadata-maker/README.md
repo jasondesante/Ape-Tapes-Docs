@@ -10,7 +10,7 @@ When adding files to metadata, you can add them from your computer, enter in the
 
 ### Drag & Drop
 
-You can Drag & Drop files from your computer to be added to the metadata and uploaded when you save shortly.
+You can Drag & Drop files from your computer to be added to the metadata and uploaded when you save.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 12.10.53 AM.png" alt=""><figcaption></figcaption></figure>
 

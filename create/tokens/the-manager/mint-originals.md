@@ -8,17 +8,15 @@ You can create new originals on The Manager page. This is the most important fun
 
 Minting the original token is the last step. Previous steps include uploading the files, creating every metadata file and uploading a manifest. Are you ready?
 
-## Creating A New Master Token
+### Requirements
 
-When making a new master you'll choose how many rarities, split contract address (for royalty splits), the total supply of copies, and the song uris (links to the metadata).
+You'll be required to set the total supply of copies and the metadata link for each rarity.  An optional parameter is split address, which unlocks royalty splits.
+
+## Creating A New Master Token
 
 If you used The Manifest Maker to create your baseURI, you should see a drop down menu to visually select the metadata for the song.  If not you'll only have input mode as an option. &#x20;
 
 The choice of 1-3 rarities is meant to provide an option and not force someone to do the default 3 metadata variations.
-
-## Requirements
-
-You'll be required to set the supply of the song and the uri for each rarity.  An optional parameter is split address, which unlocks royalty splits.
 
 ***
 
@@ -38,7 +36,7 @@ The list mode lets you visually see the picture for each piece of metadata, you 
 
 Input Mode is the manual way of entering in the data, writing in the songURI on your own.  Make sure you don't make any mistakes! This isn't complicated, but it's easier to make mistakes and takes longer to do.
 
-Input mode checks the file paths and lets you know if you wrote something that doesn't lead to a metadata file. You'll see the baseURI written up top so you can figure out the finished url too.
+Input mode does check the file path and lets you know if you wrote something that doesn't lead to a metadata file. You'll see the baseURI written up top so you can figure out the finished urls too.
 
 ***
 
@@ -58,7 +56,7 @@ Enter a split contract address and it unlocks new functionality for on chain roy
 
 With split contracts you can give royalties to your collaborators, as well as do cool things like tokenize the royalties.  So the royalties are going to owners of tokens instead of a set wallet address.  This makes royalties a tradeable thing if you choose to do that.
 
-It is highly recommended to [use](https://app.splits.org/) 0xsplits for their high quality split contracts. [Read more](https://docs.splits.org/)
+It is highly recommended to [use 0xSplits](https://app.splits.org/) for their high quality split contracts. [Read more](https://docs.splits.org/)
 
 ***
 
@@ -68,7 +66,7 @@ It is highly recommended to [use](https://app.splits.org/) 0xsplits for their hi
 
 Once you're comfortable, mint the original and The Contract Wizard will congratulate you.  The Manager page should have an updated total of originals and shortly after your wallet should refresh.
 
-With a new song in your contract, you can now mint copies of it, stake it, share it, add it to a playlist.
+With a new song in your contract, you can now mint copies of it, stake it, share it, and add it to a playlist.
 
 ## Help
 

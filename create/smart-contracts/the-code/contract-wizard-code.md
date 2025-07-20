@@ -19,7 +19,7 @@ There are 16 public functions in the ContractWizard.sol contract.  I will do my 
 ### Public Write Functions
 
 * _**ownerCreateClone**_ - Lets the owner of the wizard create a clone for free. &#x20;
-* _**ownerAddContract**_ - Lets the owner of the wizard add any contract to the library.  This is a powerful tool that needs to be wielded carefully.
+* _**ownerAddContract**_ - Lets the owner of the wizard add any contract to the library.  This is a powerful tool that needs to be wielded carefully. Should only be used if there is a use for it.
 * _**setContractURI**_ - Sets the contractURI
 * _**setMintPrice**_ - Sets the mint price in ETH
 * _**setTokenMintPrice**_ - Sets the mint price for a particular ERC20 contract address

@@ -14,11 +14,11 @@ The files are separated into categories which are:
 * Manifests
 * Playlists
 
-The Arweave Uploads Page is meant to help creators keep track of the different types of files required to make albums of thicc metadata into a manifest.
+The Arweave Uploads Page is meant to help creators keep track of the different types of files required to turn collections of thicc metadata into a manifest.
 
 ### Upgrading Audio and Metadata
 
-One of the main uses of this page is to "upgrade" audio files. This opens up The Metadata Maker and upgrades that simple file into something with more character.
+One of the main uses of this page is to "upgrade" audio files. Find an audio or local metadata file, click it to open the detail view, and then click "Upgrade Metadata". This imports the file into The Metadata Maker, letting you upgrade it into something with more character.
 
 ![](<../../.gitbook/assets/Screenshot 2025-07-18 at 5.20.52 PM.png>)
 

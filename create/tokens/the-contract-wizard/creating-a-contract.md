@@ -10,6 +10,6 @@ Once you meet The Contract Wizard, making a record label is only clicks away.
 
 ## Using The Contract Wizard
 
-If you talk to the Contract Wizard, he'll invite you to create a contract.  All you need to do is say yes.  Once you name your contract and click mint, you'll have your own record label that you can create digital masters with.
+If you talk to the Contract Wizard, he'll invite you to create a contract.  Just say yes.  After naming the contract and clicking mint, a personal record label is created for producing digital masters.
 
-When you own a contract you'll unlock the [Contract Manager](../the-manager/) page where you can create new masters, change prices, metadata, everything a contract owner would want to manage.
+Owning a contract unlocks the [Contract Manager](../the-manager/) page where you can create new masters, change prices, metadata, everything a contract owner would want to manage.

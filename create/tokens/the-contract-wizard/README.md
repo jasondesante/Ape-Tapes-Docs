@@ -9,7 +9,7 @@
 
 ## Who is the Contract Wizard?
 
-The Contract Wizard is a cartoon character who loves music, creates contracts for artists and lives in a library.  The Contract Wizard helps artists that want to create original tokens of their work.  These original tokens have copies made from them that are +1 rarity of the original.  This is more explained in the [721J Contract section](../../smart-contracts/721j-concepts/).
+The Contract Wizard is a cartoon character who loves music, creates contracts for artists and lives in a library.  The Contract Wizard helps artists that want to create original tokens of their work.  These original tokens have copies made from them that are +1 rarity of the original.  This is more explained in the [721J Contract section](../../smart-contracts/721j-concepts/).&#x20;
 
 ## Easily Make A Contract
 
@@ -17,7 +17,9 @@ An artist can create a contract with no code and low gas cost.  The artist can u
 
 ## Contract Addresses
 
-The contract addresses for the contract wizard can be found here
+The Contract Wizard is a smart contract itself.  The Contract Wizard is a smart contract that makes smart contracts.
+
+The contract addresses for The Contract Wizard can be found here:
 
 Mainnet: `0x1b9F04589183341Ad9b8Cd771983CEBeB0c1BC23` [Link](https://etherscan.io/address/0x1b9F04589183341Ad9b8Cd771983CEBeB0c1BC23)
 

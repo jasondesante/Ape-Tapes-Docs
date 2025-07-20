@@ -28,9 +28,9 @@ The "Required" tab also contains some optional fields such as:
 
 The optional tab is broken down into 3 main categories: Album/Project, Metadata, and Files. &#x20;
 
-Album contains all the fields related to the album, like album art.  The "Metadata" named section contains all the extra general metadata for the track, like genre, tags, description, year, and much more. The Files section contains all the extra files you would upload like video, mp3, extra images, and more.
+"Album/Project" contains all the fields related to the album, like album art, and album description.  The "Metadata" named section contains all the extra general metadata for the track, like genre, tags, description, year, and much more. The "Files" section contains all the extra files you'd upload like video, mp3, extra images, and more.
 
-These other fields are all optional for the Song URI.  Some notable optional fields include:
+These other fields are optional for the Song URI.  Some notable optional fields include:
 
 #### Album/Project
 
@@ -56,8 +56,6 @@ These other fields are all optional for the Song URI.  Some notable optional fie
 * [Merch (3D Model)](metadata-standards/token-metadata/noteworthy-traits.md#merch)
 * [Midi](metadata-standards/token-metadata/noteworthy-traits.md#midi)
 
-
-
 ## Extra
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-16 at 11.56.53 PM.png" alt=""><figcaption></figcaption></figure>
@@ -71,7 +69,7 @@ The Extra tab contains additional categories of metadata that unlock new functio
 
 ### Metadata Functions
 
-For contract owners, set the metadata with setSongURI function, or when an original is created.  &#x20;
+For contract owners, set the metadata when an original is created, or with the setSongURI function.
 
 View the metadata with the tokenURI or songURI functions on your smart contract. &#x20;
 

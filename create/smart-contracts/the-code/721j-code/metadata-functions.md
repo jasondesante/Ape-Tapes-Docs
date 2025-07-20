@@ -8,15 +8,15 @@ These functions have to do with getting and setting metadata. For more informati
 
 ### _baseURI_ - Base URI
 
-The baseURI function gives you just the Base URI which is the beginning part of a metadata link.  The Base URI is used to save gas/space because the repeated part of the link is saved only once.
+The baseURI function gives you the beginning part of a metadata link.  The baseURI is used to save gas/space. The longer the baseURI is relative to the songURI, the more gas is saved. You want the paths to be short and the baseURI to contain the manifest tx\_id to save the most gas writing on chain.
 
-Base URI + Contract URI = Contract Metadata
+baseURI + Contract Path = Contract Metadata
 
-Base URI + Token URI = Token Metadata
+baseURI + Song Path = Token Metadata
 
 ### contractURI - From [IERC721J](../../interface-contracts/ierc721j.sol.md#read-functions)
 
-The contractURI function returns the contract metadata link.  This link is made with the Base URI and then the unique part of the link which creates the finished contract metadata link.
+The contractURI function returns the contract metadata link.  This URL is made with the baseURI and the contract metadata path which creates the finished link.
 
 ### songURI - From [IERC721J](../../interface-contracts/ierc721j.sol.md#read-functions)
 
@@ -24,7 +24,7 @@ The songURI function takes a songId and generation as input and returns the song
 
 ### tokenURI - From [IERC721Metadata](../../interface-contracts/other.md#ierc721metadata.sol)
 
-The tokenURI function takes a tokenID as an input and returns the token metadata link.  This link is made with the Base URI combined with the unique part of the link that creates the finished token metadata link.
+The tokenURI function takes a tokenID as an input and returns the token metadata link.  This link is made with the Base URI combined with the path for the songID and rarityID of that tokenID.
 
 ## Write Functions
 

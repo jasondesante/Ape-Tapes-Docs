@@ -4,7 +4,7 @@ This is just a selection of all the traits in the Required and Optional tabs in 
 
 ### Resized Images
 
-Resized images are important because sometimes the main image is giant, and you only need a thumbnail or small version of the image.  The act of downloading and resizing it can be a lot more difficult than grabbing the image\_small or image\_thumb field.  Including resized images is such an important thing. &#x20;
+Resized images are important because sometimes the main image is giant, and you only need a thumbnail or small version of the image.  The act of downloading and resizing it can be a lot more difficult than grabbing the image\_small or image\_thumb field.
 
 It's the courteous thing to do in web3 is to think for the dapp ahead of you. That is a core value of this project.
 
@@ -16,11 +16,11 @@ You could put different licenses on different rarities of tokens and then allow 
 
 ## Audio
 
-The audio metadata traits are separated into lossless and lossy categories.  The "standard" field is "animation\_url".  This is where you'll normally see the metadata for the audio on NFTs.  This is problematic because it's also suggested to put all sorts of stuff there, so you never really know if it's an audio file when it's in "animation\_url".  It's not the way you'd want to do things in the future, because having something in "animation\_url" doesn't guarantee it's audio, it could be a video or something else.\
+The audio metadata traits are separated into lossless and lossy categories.  The "standard" field is "animation\_url".  This is where you'll normally see the metadata for the audio on NFTs.  This is problematic because it's also suggested to put other stuff there, so you never really know if it's an audio file when it's got "animation\_url".  It's not the way you'd want to do things in the future, because having something in "animation\_url" doesn't guarantee it's audio, it could be a video or something else.\
 \
-For audio you should still put it in "animation\_url" because who knows whether or not the marketplace or dapp or whatever will look for the better traits, just use "animation\_url" until the overall crypto community decides or whatever.
+For audio you should still put it in "animation\_url" because who knows whether or not the marketplace or dapp or whatever will look for the better traits, just use "animation\_url" until the overall crypto community decides.
 
-The actual traits you should care about for music are to use "audio\_url" and or "lossless\_audio" for the high quality uncompressed audio, and use  "mp3\_url" and or "lossy\_audio" for the lossy mp3 quality audio. I think those are more understandable, though it isn't clear which is the winner.  "audio\_url" and "mp3\_url" or "lossless\_audio" and "lossy\_audio".  My vote would be lossless\_audio and lossy\_audio because the pair makes the most sense.
+The actual traits you should care about for music are "audio\_url" and or "lossless\_audio" for the high quality uncompressed audio, and "mp3\_url" and or "lossy\_audio" for the streaming quality audio. I think those are more understandable, though it isn't clear which is the winner.  "audio\_url" and "mp3\_url" or "lossless\_audio" and "lossy\_audio".  My vote would be lossless\_audio and lossy\_audio because the pair makes the most sense.
 
 Either way there are 5 fields in the metadata template for audio.  The lossless audio is in 3 of those spots, and the lossy audio is in the other 2.  Hopefully one day we decide and reduce the 5 down to 2.
 
@@ -46,19 +46,17 @@ If a song doesn't include this metadata, then the track won't be curated as well
 
 ### Lyrics
 
-Including the lyrics in the metadata lets them show up when playing the song.  Everyone likes the option to view the lyrics while listening. Adding lyrics allows all players to show the lyrics to the listener.
-
-
+Including the lyrics in the metadata lets them show when playing.  Everyone likes the option to view the lyrics while listening. Adding lyrics to the metadata allows all players to show the lyrics to the listener if they want.
 
 ## More Files
 
 ### Images
 
-The images array is a cool trait to have because what if you want to include 20 images or something, or a large amount of liner notes?  I used to love that stuff when an album would have really cool notes and pictures.  This stuff matters, it might sound corny but it's world building and that's important.  You have the option to expand and do whatever you want with an endless list of images here. &#x20;
+The images array is a cool trait to have because what if you want to include 20 images or something, or a large amount of liner notes?  I love that stuff when an album has really cool notes and pictures.  This stuff matters, it might sound corny but it's world building and that's important.  You have the option to expand and do whatever you want with an endless list of images here. &#x20;
 
 ### Video
 
-A video is a cool thing to include in your token.  It will show up in the player with an extra video icon you can click, enhancing the listening and viewing experience.
+A video is a cool thing to include in your token.  It'll show up in the player with an extra video icon you can click, enhancing the listening and viewing experience.
 
 ### Visualizer
 
@@ -72,19 +70,19 @@ Midi files are awesome.  Who doesn't like midi files? Including the midi charts 
 
 ### VRM
 
-A VRM is a file type for 3d characters and stands for Virtual Reality Modeling.  If you include a VRM in your metadata, holders will have an avatar to be used in virtual worlds.
+A VRM is a file type for 3d characters that stands for "Virtual Reality Modeling" file.  If you include a VRM in your metadata, holders will have an avatar they can use in virtual worlds.
 
-You can also add your VRM to the music visualizer and watch your VRM dance with all the wizards.&#x20;
+You can also add your VRM to the music [visualizer](../../../../consume/universal-music-player/visualizer/) and watch your VRM dance with all the wizards.&#x20;
 
 ### Merch
 
-You can attach a 3d file of a piece of digital merch that could be worn by your character in various games.
+You can attach a 3d file of a piece of digital merch that could be worn by a character in various games.
 
-This could be a normal shirt or hat with just the design being unique, or it could be entirely unique fashion.  The possibilities are endless.  You really could do anything with digital merch that's intended for an avatar to wear.  You could even do something like socks here.  As long as it's built with some standardized characters in mind, there's a good chance that it will work.
+This could be a normal shirt or hat with just the logo being unique, or it could be entirely unique models.  The possibilities are endless.  You really could do anything with digital merch that's intended for an avatar to wear.  You could even do something like socks here.  As long as it's built with some standardized characters in mind, there's a good chance that it will work.
 
 ### Step Mania
 
-[Step Mania](https://www.stepmania.com/), and [Project OutFox](https://projectoutfox.com/), is a free cross platform (Linux, Mac, and PC) rhythm game engine that started as a fan version of Dance Dance Revolution.  You can make Step Mania charts for your songs.  Who wouldn't want to see Step Mania charts be tokenized like this, it could encourage more people to make Step Mania charts by showing people this is something they want.
+[Step Mania](https://www.stepmania.com/), and now [Project OutFox](https://projectoutfox.com/), is a free cross platform (Linux, Mac, and PC) rhythm game engine that started as a fan version of Dance Dance Revolution.  You can make Step Mania charts for your songs.  Who wouldn't want to see rhythm game charts be tokenized like this, it could encourage more artists to make charts and encourage growth in those open rhythm games. Tokens seems like a great way for such open free projects to find a way to monetize while collaborating with artists.
 
 ### Clone Hero
 

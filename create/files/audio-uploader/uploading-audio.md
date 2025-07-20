@@ -30,9 +30,9 @@ ArDrive Turbo is an open source bundler for Arweave.  Turbo Credits are measured
 
 Once you click upload, all you need to do is sign.  When the track is uploaded you'll see the results page with some options:
 
-* Play - Listen to the audio, make sure it uploaded properly
-* Upload Another Track - Keep uploading files
-* Attach Artwork - Immediately upgrade the audio into metadata. Imports the audio right into The Metadata Maker.
-* View Your Files - Goes to the uploads page where you can see all the files you've uploaded, view their tags, choose to upgrade any files or metadata, etc.
+* **Play** - Listen to the audio, make sure it uploaded properly
+* **Upload Another Track** - Keep uploading files
+* **Attach Artwork** - Immediately upgrade the audio into metadata. Imports the audio right into The Metadata Maker.
+* **View Your Files** - Goes to the uploads page where you can see all the files you've uploaded, view their tags, choose to upgrade any files or metadata, etc.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-14 at 2.21.55 AM.png" alt=""><figcaption></figcaption></figure>
