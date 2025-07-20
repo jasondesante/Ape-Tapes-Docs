@@ -8,7 +8,7 @@ description: A whole new world waits for you
 
 Upload your audio permanently in seconds.  Decentralized storage is just a click away. No tokens required. &#x20;
 
-This is your instant entry into the world of decentralized music.  After this is so much more.
+This is your instant entry into the world of decentralized music.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-14 at 1.07.02 AM.png" alt=""><figcaption><p>Find the audio upload page from the sidebar, browse page, or create page.</p></figcaption></figure>
 
