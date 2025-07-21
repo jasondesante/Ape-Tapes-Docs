@@ -1,10 +1,8 @@
 # Trouble Logging In
 
-To check your wallet on Ape Tapes:
-
-1. If you don't have a Metamask wallet, get one!
+1. If you don't have a wallet, get one!
 2. If you are not signed in, then find a "Log In" button and click it.
-3. When the sign in window for Metamask pops up, it will probably look like this image.  Right. now, unfortunately, Metamask shows this warning.  Please be aware of fake sites, but also please be aware that when you are on the real site it will show this error because of how I will be hosting the front end on Arweave.
+3. When the sign in window pops up, it will probably look like this image.  Right now, unfortunately, Metamask shows this warning.  Please be aware of fake sites, but also please be aware that the real site will show this error because of how the site is hosted on Arweave. Only the specific gateway/arns combo of https://listen.arweave.net/, that matches the message in the sign in message from the back end, will remove this error.  It makes sense for the warning, but that means you have to access the site from one specific gateway to remove the error, even though other gateways work perfectly fine.  It's just because wallets don't fully understand Arweave yet, and are trying to look out for you.
 
 {% embed url="https://b7segj2w7a77ndwvn35xjv5jwaadvvohoj2cbooiezmmhrjfu5bq.arweave.net/D-RDJ1b4P_aO1W77dNepsAA61cdydCC5yCZYw8Ulp0M" %}
 

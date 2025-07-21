@@ -34,8 +34,8 @@ With this button you can look up any token on any contract and see if it's claim
 
 ### Promo Viewer
 
-The visual promo viewer in The Manager Page does a good job showing you the inputs and outputs of each promotion.  There is a drop down, search, and +/- buttons to flip through all the promos. The "Promo Info" button is still there, but it's much easier to see it all visually with the promo viewer.
+The visual promo viewer in The Manager Page does a good job showing you the inputs and outputs of each promotion.  There is a drop down, search, and +/- buttons to flip through all the active promos. The "Promo Info" button is still there, but it's much easier to see it all visually with the promo viewer.
 
 ## How Promos Work
 
-If you have a token in your wallet that matches a promotion requirement, then you are eligible to mint that promotion.  Tokens are only able to claim 1 regular promotion and 1 specific promotion per contract. A specific promotion is a promo that uses the extra rules only available to 721J tokens (rarity and song ids). Normal ERC-721 tokens will only be able to claim a regular promotion. Only 721J tokens will be able to claim 2 promos.
+If you have a token in your wallet that matches a promotion requirement, then you are eligible to mint that promotion.  Tokens are only able to claim 1 regular promotion and 1 specific promotion per contract. A specific promotion is a promo that uses the extra rules only available to 721J tokens (rarity and song ids). Normal ERC-721 tokens will only be able to claim one regular promotion. Only 721J tokens will be able to claim 2 promos.

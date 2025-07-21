@@ -11,9 +11,6 @@ To create an original 1/1:
 {% embed url="https://dv5nu56xnmqu26fohr5rivkcpijqlsu637ux3yl4sk6v4i6e2cmq.arweave.net/HXrad9drIU14rjx7FFVCehMFyp7f6X3hfJK9XiPE0Jk" %}
 
 2. Click "Contract Manager" and load up the manager page
-
-{% embed url="https://uuc43u3qytwm4gnvxffvwd5arsgyiazykoytrrviftpm2wtoxtga.arweave.net/pQXN03DE7M4ZtblLWw-gjI2EAzhTsTjGqCzezVpuvMw" %}
-
 3. On the Contract Manager page, find the "Mint Master" button and click it
 
 {% embed url="https://lncis2vsx5d72p4gworltz7igcvythdiwkie3dkhwy5777er3snq.arweave.net/W0SJarK_R_0_hrOiuefoMKuJnGiykE2NR7Y7__yR3Js" %}
@@ -21,7 +18,7 @@ To create an original 1/1:
 4. You then have a choice for how many pieces of metadata to set.  Does your token have 1 piece of metadata that the original and copies share? Do you include another piece of metadata for generation 2? Or add 3 pieces of metadata (which I consider to be the right amount to start).
 5. Enter in the Song URIs for each piece of metadata, and the total supply (maximum amount of copies) for the song.
 
-{% embed url="https://wejw6uz7zwajzxvlzwuudh7o3neobjmrtds7ueyor3nxe7566jya.arweave.net/sRNvUz_NgJzeq82pQZ_u20jgpZGY5foTDo7bcn--8nA" %}
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-21 at 1.22.44 AM.png" alt=""><figcaption></figcaption></figure>
 
 6. Click Mint
 7. Confirm in your wallet, wait
@@ -47,7 +44,7 @@ With a split contract, you can manage all sorts of crazy splitting up of royalti
 
 You can also have the flexibility to change the split address after creating an original.
 
-{% embed url="https://36wcunrfyzhwmklpzulaevni2wabi7pua2vpanqaewmna3hbbc5a.arweave.net/36wqNiXGT2Ypb80WAlWo1YAUffQGqvA2ACWY0GzhCLo" %}
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-21 at 1.23.45 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Video
 

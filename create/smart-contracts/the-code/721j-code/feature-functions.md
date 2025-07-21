@@ -19,7 +19,7 @@ There are various features in the ERC721J contract.  Here are the functions rela
 
 * **publicMint** - From [IERC721JFull.](../../interface-contracts/ierc721jfull.sol.md)
 * _**togglePublicMint**_ - Toggles public minting on a token id. Also known as staking.
-* _**togglePublicMints**_ - Toggles more than one token id at once.  For staking multiple songs.
+* _**togglePublicMints**_ - Toggles public on more than one token id.  For staking multiple songs.
 
 ### Recycle Functions
 

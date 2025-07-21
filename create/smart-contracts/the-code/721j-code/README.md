@@ -6,7 +6,7 @@ The code for ERC721J.sol can be read [here.](https://github.com/jasondesante/721
 
 ## Events
 
-There are 10 events in ERC721J.sol and 3 events imported from interfaces, making 13 total:
+There are 10 new events in ERC721J.sol and 3 events imported from interfaces, making 13 total:
 
 * **Copy** - from [IERC721J](../../interface-contracts/ierc721j.sol.md#new-event)&#x20;
 * **Recycle** - from [IERC721JFull](../../interface-contracts/ierc721jfull.sol.md#new-event)
@@ -49,38 +49,20 @@ There are 7 features that have their 19 functions detailed [here.](feature-funct
 
 There are 4 read and 6 write functions related to the promo system. Read more [here.](promo-system-functions.md)
 
-### Other Functions
+#### [Other Functions](other-functions.md)
 
-The unsorted misfit functions are below:
+The misfit unsorted functions that are still important. Read more [here.](other-functions.md)
 
-#### Write Functions
+## Imported Interface Contracts
 
-* _**setName**_ - Lets the owner set the name for the contract.
-* _**setSymbol**_ - Lets the owner set the symbol for the contract.
-* _**setVariables2**_ - Intended as the first function after initializing which sets the baseURI, contractURI and royaltyBPS all in one.  Meant to be used once at the beginning as a way to initialize the collection with a profile.  If you load into The Manager page right after minting a contract with The Contract Wizard, you will see a special button that is asking you to use this code.
-* _**withdraw**_ - Withdraws the ETH that was sent to the contract.
-
-### From [IERC721J](../../interface-contracts/ierc721j.sol.md#read-functions)
-
-* rarityOfToken
-* songOfToken
-* totalSongs
-
-### From [IERC721JEnumerable](../../interface-contracts/ierc721jenumerable.sol.md)
-
-* tokenOfPublicByIndex
-* tokenOfSongByIndex
-
-## From Interface Contracts
-
-All the imported interface contracts have their corresponding functions implemented into ERC721J.sol.  The imported interface contracts are:
+All the imported interface contracts have their corresponding functions implemented into ERC721J.sol.  The new interface contracts are:
 
 * IERC721J - See functions [here.](../../interface-contracts/ierc721j.sol.md)
 * IERC721JEnumerable - See functions [here.](../../interface-contracts/ierc721jenumerable.sol.md)
 * IERC721JFull - See functions [here.](../../interface-contracts/ierc721jfull.sol.md)
 * IERC721JPromo - See functions [here.](../../interface-contracts/ierc721jpromo.sol.md)
 
-
+The interface contracts from existing standards are:
 
 * IERC2981 - See function [here.](../../interface-contracts/other.md#ierc2981.sol)
 * IERC721 - See functions [here.](../../interface-contracts/other.md#ierc721.sol)&#x20;

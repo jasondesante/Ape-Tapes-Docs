@@ -12,11 +12,11 @@ The path is either the songURI or contractURI.
 
 #### Setting Metadata
 
-Setting metadata requires two steps.  First set the baseURI for the collection.  Step two is set the path of the contract/song.  Combined these pieces make up the result of a contractURI or songURI call.
+Setting metadata requires two steps.  First set the baseURI for the collection.  Then set the path of the contract/song.  Combined these pieces make up the result of a contractURI or songURI call.
 
 The Manifest Maker lets you create a folder to be used as the baseURI.  [Read more](../../the-metadata-maker/manifest-maker/)
 
-Without a manifest, the baseURI would only be able to include the gateway ("ar://", or "https://arweave.net"), leaving way more characters up to the individual songURIs.  This also means you can't update the entire collection at once.  With manifests, since the paths stay the same across updates if you do it right, you can update the entire collection at once by updating just the baseURI.
+Without a manifest, the baseURI would only be able to include the gateway ("ar://", or "https://arweave.net"), leaving way more characters up to the individual songURIs.  This also means you can't update the entire collection at once.  With manifests, since the paths stay the same across versions if you do it right, you can update the entire collection at once by updating just the baseURI.
 
 ## Options
 

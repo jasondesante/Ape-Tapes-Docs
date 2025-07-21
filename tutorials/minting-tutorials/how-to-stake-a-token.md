@@ -2,10 +2,7 @@
 
 To stake a token:
 
-1. Go to the create page, by clicking create in the sidebar.
-
-{% embed url="https://dv5nu56xnmqu26fohr5rivkcpijqlsu637ux3yl4sk6v4i6e2cmq.arweave.net/HXrad9drIU14rjx7FFVCehMFyp7f6X3hfJK9XiPE0Jk" %}
-
+1. Go to Your Copies.
 2. Find the token in your wallet you want to stake.
 3. Click the stake button.
 

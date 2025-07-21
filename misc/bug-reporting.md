@@ -1,4 +1,4 @@
 # Bug Reporting
 
-Right now, report all bugs by messaging me on Twitter [https://twitter.com/jasondesante](https://twitter.com/jasondesante)
+Right now, report all bugs by messaging me on X [https://x.com/wizard\_contract](https://x.com/wizard_contract)
 

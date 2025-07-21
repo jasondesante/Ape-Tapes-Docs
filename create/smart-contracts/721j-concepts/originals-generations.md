@@ -4,11 +4,11 @@
 
 With normal ERC-721 tokens, releases are limited to either a 1/1 **or** editions. It's one or the other.&#x20;
 
-Not with the [Contract Wizard](../../tokens/the-contract-wizard/).  With 721J you can make **both** **1/1 and editions** for the same song, with the copies being verified copies derived from the original.
+With 721J you can make **both** **1/1 and editions** for the same song, with the copies having a verified lineage from the original.
 
 ### Prove You Made It
 
-Even if the artist doesn't intend to sell anything, it's important to make digital originals of all our art to prove it was made by us.  It's the best way to verify what we've done.&#x20;
+Even if the artist doesn't intend to sell anything, it's important to make digital originals of all our art to prove it was made by us.  It's the best way to verify our digital history.&#x20;
 
 With the Contract Wizard, you can create original 1/1 tokens that are intended for the artist to hold and mint copies from. The idea of artist held digital master tokens is based on the wallet being part of presenting the art. The artist held 1/1 is important if the artist's wallet is to be seen as a collection of the artist's work.
 
@@ -36,9 +36,9 @@ The "Gen 2" copies can be treated as "1st edition" tokens.  Think 1st edition Po
 
 Gen 2 copies could possibly be shared with the collaborators of a song. &#x20;
 
-If you're the artist, and collaborated with 4 other people for your song, you could send each of your collaborators a Gen 2 copy of the token. Then the top rarities are all held by the individuals that created the art.  Then you could make the collector rarity Gen 3, and common farther down.  It's up to the artist how to express rarities.
+If you're the artist, and collaborated with 4 other people for your song, you could send each of your collaborators a Gen 2 copy of the token. Then the top rarities are all held by the individuals that created the art.  Then you could make the collector rarity Gen 3, then uncommon and common rarities farther down.  It's up to the artist how to express rarity.
 
-Another angle to view top rarities is to create an investor/patron tier of rarity, as in a purposefully more rare and pricy mint that's intended to help fund the artist.
+Another angle to view top rarities is to create an investor/patron tier of rarity, as in a purposefully more rare mint that's intended to help fund the artist.
 
 ## Provenance
 
@@ -46,7 +46,7 @@ Provenance is an important thing to 721J tokens because it isn't just about who 
 
 For example, you have 2 copies of a song, both Gen 3 rarity.  One of those copies was minted from a Gen 2 token owned by a famous person, and the other was minted from a Gen 2 token owned by an anon wallet.  The token that was minted from the famous wallet will have an added value from provenance.
 
-I'm sure some people will care a lot about if the copy has a noteworthy mint family tree.  And its a fun idea.
+I'm sure some people will care a lot about if the copy has a noteworthy mint family tree.  And its a fun idea, that these tokens have a family tree.
 
 ## Old Videos
 

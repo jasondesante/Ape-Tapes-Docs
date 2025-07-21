@@ -23,8 +23,9 @@ A quick list of the main 721J features:
 You will find the 721J particularly useful if you want to:
 
 * Mint a 1/1 original for you, and create copies from the original for others.
+* Have an easy and versatile promotion system that works on chain
 * Create a smart contract without learning coding
-* Make tokens of your art to build an artist wallet full of art
+* Build an artist wallet full of your art
 * Put difference licenses on different rarities
 
 Artist held originals are the reason for starting this project.  The artist's wallet could be their digital discography which contains the original tokens of every song.  The wallet and contracts from the artist are an important thing in verifying whether or not you're looking at the genuine collection.

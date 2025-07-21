@@ -95,15 +95,18 @@
       * [Minting Functions](create/smart-contracts/the-code/721j-code/minting-functions.md)
       * [Feature Functions](create/smart-contracts/the-code/721j-code/feature-functions.md)
       * [Promo System Functions](create/smart-contracts/the-code/721j-code/promo-system-functions.md)
+      * [Other Functions](create/smart-contracts/the-code/721j-code/other-functions.md)
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
-* [Build More](create/build-more/README.md)
-  * [Infinite Players](create/build-more/infinite-players.md)
+* [Epic Future Stuff](create/epic-future-stuff/README.md)
+  * [Infinite Players](create/epic-future-stuff/infinite-players.md)
 
 ## 📼 Collect
 
-* [The Store Page](collect/the-store-page.md)
-* [Your Copies Page](collect/your-copies-page.md)
+* [The Store Page](collect/the-store-page/README.md)
+  * [Store Page Buttons](collect/the-store-page/store-page-buttons.md)
+* [Your Copies Page](collect/your-copies-page/README.md)
+  * [Copies Page Buttons](collect/your-copies-page/copies-page-buttons.md)
 * [The Promos Page](collect/the-promos-page.md)
 
 ## 🧙‍♂️ Tutorials

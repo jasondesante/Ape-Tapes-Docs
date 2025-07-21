@@ -9,12 +9,9 @@ To set a promotion:
 {% embed url="https://dv5nu56xnmqu26fohr5rivkcpijqlsu637ux3yl4sk6v4i6e2cmq.arweave.net/HXrad9drIU14rjx7FFVCehMFyp7f6X3hfJK9XiPE0Jk" %}
 
 2. On the Create page, click the "Contract Manager" button.
-
-{% embed url="https://uuc43u3qytwm4gnvxffvwd5arsgyiazykoytrrviftpm2wtoxtga.arweave.net/pQXN03DE7M4ZtblLWw-gjI2EAzhTsTjGqCzezVpuvMw" %}
-
 3. On the Contract Manager page, scroll to "Promotions", and click the "Set Promo" button.
 
-{% embed url="https://ohzhs2uzcpkx5anjra5gkjfui5nm2dmk36sfkwpn2hr5jyedndua.arweave.net/cfJ5apkT1X6BqYg6ZSS0R1rNDYrfpFVZ7dHj1OCDaOg" %}
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-21 at 1.20.18 AM.png" alt=""><figcaption></figcaption></figure>
 
 4. A window will pop up and give you options. There is a switch to choose one of two types of promos, Contract Wide, or Specific Promo. &#x20;
 5. Set the options for your promo.

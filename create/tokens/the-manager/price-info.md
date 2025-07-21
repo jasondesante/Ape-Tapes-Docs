@@ -6,7 +6,7 @@ The Price tab in The Manager page has all the price info for the contract.
 
 ## Balance
 
-You can view the balance of the contract.  You can also withdraw the ETH balance to your wallet as the owner. Note ERC20 tokens always get sent directly to the wallet and don't accumulate in a balance in the contract.
+You can view the balance of the contract.  You can also withdraw the ETH balance to your wallet as the owner. Note ERC-20 tokens always get sent directly to the wallet and don't accumulate in a balance in the contract.
 
 ## Mint Price
 

@@ -20,7 +20,7 @@ You tell it the token id and how much the sale was, and it tells you what addres
     );
 ```
 
-The way I implement this is calculating the royaltyAmount with a variable called royaltyBPS which I can view with the function royaltyBPS() and setRoyalty().  This takes a number of basis points that will become the royaltyBPS value.  I calculate the receiver address by checking if there's a split address linked to the songId of the inputted tokenId.&#x20;
+The way I implement this is calculating the royaltyAmount with a variable called royaltyBPS which I can view with the function royaltyBPS and setRoyalty.  This takes a number of basis points that will become the royaltyBPS value.  I calculate the receiver address by checking if there's a split address linked to the songId of the inputted tokenId. With this implementation ERC-2981 royaltyInfo works perfectly with split contracts.
 
 ## IERC721.sol
 

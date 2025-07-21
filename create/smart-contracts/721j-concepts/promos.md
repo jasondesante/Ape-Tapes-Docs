@@ -2,7 +2,7 @@
 
 ## What Are Promos?
 
-The promo system is very capable and robust. You can do whitelists, free claims, discounts and ultra rare copies. There are two different types of promos.  One is contract wide, and works for all ERC-721 tokens. The second type works just for 721J tokens and allows more specific promos to be set.
+The simple idea is you can reward the holder of a token with another token. You can do whitelists, free claims, discounts and ultra rare copies. There are two different types of promos.  One is contract wide, and works for all ERC-721 tokens. The second type works just for 721J tokens and allows more specific promos to be set.
 
 Promos are:
 
@@ -11,13 +11,13 @@ Promos are:
 * Can use any token from a contract, or any song and/or rarity of a 721J
 * Gives more freedom in how something gets distributed by token gating the audience and rewarding holders.
 
-Promos (short for promotions) are special token gated mints.  These can be used for whitelists, free claims, discounted mints, and more.
+Promos (short for promotions) are special token gated mints.
 
 Any token from an ERC-721 collection can be eligible for a promo.  The artist can set a promo to require any NFT in the collection, or use song and rarity to further specify the requirement. &#x20;
 
 ### Free Claims
 
-Promos can reward a free claim, so it's 0 friction to explore new directions.&#x20;
+Promos can reward a free claim, so it's 0 friction to collect new tokens.&#x20;
 
 ### Whitelists
 
@@ -43,9 +43,9 @@ An example of a promo on the promo page
 
 An example of a normal discount promo is to reward any holder of a MAYC (an NFT collection) with a 69% discount of song 2 rarity 3.
 
-An example of a normal whitelist promo is to allow all holders of a BAYC (an NFT collection) whitelist to mint a rarity 69 token of the most recent song.
+An example of a normal whitelist promo is to allow all holders of a BAYC (an NFT collection) whitelist to mint a rarity 69k token of the most recent song. Regular mint price, but the rarity is outside of normal distribution.
 
-An example of a specific song free claim is to reward holders of any rarity of song 1 with a normal edition of song 2. &#x20;
+An example of a specific song free claim is to reward holders of any rarity of song 1 (on your contract) with a normal edition of song 2. &#x20;
 
 An example of a specific free claim is to reward holders of generation 3 of song 2 on your buddy's contract with generation 3 of song 5 on your contract.
 

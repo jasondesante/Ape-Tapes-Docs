@@ -16,7 +16,7 @@ As you can see from this detailed render of a simulation there will be more toke
 
 Only the owner of the contract can create a new original.
 
-Only the owner of a token can mint a copy.  If a token is staked, then anyone can mint from that token.
+Only the owner of a token can mint a copy, unless a token is staked, then anyone can mint from that token.
 
 ### Mint Original Functions
 
@@ -36,7 +36,7 @@ The functions to mint a copy are called:&#x20;
 * mintCopyToken - Lets you add an ERC-20 address which will be used instead of ETH as the mint fee.  Only works if a price has been set for that token.  Mints to the same wallet that paid the ERC-20 token.
 * mintCopyTokenTo - Same as mintCopyToken, plus add a wallet address that you will be sending the token to.&#x20;
 * recycleMint - Lets you mint a copy by burning 2 other tokens from the same contract. This feature is optional and needs to be turned on by the contract owner.&#x20;
-* ownerMintCopy - Lets the owner of the contract mint a copy without paying themselves the mint fee, also with the extra ability to set the rarity of the copy.  This enables the owner of the contract use rarities in more creative ways. For example, the artist could make a rarity 100 billion that is impossible to get any other way, and then attach special art to it's metadata making a unique variant of a song that is still traceable back to it's original 1/1.
+* ownerMintCopy - Lets the owner of the contract mint a copy without paying themselves the mint fee, also with the extra ability to set the rarity of the copy.  This enables the owner of the contract use rarities in more creative ways. For example, the artist could make a rarity 100 billion that is impossible to get any other way, and then attach special art to it's metadata making a unique copy of a song that is still traceable back to it's original 1/1, creating it's own branch of the tree. For a special remix of the original, or special partnership, anything could prompt creating many branches like that, it's a creativity expanding tool.
 
 ## Minting It Forward
 
