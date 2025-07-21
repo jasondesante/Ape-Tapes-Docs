@@ -29,10 +29,10 @@ The 8 new read functions are:
 
 The 5 new write functions are:
 
-* _**mintCopy**_ - Mints a copy.
-* _**mintCopyTo**_ - Mints a copy to a wallet address of your choice. &#x20;
+* _**mintCopy**_ - Mints a copy. Triggers the _**Copy**_ event.
+* _**mintCopyTo**_ - Mints a copy to a wallet address of your choice. Triggers the _**Copy**_ event.
 * _**mintOriginal**_ - Mints an original using 1 piece of metadata.  This is good if you want to be simple.
 * _**mintOriginal3**_ - Mints an original using the default 3 pieces of metadata. mintOriginal3 is a bit more gas than mintOriginal.
-* _**ownerMintCopy**_ - The owner of the contract can mint copies for free and also mint custom rarity copies
+* _**ownerMintCopy**_ - The owner of the contract can mint copies for free and also mint custom rarity copies. Triggers the _**Copy**_ event.
 
 Read more [here.](https://github.com/jasondesante/721J-Token/blob/master/721J%20Contracts/Interfaces/IERC721J.sol)

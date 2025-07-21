@@ -24,8 +24,8 @@ The new read functions are:
 
 The new write functions are:
 
-* _**mintCopyToken**_ - Mint a copy with an ERC20 token
-* _**mintCopyTokenTo**_ - Mint a copy with an ERC20 token to a wallet address of your choice
-* _**recycleMint**_ - Recycle mint burns 2 tokens to mint 1
+* _**mintCopyToken**_ - Mint a copy with an ERC20 token. Triggers the _**Copy**_ event.
+* _**mintCopyTokenTo**_ - Mint a copy with an ERC20 token to a wallet address of your choice. Triggers the _**Copy**_ event.
+* _**recycleMint**_ - Recycle mint burns 2 tokens to mint 1. Triggers the _**Copy**_ and _**Recycle**_ events.
 
 Read more [here.](https://github.com/jasondesante/721J-Token/blob/master/721J%20Contracts/Interfaces/IERC721JFull.sol)

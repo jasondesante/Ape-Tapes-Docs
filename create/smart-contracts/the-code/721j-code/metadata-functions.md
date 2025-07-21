@@ -28,8 +28,8 @@ From [IERC721Metadata](../../interface-contracts/other.md#ierc721metadata.sol). 
 
 ## Write Functions
 
-* _**setBaseURI**_ - Sets the baseURI
-* _**setContractURI**_ - Sets the contractURI
-* _**setSongURI**_ - Sets the songURI for one song
-* _**setSongURIs**_ - Sets the songURIs for many rarities of one song.  The songID stays the same but it accepts an array of rarities.
-* _**setManySongURIs**_ - Sets the songURIS for many rarities of many songs.  This takes an array of songIDs and an array of rarities.
+* _**setBaseURI**_ - Sets the baseURI. Triggers the _**BaseURIChange**_ event.
+* _**setContractURI**_ - Sets the contractURI. Triggers the _**ContractURIChange**_ event.
+* _**setSongURI**_ - Sets the songURI for one song. Triggers the _**NewSongURI**_ event.
+* _**setSongURIs**_ - Sets the songURIs for many rarities of one song.  The songID stays the same but it accepts an array of rarities. Triggers the _**NewSongURI**_ event.
+* _**setManySongURIs**_ - Sets the songURIS for many rarities of many songs.  This takes an array of songIDs and an array of rarities. Triggers the _**NewSongURI**_ event.

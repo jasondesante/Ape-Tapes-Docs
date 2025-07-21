@@ -7,9 +7,9 @@ These functions have to do with minting tokens.  Either minting a new 1/1 origin
 ### Mint Original
 
 * **mintOriginal** - From [IERC721J.](../../interface-contracts/ierc721j.sol.md#write-functions)
-* _**mintOriginalSplit**_ - Mints an original token with 1 rarity with a royalty split address included.  Just like mintOriginal but it also sets the split address at the same time.
+* _**mintOriginalSplit**_ - Mints an original token with 1 rarity with a royalty split address included.  Just like mintOriginal but it also sets the split address at the same time. Triggers the _**NewSplit**_ event.
 * **mintOriginal3** - From [IERC721J.](../../interface-contracts/ierc721j.sol.md#write-functions)
-* _**mintOriginal3Split**_ - Mints an original token with 3 rarities with a royalty split address included.  Just like mintOriginal3 but it also sets the split address at the same time.
+* _**mintOriginal3Split**_ - Mints an original token with 3 rarities with a royalty split address included.  Just like mintOriginal3 but it also sets the split address at the same time. Triggers the _**NewSplit**_ event.
 
 ### Mint Copy
 

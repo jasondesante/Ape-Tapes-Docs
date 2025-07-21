@@ -11,15 +11,15 @@ There are 10 new events in ERC721J.sol and 3 events imported from interfaces, ma
 * **Copy** - from [IERC721J](../../interface-contracts/ierc721j.sol.md#new-event)&#x20;
 * **Recycle** - from [IERC721JFull](../../interface-contracts/ierc721jfull.sol.md#new-event)
 * **SetPromo** - from [IERC721JPromo](../../interface-contracts/ierc721jpromo.sol.md#new-event)
-* _**TokenPriceSet**_ - Emits when a price changes for an ERC20 token
-* _**TogglePublic**_ - Emits when a tokenId is staked or unstaked
-* _**NewSongURI**_ - Emits when a piece of song metadata is added or changed
+* _**TokenPriceSet**_ - Emits when a price changes for an ERC20 token.
+* _**TogglePublic**_ - Emits when a tokenId is staked or unstaked.
+* _**NewSongURI**_ - Emits when a piece of song metadata is added or changed.
 * _**NewMax**_ - Emits when setMaxEditions is called to change the max supply of copies for a song.
-* _**NewSplit**_ - Emits when a split address is set to a song
-* _**NewMultiplier**_ - Emits when setRarityMultiplier is called and a generation's rarity multiplier is updated
+* _**NewSplit**_ - Emits when a split address is set to a song.
+* _**NewMultiplier**_ - Emits when setRarityMultiplier is called and a generation's rarity multiplier is updated.
 * _**BaseURIChange**_ - Emits when setBaseURI is called and the baseURI is changed.
 * _**ContractURIChange**_ - Emits when setContractURI is called and the contractURI is changed.
-* _**NameChange**_ - Emits when setName is called and the contract name is changed
+* _**NameChange**_ - Emits when setName is called and the contract name is changed.
 * _**SymbolChange**_ - Emits when setSymbol is called and the symbol is changed.
 * **Transfer** - from [IERC721](../../interface-contracts/other.md#ierc721.sol)
 * **Approval** - from [IERC721](../../interface-contracts/other.md#ierc721.sol)
