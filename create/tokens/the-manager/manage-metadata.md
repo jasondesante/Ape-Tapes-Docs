@@ -46,3 +46,8 @@ You can add/edit metadata files to any rarity of a song after it's been created.
 
 You can edit multiple rarities of metadata in one transaction.  You can edit multiple songs and multiple rarities in one transaction.  You can fix mistakes in the token URIs, or enhance the amount of rarities.
 
+## Save Gas
+
+If you enter the songURI for each token manually, then you would be entering in a new url for each rarity of each song.  If you use Arweave, that means a new tx\_id for each file, which is 43 characters long.  If you want to update something, you need to change everything one piece at a time.&#x20;
+
+If you use a manifest, then each songURI is using a path based on the manifest, you can set the path and use the same one across versions, meaning you never need to change the path for each track and can still update the entire collection in one change. The 43 character paths are no longer a thing, they become a couple characters long. This saves so much gas. It really makes a huge difference in situations when every gas optimization counts. 43 characters becomes 1+ characters.
