@@ -103,8 +103,9 @@
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
     * [ABIs](create/smart-contracts/the-code/abis.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
-* [Epic Future Stuff](create/epic-future-stuff/README.md)
-  * [Infinite Players](create/epic-future-stuff/infinite-players.md)
+* [Epic Future](create/epic-future/README.md)
+  * [Infinite Players](create/epic-future/infinite-players.md)
+  * [Minting Pages](create/epic-future/minting-pages.md)
 
 ## 📼 Collect
 
