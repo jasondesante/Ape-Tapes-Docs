@@ -34,5 +34,5 @@ You can access dated blockchain indexer data using the playlist format.  It won'
 
 #### DAMN
 
-Serverless Playlists are an important part in a decentralized autonomous music network (DAMN).
+Serverless Playlists are an important part in a [Decentralized Autonomous Music Network (DAMN).](../../introduction/welcome/d.a.m.n..md)
 

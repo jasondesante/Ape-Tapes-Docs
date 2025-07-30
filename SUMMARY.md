@@ -4,6 +4,7 @@
 
 * [Welcome](README.md)
   * [Target Audiences](introduction/welcome/target-audiences.md)
+  * [D.A.M.N.](introduction/welcome/d.a.m.n..md)
 
 ## 🍏 Consume
 
@@ -58,6 +59,8 @@
     * [Arweave](create/the-metadata-maker/using-the-metadata-maker/arweave.md)
     * [Metadata](create/the-metadata-maker/using-the-metadata-maker/metadata.md)
     * [Adding Licenses](create/the-metadata-maker/using-the-metadata-maker/adding-licenses.md)
+    * [Upgrading Plain Audio](create/the-metadata-maker/using-the-metadata-maker/upgrading-plain-audio/README.md)
+      * [How To Enhance Any Audio](create/the-metadata-maker/using-the-metadata-maker/upgrading-plain-audio/how-to-enhance-any-audio.md)
   * [Song Metadata](create/the-metadata-maker/song-metadata.md)
   * [Profile Metadata (contractURI)](create/the-metadata-maker/profile-metadata-contracturi.md)
   * [Manifest Maker](create/the-metadata-maker/manifest-maker/README.md)
@@ -97,6 +100,7 @@
       * [Promo System Functions](create/smart-contracts/the-code/721j-code/promo-system-functions.md)
       * [Other Functions](create/smart-contracts/the-code/721j-code/other-functions.md)
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
+    * [ABIs](create/smart-contracts/the-code/abis.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
 * [Epic Future Stuff](create/epic-future-stuff/README.md)
   * [Infinite Players](create/epic-future-stuff/infinite-players.md)
