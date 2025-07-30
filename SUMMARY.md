@@ -94,6 +94,7 @@
     * [Other](create/smart-contracts/interface-contracts/other.md)
   * [The Code](create/smart-contracts/the-code/README.md)
     * [721J Code](create/smart-contracts/the-code/721j-code/README.md)
+      * [Variables](create/smart-contracts/the-code/721j-code/variables.md)
       * [Metadata Functions](create/smart-contracts/the-code/721j-code/metadata-functions.md)
       * [Minting Functions](create/smart-contracts/the-code/721j-code/minting-functions.md)
       * [Feature Functions](create/smart-contracts/the-code/721j-code/feature-functions.md)
