@@ -4,52 +4,70 @@ description: Noteworthy 721J Variables
 
 # Variables
 
-These variables are located inside the code of the 721J.
+These variables demonstrate advanced gas optimization techniques used in the 721J smart contract.
 
-## Saving Space
+## Gas Optimization Strategy
 
-Every number is stored as a 256 bit integer by default, unless noted.  Every number you save on chain costs gas. On Ethereum, data is written in 256 bit chunks. You can save gas by making variables smaller than 256 bits when they're written at the same time.  Another idea is to store more than one value in the same variable with **digit packing**.
+Ethereum stores data in 256-bit chunks. Every on-chain storage operation costs gas, so efficient data packing is crucial for cost-effective contracts.
 
-## Noteworthy Variables
+**Digit Packing**: Multiple values stored in a single uint256 by assigning specific digit ranges to different data types. This reduces storage slots and gas costs.
 
-These variables are documented because of the ways they saved space by using **digit packing** techniques or structs.
+**Struct Packing**: Multiple smaller variables combined into a single 256-bit struct when their combined size equals exactly 256 bits.
+
+## Core Variables
 
 ### \_songURIs
 
-`mapping(uint256 => string) private _songURIs;`
+```solidity
+mapping(uint256 => string) private _songURIs;
+```
 
-* **\_songURIs** - takes a number, which is the songId and songGeneration packed into one, and returns the string for the URI. For the input number, the first 18 digits are for the generation, and after are for the song id.
-* **songGeneration** - is stored at the beginning of the number, in the first 18 digits.  This means the largest generation number is 10 \*\* 18.
-* **songId** - Is stored in digits 19+. Saved as songID \* (10 \*\* 18) in \_songURIs.
+**Purpose**: Maps song metadata URIs using a packed key for efficient lookups.
+
+**Key Packing** (input): The `uint256` key combines songId and generation:
+
+* Digits 1-18: `songGeneration` (max value: (10^18) - 1)
+* Digits 19+: `songId` (calculated as songId × 10^18)
+
+**Usage**: To retrieve a URI, pack the songId and generation into a single uint256, then use it as the mapping key. The stored value is simply the metadata string.
 
 ### \_tokenIdInfo
 
-`mapping(uint256 => tokenInfo) private _tokenIdInfo;`
+```solidity
+mapping(uint256 => tokenInfo) private _tokenIdInfo;
+```
 
-* **\_tokenIdInfo** - Remembers what song and rarity each token is. Stores the data of the song id and generation id for each token id. Uses the tokenInfo struct.
-* **tokenInfo** - A struct made up of song and generation. Song and generation are both 128 bit, adding up to a 256 bit struct. Is used in...
+**Purpose**: Stores song and rarity data for each token.
 
-#### Promo Variables
+**Structure**: Uses `tokenInfo` struct with two 128-bit values (song + generation = 256 bits total).
+
+### Promo System Variables
 
 ### \_addressClaim
 
-`mapping(address => uint256) private _addressClaim;`
+```solidity
+mapping(address => uint256) private _addressClaim;
+```
 
-* **\_addressClaim** - Takes an address and outputs a **digit packed** number (called SongOut).  If there is no promo set, the value for the address will be 0.
-* SongOut - Saved as (promoPercentOut \* (10 \*\* 36)) + (songIdOut \* (10 \*\* 18)) + generationOut. Contains the song id, rarity of the promotion reward, and promo percentage which is the discount percent multiplier.&#x20;
-* generation - Stored in digits 0-18.
-* songID - Stored in digits 19-36. Saved as songIdOut \* (10 \*\* 18).
-* promoPercentOut - Stored in digits 37+. Saved as promoPercentOut \* (10\*\*36) in SongOut
+**Purpose**: Contract-wide promotion data per address.
+
+**SongOut Packing**:
+
+* Digits 1-18: `generationOut`
+* Digits 19-36: `songIdOut` (×10^18)
+* Digits 37+: `promoPercentOut` (×10^36)
 
 ### \_addressClaimSpecific
 
-`mapping(address => mapping(uint256 => uint256)) private _addressClaimSpecific;`
+```solidity
+mapping(address => mapping(uint256 => uint256)) private _addressClaimSpecific;
+```
 
-Specific promotions can be set way more granularly than contract wide promotions.
+**Purpose**: Granular promotions requiring specific song/rarity combinations.
 
-* **\_addressClaimSpecific** - Takes an address and a number (SongIn) as input. Outputs a number (SongOut). Both numbers are **digit packed**.&#x20;
-* SongIn - Saved as (songIdIn \* (10\*\*18)) + generationIn. Contains the song id and rarity of the required promo.&#x20;
-* SongOut - Saved as (promoPercentOut \* (10 \*\* 36)) + (songIdOut \* (10 \*\* 18)) + generationOut. Contains the song id and rarity of the promotion reward, as well as promo percentage which is the discount percent multiplier.&#x20;
-* generation - Stored in digits 0-18.
-* songID - Stored in digits 19-36. Saved as songIdOut \* (10 \*\* 18).
-* promoPercentOut - Stored in digits 37+ in SongOut. Saved as promoPercentOut \* (10\*\*36) in SongOut
+**SongIn Packing** (requirement):
+
+* Digits 1-18: `generationIn`
+* Digits 19+: `songIdIn` (×10^18)
+
+**SongOut Packing** (reward): Same structure as `_addressClaim`

@@ -1,19 +1,29 @@
 # FAQ
 
-## I am seeing a warning when logging in with Metamask
+## I'm seeing a scary warning when logging in with Metamask
 
-This is because of the site being hosted on Arweave, and Metamask wanting the server and front end to have matching urls.  This is normal and can be solved by using the specific arns and gateway "contractwizard.arweave.net".
+**Don't panic.** This is Metamask being overly cautious about decentralized sites, not a security issue.
 
-The server is telling the wallet the site is "contractwizard.arweave.net" and any other gateway/arns will show the warning. If the server told metamask the site was "ar://listen" then it would still show warnings. So currently if you go to "listen.ar.io", for example, you will see a warning in your Metamask wallet that is telling you that the server and the website are not matching.  This is normal. Hopefully in the future Metamask will have a cool solution for sites that are hosted with Arweave that use ARNS.
+Here's what's happening: Your site lives on Arweave (the permanent web), but Metamask was designed for traditional websites. When you access the site through different gateways like "listen.ar.io" or other ARNS addresses, Metamask throws a tantrum because it can't match the server signature with the URL.
 
-You can currently access the site through the arns "listen" and "contractwizard". Both ar://listen and ar://contractwizard work. Going forward I think "listen" should be the main arns, and maybe I use the "contractwizard" arns for a direct link to just the creation tools.  I'm open to your suggestions.
+**The fix is simple:** Use the specific gateway `contractwizard.arweave.net` and the warning disappears. This is the URL that matches what the server expects.
 
+**Why this happens:** Metamask wants the server and frontend URLs to match perfectly. Since Arweave sites can be accessed through multiple gateways, this creates a mismatch that triggers the warning. It's like having multiple front doors to the same house, perfectly safe, but confusing for a guard who only knows about one entrance.
 
+**The future:** Eventually, Metamask will get hip to how Arweave works and stop being so neurotic about decentralized hosting. Until then, bookmark `contractwizard.arweave.net` and you're golden.
+
+Top: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.21 AM.png>) Bottom:  ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.31 AM.png>)   Warnings: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.45 AM (1).png>)  :  ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.58 AM.png>)
 
 
 
 ## Why are none of the pictures loading?
 
-Use a VPN!  Your ISP must be blocking Arweave. &#x20;
+**Your ISP is being a buzzkill.** Some internet providers (especially in Australia and similar freedom-loving countries) block Arweave because they don't understand the permanent web yet.
 
-This is a common issue if you live in Australia and similar countries.
+**The solution:** Fire up a VPN and watch everything load perfectly. This isn't a bug in the site, it's your ISP playing gatekeeper to the decentralized future.
+
+## Is this some kind of crypto scam?
+
+**Nope.** This is an open-source project building infrastructure for musicians to own their digital masters. No token sales, no roadmaps to the moon, no celebrity endorsements. Just tools that let artists create verifiable originals and distribute copies without rent-seeking middlemen.
+
+The Contract Wizard has been live on mainnet since 2023, the code is on GitHub, and everything is designed to work forever even if I disappear tomorrow. That's the opposite of a scam, it's antifragile infrastructure.
