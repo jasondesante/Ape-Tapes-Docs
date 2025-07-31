@@ -16,7 +16,7 @@ Serverless Playlists are a big deal because they take messy NFTs with bad or mis
 
 The tools are here to easily upgrade bare tracks to have images and tags, then organize everything into playlists. Most music NFT metadata isn't properly sorted, so we need an additional curation layer to know genres, albums, and other basics. Playlists and metadata upgrading solve this by cleaning up bare metadata and turning it into thicc, curated collections. This improves the listening and browsing experience exponentially as more people actively curate with a love of music.
 
-## Many Such Cases
+## Many Use Cases
 
 Serverless Playlists can be used for more than just curation in The Contract Wizard.  These ideas can solve problems in other domains.
 

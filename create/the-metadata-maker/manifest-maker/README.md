@@ -12,9 +12,9 @@ This page is where you upload all the metadata files for your collection into on
 
 ### Step 1 - Import/Create
 
-Making a manifest is easy.  First name your folder and choose to create a new manifest or import an existing manifest. &#x20;
+Name your folder and choose to create a new manifest or import an existing manifest.
 
-Clicking "Select Manifest" opens the file picker and shows your manifests so you can choose which collection to upgrade.
+Import an existing manifest by clicking "Select Manifest". This opens the [File Picker](../../files/file-picker.md) and shows your manifests so you can choose which collection to upgrade.
 
 ***
 
@@ -24,7 +24,7 @@ Clicking "Select Manifest" opens the file picker and shows your manifests so you
 
 Add files from your computer by dragging and dropping the files into the box. &#x20;
 
-Click the "Select Metadata Files" button to open the File Picker and choose both uploaded and locally saved metadata (which still needs to be uploaded).
+Click the "Select Metadata Files" button to open the [File Picker](../../files/file-picker.md) and choose both uploaded and locally saved metadata (which still needs to be uploaded).
 
 You can replace metadata files if you imported an existing folder. This is very awesome and simplifies upgrading an existing collection by a lot of steps. &#x20;
 

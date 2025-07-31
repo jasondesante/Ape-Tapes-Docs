@@ -17,19 +17,19 @@ layout:
 
 # How To Enhance Any Audio
 
-1. **Go to the Arweave Uploads Page. Click the "Arweave" button, on the right, to open up Arweave querying.**
+1. **Go to the Arweave Uploads Page.**
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-30 at 3.18.35 AM (1).png" alt=""><figcaption></figcaption></figure>
 
-2. **(optional) Search the tx\_id of the audio file you want to enhance. Press "+" to add it to your list.**
+2. **(optional) Click the "Arweave" button, on the right, to open up Arweave querying. Search the tx\_id of the audio file you want to enhance. Press "+" to add it to your list.**
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-30 at 3.20.17 AM.png" alt=""><figcaption></figcaption></figure>
 
-3. **Click the audio file to open the file details. Click "Upgrade Metadata" to open The Metadata Maker.**
+3. **Click the track to open the file details. Click "Upgrade Metadata" to open The Metadata Maker.**
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-30 at 3.25.34 AM.png" alt=""><figcaption></figcaption></figure>
 
-4. **Enhance the metadata in any way you want. Save it once you're ready.**
+4. **Enhance the metadata in any way you want. Add tags, images, all the things. Save it once you're ready.**
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-30 at 3.31.08 AM.png" alt=""><figcaption></figcaption></figure>
 

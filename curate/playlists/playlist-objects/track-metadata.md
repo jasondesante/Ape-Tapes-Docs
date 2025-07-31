@@ -2,15 +2,17 @@
 
 The track metadata is the stringified JSON content inside each track object's `metadata` field. When parsed, this contains the actual audio links, artwork, and detailed track information that players use.
 
-### Two Types of Tracks
+## Two Types of Tracks
 
-#### Adding A Token (NFT)
+There are two main types of tracks you can add to playlists. Tokens or files. Tokens are found on Ethereum and other blockchains. Files are found on Arweave.
+
+### Adding A Token (NFT)
 
 When a track represents an NFT, it probably follows NFT metadata standards (like [OpeaSea's](https://docs.opensea.io/docs/metadata-standards)). The most important thing is whether the token has audio in it or not.
 
 The audio will be checked at the most standard field `animation_url` and then also `audio_url`, `lossless_audio`, `mp3_url`, and `lossy_audio`. If nothing is found in those fields in the stringified object in the metadata field, then it won't show up in the player. **The player only shows tokens that have something in those fields.**
 
-#### Adding A File (Direct Upload)
+### Adding A File (Direct Upload)
 
 When a track represents a direct file upload, it won't follow any metadata standards initially. Tracks in playlists fall anywhere in the spectrum from undocumented file to thicc metadata, and it's when the file is added that it's formatted like metadata so everything works.
 
@@ -28,7 +30,7 @@ Players check for audio in this order:
 4. `mp3_url` - Compressed audio
 5. `lossy_audio` - Alternative compressed audio field
 
-### Metadata Standards
+## Metadata Standards
 
 Track metadata follows the ultimate bedrock of NFT metadata standards: the [OpenSea metadata standards](https://docs.opensea.io/docs/metadata-standards). That's where `animation_url` comes from, among other fields.
 
@@ -38,7 +40,7 @@ For the complete specification of thicc music NFT metadata, see [Token Metadata 
 
 {% embed url="https://github.com/jasondesante/721J-Token/blob/master/Metadata%20Templates/token_uri_template_blank.json" %}
 
-### Example Parsed Metadata
+## Example Parsed Metadata
 
 When the stringified metadata is parsed, it might look like:
 
@@ -57,3 +59,32 @@ json
 ```
 
 This parsed content is what drives the actual playback experience across the decentralized web.
+
+### Attributes
+
+Attributes is an important array of objects that represents the traits that will show up on a secondary NFT marketplace like OpenSea. Some notable attributes that are added to playlist tracks are:
+
+* Playlist Index - The spot the track is in the playlist order.
+* Chain Name - The chain that the track is from.
+* Selected Mix - The name of the mix, if an alternate mix has been selected.
+
+The new entries to the attributes array looks like this:&#x20;
+
+{% code overflow="wrap" %}
+```
+[
+    {
+        "trait_type":"Playlist Index",
+        "value":1
+    },
+    {
+        "trait_type":"Chain Name",
+        "value":"mainnet"
+    },
+    {
+        "trait_type":"Selected Mix",
+        "value":"Extended VIP"
+    }
+]
+```
+{% endcode %}

@@ -28,15 +28,15 @@ You can listen to alternate mixes of songs if the metadata has it in the mixes s
 
 Alternate mixes are one of the coolest features of the player because it has the possibility to provide really special listening experiences depending on the functionality and mixes.
 
+### Fun Mode
+
+Click the "Fun Mode" button to open a menu that lets you adjust the playback speed of the song.  There's even a button that adjusts the speed to the current daily Bitcoin candle. Turn volatility into fun.
+
 ## Add to Playlists
 
 Click the heart icon to add the track to your favorites. &#x20;
 
 Click the + to add the track to a custom playlist.
-
-#### Fun Mode
-
-Click the "Fun Mode" button to open a menu that lets you adjust the playback speed of the song.  There's even a button that adjusts the speed to the current daily Bitcoin candle. Turn volatility into fun.
 
 ## Customize Colors
 

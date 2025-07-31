@@ -28,6 +28,6 @@ When set to Ethereum Testnet, you can similarly search any wallet or contract ad
 
 ## Arweave Searching
 
-For Arweave, you can switch the chain setting to Arweave and search using transaction IDs (tx\_ids). This enables you to find specific uploads, including audio files, metadata files, or playlists. If you are interested in searching Arweave tags, a separate page called the Arweave Explorer page is available.&#x20;
+For Arweave, you can switch the chain setting to Arweave and search using transaction IDs (tx\_ids). This enables you to find specific uploads, including **audio** files, **metadata** files, or **playlists**. If you are interested in searching Arweave tags, a separate page called the Arweave Explorer page is available.&#x20;
 
-This page lets you search for audio files and playlists using specific tags, providing a more targeted search option than just using tx\_ids.
+On the Arweave Explorer page you can search for audio files and playlists using specific tags, providing a more targeted search option than just using tx\_ids.

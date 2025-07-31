@@ -1,6 +1,8 @@
 # File Picker
 
-Pick files with ease.
+Pick files with ease.&#x20;
+
+Select uploaded Arweave files for metadata/manifest creation, streamlining workflows.
 
 ## No More Forgetting
 

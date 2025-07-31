@@ -11,10 +11,12 @@
 * [Universal Music Player](consume/universal-music-player/README.md)
   * [Player Page](consume/universal-music-player/player-page.md)
   * [Player Controls](consume/universal-music-player/player-controls.md)
+  * [Other Features](consume/universal-music-player/other-features.md)
   * [Embedded Player](consume/universal-music-player/embedded-player.md)
   * [Visualizer](consume/universal-music-player/visualizer/README.md)
     * [Hotkeys](consume/universal-music-player/visualizer/hotkeys.md)
     * [Custom Shaders](consume/universal-music-player/visualizer/custom-shaders.md)
+    * [More Visualizer Features](consume/universal-music-player/visualizer/more-visualizer-features.md)
 * [Discover](consume/discover/README.md)
   * [The Featured Page](consume/discover/the-featured-page.md)
   * [The Browse Page](consume/discover/the-browse-page/README.md)
@@ -40,6 +42,7 @@
   * [Choosing An Image](curate/creating-a-playlist/choosing-an-image.md)
   * [Adding Songs](curate/creating-a-playlist/adding-songs.md)
   * [Uploading Playlist](curate/creating-a-playlist/uploading-playlist.md)
+* [The Mission](curate/the-mission.md)
 
 ## 💿 Create
 
@@ -137,8 +140,12 @@
 
 ## 🥩 Misc
 
+* [Fun Pages](misc/fun-pages/README.md)
+  * [Records Page](misc/fun-pages/records-page.md)
+  * [Achievements Page](misc/fun-pages/achievements-page.md)
 * [FAQ](misc/faq.md)
-* [Settings](misc/settings.md)
+* [Settings](misc/settings/README.md)
+  * [Wallets And Auth](misc/settings/wallets-and-auth.md)
 * [Roadmap](misc/roadmap/README.md)
   * [Funding](misc/roadmap/funding.md)
   * [Future Development Plans](misc/roadmap/future-development-plans.md)

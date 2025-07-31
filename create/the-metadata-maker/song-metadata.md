@@ -22,6 +22,12 @@ The "Required" tab also contains some optional fields such as:
 * Collaborating Artists
 * [ISRC](metadata-standards/token-metadata/noteworthy-traits.md#isrc)
 
+### Analyze Audio
+
+When you add audio, there's more than just adding the url to the audio file.  There's the file type, sample rate, bit depth, and duration which are also important fields to make sure your audio has informative metadata.&#x20;
+
+When you add a file, it should be automatically analyzed and the site should make it's best guess about what the type, quality, and duration are.
+
 ## Optional
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-16 at 11.48.57 PM.png" alt=""><figcaption><p>Open each category to see what's inside!</p></figcaption></figure>
@@ -66,10 +72,4 @@ The Extra tab contains additional categories of metadata that unlock new functio
 * [Credits](metadata-standards/token-metadata/grouped-traits.md#credits)
 * [Stems](metadata-standards/token-metadata/grouped-traits.md#stems)
 * [Mixes](metadata-standards/token-metadata/grouped-traits.md#mixes)
-
-### Metadata Functions
-
-For contract owners, set the metadata when an original is created, or with the setSongURI function.
-
-View the metadata with the tokenURI or songURI functions on your smart contract. &#x20;
 

@@ -31,3 +31,14 @@ From there you can continue to upgrade it until you're ready to permanently uplo
 When you upload a local metadata file it gets the "uploaded" tag so you can tell which ones are safe to delete. This also helps you see that the uploaded file which has a tx\_id it's immutable, but the local file is still possible to be edited. This helps you get a feel and understand that Arweave is permanent data, and lets you decide if you want to keep the local file around for future edits possibly.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-18 at 5.17.31 PM.png" alt=""><figcaption><p>These pieces of metadata are local and were uploaded. They have new entries with tx_id's. These are safe to delete.</p></figcaption></figure>
+
+### Query Arweave
+
+You can query Arweave through the Uploads Page. Add the files to your library to be accessed with the File Picker in The Metadata Maker.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-31 at 3.54.37 AM.png" alt=""><figcaption><p>The button to query Arweave is on the right. Next to the grid/list buttons.</p></figcaption></figure>
+
+To query Arweave just click the Arweave button on the right side of the top bar. You will then see the files uploaded by your wallet. Filtered to that category, audio, files, metadata, manifests, or playlists. If you want to add a different file just enter the tx\_id in the search.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-31 at 3.55.03 AM.png" alt=""><figcaption><p>Add any file, search by tx id</p></figcaption></figure>
+

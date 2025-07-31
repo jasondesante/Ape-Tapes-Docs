@@ -4,7 +4,7 @@ description: On chain and searchable.
 
 # Audio Tags
 
-Every audio file is tagged this way. This ensures a nice base layer of discoverability. Every audio file gets tagged whether they're uploaded with the audio uploader or in a bundle with The Metadata Maker.
+Every audio file gets tagged when it's uploaded. This ensures a base layer of discoverability. Every audio file gets tagged whether they're uploaded with the audio uploader or in a bundle with The Metadata Maker.
 
 ## Default Tags
 

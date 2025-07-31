@@ -14,6 +14,10 @@ You can Drag & Drop files from your computer to be added to the metadata and upl
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 12.10.53 AM.png" alt=""><figcaption></figcaption></figure>
 
+### Resize Images
+
+Drag an image into the upload box and watch it get automatically resized, with those files being prepared to be uploaded too.  This creates a metadata file with 3 quality versions of the image which lets you build faster and more efficient front ends.
+
 ### File Picker
 
 The File Picker lets you select previously uploaded files to insert into the proper spots in The Metadata Maker.  There's many optimizations using The File Picker, for example you can grab sets of 3 images all at once when you're dealing with an image that needs it's resized variants.
