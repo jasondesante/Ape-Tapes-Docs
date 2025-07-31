@@ -24,3 +24,4 @@ This has been the only site that whole time. Other music NFT sites would show a 
 
 If you have any feedback and requests please let me know. This player needs to be able to support all music in web3.
 
+{% embed url="https://youtu.be/0-dcvUIjN1U?si=d94whKO68a6rxWsZ" %}

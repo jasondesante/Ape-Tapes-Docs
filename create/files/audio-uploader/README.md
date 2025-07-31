@@ -25,3 +25,5 @@ Once you've created some thicc metadata you'll see the next steps. Create your r
 Before you know it you'll have accumulated many files across your creations. Then you will fully understand the benefits of these tools.
 
 #### What Will You Create?
+
+{% embed url="https://youtu.be/0-dcvUIjN1U?si=d94whKO68a6rxWsZ" %}

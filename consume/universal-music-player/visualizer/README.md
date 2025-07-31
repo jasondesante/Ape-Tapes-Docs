@@ -60,5 +60,5 @@ Drag any _**HDR image**_ that is 8k resolution or less and it will be used as th
 
 In FPS Mode, press e.  Then you can play with fun samples while listening.
 
-
+{% embed url="https://youtu.be/_qkImgjrPNQ?si=5Tqsi5KZAjhNA6WU" %}
 
