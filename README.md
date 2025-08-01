@@ -16,7 +16,7 @@ It was like owning a record collection but only being able to play one song at a
 
 I had released my own music as NFTs and realized I couldn't even create a decent listening experience for my friends. They'd mint a token, then... what? Go back to SoundCloud to actually enjoy music? That seemed insane.
 
-The infrastructure existed, people were creating incredible music NFTs with rich metadata. But there was no music player designed to unlock any of that potential. No way to browse collections like albums. No playlists. No discovery beyond scrolling through marketplace grids.
+People were creating incredible music NFTs with rich metadata. But there was no music player designed to unlock any of that potential. No way to browse collections like albums. No playlists. No discovery beyond scrolling through marketplace grids.
 
 So I built one. Started with a simple player for my own contract, then realized: what if any artist could create their own contract just as easily? What if we had real playlists? Real discovery tools?
 
