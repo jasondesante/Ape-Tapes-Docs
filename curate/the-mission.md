@@ -1,54 +1,53 @@
 # The Mission
 
-## The Master Quest
+### We're Losing the Music
 
-Curation is a goal for the collective.  Each person contributes to decentralized curation.  Effort is rewarded as being a tastemaker in web3 is truly valuable. &#x20;
+Right now, somewhere on Arweave, there's a track that would change your week. Maybe it's a bedroom producer from São Paulo who uploaded their best work at 3 AM. Maybe it's a field recording from a street musician in Lagos that someone minted as a one-off NFT. Maybe it's a demo that never made it to streaming platforms.
 
-Curators put in the effort to discover things, which builds their reputation as they curate high quality playlists.
+You'll never find it.
 
-Tag untagged tracks, create playlists. The library of curated and tagged content has the capability to grow endlessly.
+Not because it doesn't exist, but because it sits in a digital wasteland with no artist name, no genre tag, no breadcrumbs leading back to it. It might as well not exist.
 
-As a curator you find undiscovered music, and create the path for the next person. Tag the tracks if they need tags. Add them to a playlist if you want. Collectively everyone who does this adds up each other's tastes into a decentralized curation pool.
+This is what's happening to music in web3: we're creating more orphaned audio than the world has ever seen. And while we're busy talking about royalties and tokens, entire scenes are disappearing into the void simply because nobody can discover them.
 
-## The Curation Problem
+### What We're Really Fighting
 
-Currently greater than 99% of audio uploaded to Arweave has little to no tags or useful metadata.&#x20;
+The streaming giants solved discovery by building recommendation engines that optimize for engagement, not connection. They'll show you the same 40 songs until you die, with the occasional "discovery" that's actually a paid placement.
 
-For most music NFTs, you're lucky to find the artist name in the metadata.
+Web3 promised something different: direct artist-to-fan relationships, ownership, real scarcity. But we created a worse discovery problem than we started with. At least Spotify's algorithm _finds_ you music, even if it's soulless. Our music sits tagged with nothing but a transaction hash.
 
-It's up to us, the listeners, to curate things and add tags when they're missing.  This is easily solved with Serverless Playlists and The Metadata Maker. The tools enhance the discoverability of your tracks and anything else you enjoy listening to that needs better tags.
+Meanwhile, the people who care most about music - the collectors, the scene builders, the obsessives who used to spend weekends digging through record bins - are doing nothing with the best curation tools that have ever existed.
 
-## The Solution
+### The Actual Solution
 
-Together we can start curating decentralized content in simple, easy to understand ways. This will encourage others to participate. &#x20;
+**Find one track this week that moves you and has no metadata.** Wrap it properly. Add the artist, year, genre, mood - whatever would help someone else discover it. This isn't busy work; it's archaeology. You're preserving culture.
 
-Open discussion and collaboration is important to discover the best forms of curation.  As more people curate and tag tracks, the more the fog lifts and it becomes easier for anyone to search simple tags and casually enjoy. &#x20;
+**Build playlists like you're programming a radio station.** Not just "songs I like" but "3 AM drives through empty cities" or "the sound of Detroit in 1987" or "what heartbreak sounds like in different languages." Each playlist becomes a portal into a specific feeling or moment that algorithms will never understand.
 
-### Connecting Strands
+**Connect the dots between music and everything else.** That visual art NFT and this experimental track were made by the same person? Link them. This song samples that field recording? Note it. This playlist captures a specific scene or moment in time? Document it. You're building the connective tissue of digital music culture.
 
-Without The Metadata Maker, there would be no way to tag the untagged. Without tags, you can't search.  If other platforms aren't going to coordinate tags, then we can still wrap their good tracks in metadata to enhance the experience for listeners and future curators. Listeners don't need to suffer because of inconsistent tags, this is an open system and we can fix things for the next listener.
+Here's what happens when you do this right: Other obsessives find your work. Artists notice when you enhance their metadata and start making better metadata themselves. Your playlists become destinations. Your taste becomes trusted signal in an ocean of noise.
 
-### Wrapping Metadata
+And eventually, the infrastructure exists for you to monetize that trust - through token-gated playlists, premium curation services, or simply building a reputation valuable enough that people pay for your recommendations.
 
-For files missing artist or genre tags, you can wrap them with proper metadata so the next person has a better search experience. By connecting audio files with images and adding track information, you create an enjoyable listening experience that's discoverable by the next person.
+This isn't theoretical - the tools exist right now. [The Metadata Maker](../create/the-metadata-maker/) lets you wrap orphaned files in rich, searchable information. [Serverless Playlists](playlists/) let you build discovery pathways that work across any platform.
 
-This is how listeners help their favorite artists who might have made metadata mistakes. When fans upgrade simple audio files into thicc metadata that references the original source, it creates a strong incentive for artists to acknowledge the improvements. Quality rises to the top naturally.
+### What Success Actually Looks Like
 
-The highest quality metadata wins because it's the easiest to search and most accurate. Good metadata for each track enhances playlists as a whole, no token needs to be left behind. It's frictionless collaboration between artists and listeners to create the metadata experience everyone actually wants.
+Imagine opening your music discovery app and choosing between a dozen different curation engines, each built by someone with impeccable taste in a specific domain. The emo revival specialist. The global bass curator. The ambient meditation architect. Each one finding gems the others miss, each one serving a different part of your musical needs.
 
-### Serverless Playlists
+Or imagine being that curator - known throughout web3 as the person who finds the best UK drill before anyone else, or who builds the perfect late-night jazz playlists, or who consistently surfaces the most interesting experimental electronic music from unexpected places.
 
-Playlists are an important building block to solving decentralized curation. Groups of tracks that are tagged a certain way from a particular curator.  The tags are important for searching, but the curator is also important.  Each curator has their own identity and unique tastes, which can be seen as their voice.  Skilled curators will become worth following because of the quality of their playilsts. This creates a new layer of value.
+The tools exist. The music exists. The only missing piece is us, working together.
 
-### Rewarding Curators
+### The Stakes
 
-This is still to be seen because we need to get more people using the site, curating playlists, and all that stuff. But you can easily imagine a situation where the best curators of the decentralized web make a name for themselves, and then tokenize their playlists, create private playlists, etc. Anything fun and creative is possible. Even simple NFTs with custom playlist art related to a popular playlist made by a popular curator would be a great example of a reason to mint something for fun.&#x20;
+If we don't solve this, web3 music becomes a graveyard of good intentions. Artists will stop releasing here because nobody discovers their work. Collectors will stop collecting because they can't find quality. The most promising music technology since the electric guitar becomes just another way for rich people to flip JPEGs.
 
-I'm confident that the best curators will find ways to monetize their work which will lead to them having even more fun.
+But if we solve it - if passionate listeners build the discovery infrastructure that passionate listeners actually want - we build something unprecedented: a music ecosystem where taste matters more than marketing budgets, where scenes can grow organically across global networks, where the best music rises regardless of who's pushing it.
 
-## The Future
+That's worth building together. That's worth fighting for. That's worth a few hours of your weekend.
 
-Choice of algorithm.
+Start with one track. Find something beautiful that nobody can find. Fix that.
 
-Anyone can build their own algorithms and quality filters with the same set of audio, metadata, and playlists.  The best algorithms and voting mechanics will win.  This is where things can get interesting because we can all share the same base layer of tagged audio, and finally have true **choice of algorithm**.
-
+The rest follows.

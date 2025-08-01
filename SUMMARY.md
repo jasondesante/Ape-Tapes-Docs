@@ -31,6 +31,7 @@
 
 ## 🍳 Curate
 
+* [The Mission](curate/the-mission.md)
 * [Playlists](curate/playlists/README.md)
   * [Playlist Tags](curate/playlists/playlist-tags.md)
   * [Playlist Objects](curate/playlists/playlist-objects/README.md)
@@ -42,7 +43,6 @@
   * [Choosing An Image](curate/creating-a-playlist/choosing-an-image.md)
   * [Adding Songs](curate/creating-a-playlist/adding-songs.md)
   * [Uploading Playlist](curate/creating-a-playlist/uploading-playlist.md)
-* [The Mission](curate/the-mission.md)
 
 ## 💿 Create
 
@@ -106,9 +106,9 @@
     * [Contract Wizard Code](create/smart-contracts/the-code/contract-wizard-code.md)
     * [ABIs](create/smart-contracts/the-code/abis.md)
   * [Gas Examples](create/smart-contracts/gas-examples.md)
-* [Epic Future](create/epic-future/README.md)
-  * [Infinite Players](create/epic-future/infinite-players.md)
-  * [Minting Pages](create/epic-future/minting-pages.md)
+* [Build Your Vision](create/build-your-vision/README.md)
+  * [Infinite Players](create/build-your-vision/infinite-players.md)
+  * [Minting Pages](create/build-your-vision/minting-pages.md)
 
 ## 📼 Collect
 
