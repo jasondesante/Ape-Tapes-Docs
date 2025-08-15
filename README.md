@@ -8,7 +8,7 @@ description: >-
 
 ## The Problem That Started Everything
 
-By 2022, music NFTs were everywhere. Artists were minting their tracks, collectors were buying them, but here's the thing nobody talks about: there was nowhere to actually _listen_ to them properly.
+By 2022, music NFTs were everywhere. Artists were minting their tracks, collectors were buying them, but there was nowhere to actually _listen_ to them properly.
 
 Sure, you could go to OpenSea and click through your collection one by one. But try building a playlist. Try discovering new music. Try having anything resembling a normal music listening experience.
 
