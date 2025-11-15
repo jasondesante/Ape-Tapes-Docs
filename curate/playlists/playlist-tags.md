@@ -26,7 +26,7 @@ Right now there are 3 playlist tags written by the user:
 * `Genre:`(genre)
 * `Audio-Tag:`(audio tag)
 
-There's only ever one Genre tag but there can be multiple Audio-Tag tags.
+There can be multiple Audio-Tag tags but only one Genre tag. Remember to [convert everything to lowercase](playlist-tags.md#importance-of-lower-case-tags) so it's easier to search.
 
 [Here](https://viewblock.io/arweave/tx/4WCirOpvoCEOa_SwBqzyyxSXIBmSQ6kfkfAEueXa0IQ) is an example of a published playlist's tags.
 
@@ -59,4 +59,4 @@ You can also do a query on other sites and see what happens when you search App-
 
 #### Importance of Lower Case Tags
 
-Every user controlled tag gets turned into lower case so it's easier to search. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags.
+Every user controlled tag gets turned into lower case so it's easier to search. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags. This makes it easier to query the tags on Arweave and prevents mistakes.
