@@ -65,7 +65,7 @@ Every user controlled tag gets turned into lower case so it's easier to search. 
 
 If you write your custom tags in lower case:
 
-* Searching the file takes half the work, is twice as fast.
+* Searching is twice as fast.
 * Easier for other builders to implement.&#x20;
 * More likely to show up in search results.
 
