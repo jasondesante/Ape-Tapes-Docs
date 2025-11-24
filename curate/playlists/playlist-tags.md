@@ -18,6 +18,8 @@ Every playlist uploaded with The Contract Wizard has these tags added to them:
 * `IPFS-CID:`(ipfs content id)
 * `Uploaded-By:`(wallet that uploaded)
 
+The most important is **Uploaded-Type:Playlist**. Make sure you write that exactly, as that tag is how all playlists are queried.
+
 ## Custom Tags
 
 Right now there are 3 playlist tags written by the user:
@@ -42,7 +44,7 @@ You can also do a query on other sites and see what happens when you search App-
 
 ## Playlist Tags Explained
 
-**Uploaded-Type: The File Category** The most important tag for searching. For playlist uploads, this is always "Playlist" to distinguish from audio, metadata, and manifests.
+**Uploaded-Type:Playlist** The most important tag for searching. For playlist uploads, this is always "Playlist" to distinguish from audio, metadata, and manifests. The "Playlist" value is capitalized because it is a value that will never change.
 
 ### **System Tags (Always the Same)**
 
@@ -51,7 +53,7 @@ You can also do a query on other sites and see what happens when you search App-
 * **IPFS-CID** - The IPFS content ID for permanent pinning
 * **Uploaded-By** - The wallet address of the uploader
 
-### **User-Controlled Tags**
+### **User-Controlled Tags (lower case values)**
 
 * **Title** - The name you give your playlist
 * **Genre** - Musical genres you assign
@@ -60,3 +62,8 @@ You can also do a query on other sites and see what happens when you search App-
 #### Importance of Lower Case Tags
 
 Every user controlled tag gets turned into lower case so it's easier to search. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags. This makes it easier to query the tags on Arweave and prevents mistakes.
+
+If you write your custom tags in lower case:
+
+* The searching gets literally twice as efficient
+* You're more likely to show up on searches

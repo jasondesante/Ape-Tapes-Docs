@@ -18,6 +18,8 @@ Every audio file uploaded has these tags added to them:
 
 `Uploaded-By:`(wallet that uploaded)
 
+The most important tag when uploading audio or audio metadata, is the tag "**Uploaded-Type:Audio**". This gives a common tag to both audio files and metadata, letting them both show up with one query. For the most efficient tagging of audio, in metadata or pure audio file, don't forget "**Uploaded-Type:Audio**" when building your own uploader/tagger.&#x20;
+
 ## **Custom Tags**
 
 Custom tags are written by the user. Right now there are 5 optional audio tags:
@@ -32,7 +34,7 @@ Custom tags are written by the user. Right now there are 5 optional audio tags:
 
 `Audio-Tag:`(audio tag)
 
-There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags.
+There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags. Remember to [convert everything to lowercase](audio-tags.md#importance-of-lower-case-tags) so it's easier to search.
 
 [Here](https://viewblock.io/arweave/tx/BDhxHebKarvMgDtM5t7fX2S6eGGroRF_7NLFgQ7ixgE) is an example of a published audio file's tags.
 
@@ -48,7 +50,7 @@ You can also do a query on other sites and see what happens when you search App-
 
 ## **Audio Tags Explained**
 
-**Uploaded-Type: The File Category** The most important tag for searching. For audio uploads, this is always "Audio" to distinguish from playlists, metadata, and manifests.
+**Uploaded-Type:Audio** The most important tag for searching. For audio uploads, this is always "Audio" to distinguish from playlists, and manifests. The "Audio" value is capitalized because it is a value that will never change.
 
 ### **System Tags (Always the Same)**
 
@@ -60,7 +62,7 @@ You can also do a query on other sites and see what happens when you search App-
 
 **Uploaded-By** - The wallet address of the uploader
 
-### **User-Controlled Tags**
+### **User-Controlled Tags (all lower case values)**
 
 **Title** - The name of your track
 
@@ -75,4 +77,11 @@ You can also do a query on other sites and see what happens when you search App-
 #### Importance of Lower Case Tags
 
 Every user controlled tag gets turned into lower case, except ISRC, so it's easier to search. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags.
+
+If you write your custom tags in lower case:
+
+* The searching gets literally twice as efficient
+* You're more likely to show up on searches
+
+
 
