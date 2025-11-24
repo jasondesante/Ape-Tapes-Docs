@@ -65,5 +65,14 @@ Every user controlled tag gets turned into lower case so it's easier to search. 
 
 If you write your custom tags in lower case:
 
-* The searching gets literally twice as efficient
-* You're more likely to show up on searches
+* Searching the file takes half the work, is twice as fast.
+* Easier for other builders to implement.&#x20;
+* More likely to show up in search results.
+
+### Ready To Build
+
+You can build your own site to listen to playlists, create new ones, or curate the existing library of playlists to find the best ones. The possibilities are endless!
+
+These tags are made to create a shared library of files that can be easily searched and shared across decentralized apps. This is open for anyone to contribute to with their tagged files or by curating the growing archive.&#x20;
+
+When building your own uploader/tagger, for the most efficient tagging don't forget "**Uploaded-Type:Playlist**" to contribute to the library.

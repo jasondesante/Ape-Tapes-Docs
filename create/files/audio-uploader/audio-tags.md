@@ -18,7 +18,7 @@ Every audio file uploaded has these tags added to them:
 
 `Uploaded-By:`(wallet that uploaded)
 
-The most important tag when uploading audio or audio metadata, is the tag "**Uploaded-Type:Audio**". This gives a common tag to both audio files and metadata, letting them both show up with one query. For the most efficient tagging of audio, in metadata or pure audio file, don't forget "**Uploaded-Type:Audio**" when building your own uploader/tagger.&#x20;
+The most important tag when uploading audio or metadata, is "**Uploaded-Type:Audio**". This gives a common tag to both audio files and audio metadata, letting them both show up with one query.&#x20;
 
 ## **Custom Tags**
 
@@ -62,7 +62,7 @@ You can also do a query on other sites and see what happens when you search App-
 
 **Uploaded-By** - The wallet address of the uploader
 
-### **User-Controlled Tags (all lower case values)**
+### **User-Controlled Tags (lower case except ISRC)**
 
 **Title** - The name of your track
 
@@ -76,12 +76,17 @@ You can also do a query on other sites and see what happens when you search App-
 
 #### Importance of Lower Case Tags
 
-Every user controlled tag gets turned into lower case, except ISRC, so it's easier to search. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags.
+Every value in a user controlled tag gets turned into lower case, so it's easier to search. ISRC is the exception because it's an exact code. If this wasn't done then "rock" and "Rock" would be treated as different genres, so it's best to convert any capitals into lower case so there's no confusion when searching those tags.
 
 If you write your custom tags in lower case:
 
-* The searching gets literally twice as efficient
-* You're more likely to show up on searches
+* Searching the file takes half the work, is twice as fast.
+* Easier for other builders to implement.&#x20;
+* More likely to show up in search results.
 
+### Ready To Build
 
+These tags are made to create a shared library of files that can be easily searched and shared across decentralized apps. This is open for anyone to contribute to with their tagged files or by curating the growing archive.&#x20;
+
+When building your own uploader/tagger, for the most efficient tagging don't forget "**Uploaded-Type:Audio**" for audio files and audio metadata.
 
