@@ -28,7 +28,7 @@ Right now there are 3 playlist tags written by the user:
 * `Genre:`(genre)
 * `Audio-Tag:`(audio tag)
 
-There can be multiple Audio-Tag tags but only one Genre tag. Remember to [convert everything to lowercase](playlist-tags.md#importance-of-lower-case-tags) so it's easier to search.
+There can be multiple Audio-Tag tags but only one Genre tag. **Remember** to [convert everything to lowercase](playlist-tags.md#importance-of-lower-case-tags) so it's easier to search.
 
 [Here](https://viewblock.io/arweave/tx/4WCirOpvoCEOa_SwBqzyyxSXIBmSQ6kfkfAEueXa0IQ) is an example of a published playlist's tags.
 

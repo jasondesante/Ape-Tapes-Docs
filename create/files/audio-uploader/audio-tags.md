@@ -34,7 +34,7 @@ Custom tags are written by the user. Right now there are 5 optional audio tags:
 
 `Audio-Tag:`(audio tag)
 
-There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags. Remember to [convert everything to lowercase](audio-tags.md#importance-of-lower-case-tags) so it's easier to search.
+There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags. **Remember** to [convert everything to lowercase](audio-tags.md#importance-of-lower-case-tags) so it's easier to search.
 
 [Here](https://viewblock.io/arweave/tx/BDhxHebKarvMgDtM5t7fX2S6eGGroRF_7NLFgQ7ixgE) is an example of a published audio file's tags.
 
