@@ -3,9 +3,9 @@
 ## 👋 Introduction
 
 * [Welcome](README.md)
-  * [Context Files](introduction/welcome/context-files.md)
-  * [Target Audiences](introduction/welcome/target-audiences.md)
   * [D.A.M.N.](introduction/welcome/d.a.m.n..md)
+  * [Target Audiences](introduction/welcome/target-audiences.md)
+* [Context Files](introduction/context-files.md)
 
 ## 🍏 Consume
 

@@ -24,8 +24,7 @@ Currently files under 100kb are free.
 
 ## After Publishing
 
-Once your playlist is published, you can share it across the internet. It's stored permanently, and is easily discoverable because of the tags. Now you have an immutable playlist that can be played with immutable players.\
-
+Once your playlist is published, you can share it across the internet. It's stored permanently, and is easily discoverable because of the tags. Now you have an immutable playlist that can be played with immutable players.<br>
 
 The next steps are to build a way to rank the playlists so the best playlists and curators can be recognized.  Now that you can search a particular genre, the tracks and playlists need to be able to be ranked and sorted.
 

@@ -4,8 +4,7 @@ description: Lots and lots of hotkeys
 
 # Hotkeys
 
-The visualizer has lots of hotkeys. 90 last time I counted. Hotkeys are case sensitive.\
-
+The visualizer has lots of hotkeys. 90 last time I counted. Hotkeys are case sensitive.<br>
 
 <div data-full-width="true"><figure><img src="../../../.gitbook/assets/Screenshot 2025-07-12 at 3.06.28 AM.png" alt="Visualizer Hotkeys keyboard map"><figcaption><p>Visualizer Hotkeys (made with <a href="https://archie-adams.github.io/keyboard-shortcut-map-maker/">https://archie-adams.github.io/keyboard-shortcut-map-maker/</a> )</p></figcaption></figure></div>
 
