@@ -14,7 +14,9 @@ Before publishing a playlist it's recommended that you choose an image, have a d
 
 The genre and audio tags are important for classifying your audio so it can be found when different terms are searched.  This is essential because having genre and audio tags are the only way to start that base layer of curation.
 
-Custom tags are there too.  Adding a license like a UDL could be cool if you want to control access to the playlist itself.
+Custom tags are stored as `Search-Tag` entries, and the playlist Title, Genre, and Artist values are also automatically duplicated as Search-Tags for unified search. You can also set the playlist type (new, remix, ep, lp, single) which determines additional tags added on-chain.
+
+Adding a license like a UDL could be cool if you want to control access to the playlist itself.
 
 ![](<../../.gitbook/assets/Screenshot 2025-07-12 at 11.16.49 PM.png>)
 

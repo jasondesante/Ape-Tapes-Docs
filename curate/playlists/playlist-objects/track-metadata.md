@@ -24,11 +24,15 @@ A file that's added to a playlist will have a JSON object created when it's adde
 
 Players check for audio in this order:
 
-1. `animation_url` - OpenSea standard (can be audio, video, or other)
-2. `audio_url` - More specific audio field
-3. `lossless_audio` - High quality audio
-4. `mp3_url` - Compressed audio
-5. `lossy_audio` - Alternative compressed audio field
+1. `mp3_url` - Standard web audio (preferred)
+2. `lossy_audio` - Compressed audio
+3. `audio_url` - Explicit audio field
+4. `lossless_audio` - High quality audio
+5. `animation_url` - OpenSea standard (can be audio, video, or other)
+6. `audio` - Bare audio field (some platforms use this instead of audio_url)
+7. `multimedia_url` - Alternative media field
+
+For lossless audio specifically, the priority is: `audio_url` → `lossless_audio` → `wav_url` → `flac_url`.
 
 ## Metadata Standards
 

@@ -17,7 +17,8 @@ json
   "tags": ["spinamp", "eva myra may", "house"],
   "image": "https://arweave.net/vMOPd7UKmBR20pItrgIFIb9RgU57poiP3eQqYokevE0",
   "creator": "0x44b32db7c365d99ee8a5d5cc28875ad2008813e0",
-  "version": "0.3",
+  "version": "0.4",
+  "playlist_type": "new",
   "tracks": [...],
   "nextIndex": 6
 }
@@ -34,9 +35,21 @@ json
 | `tags`        | Array  | Discovery and search tags     |
 | `image`       | String | Playlist artwork URL          |
 | `creator`     | String | Wallet address of creator     |
-| `version`     | String | Metadata format version       |
+| `version`     | String | Metadata format version (currently "0.4") |
 | `tracks`      | Array  | Collection of track objects   |
 | `nextIndex`   | Number | Next available track position |
+
+### Playlist Type Fields (v0.4)
+
+These optional fields classify the playlist type and provide additional metadata:
+
+| Field                    | Type   | Description                                                  |
+| ------------------------ | ------ | ------------------------------------------------------------ |
+| `playlist_type`          | String | Type classification: "new", "remix", "ep", "lp", or "single" |
+| `original_playlist_tx_id`| String | For remixes — Arweave tx_id of the original playlist        |
+| `playlist_artist`        | String | For ep/lp/single — artist name                              |
+
+See [Playlist Tags](../playlist-tags.md#playlist-type) for how these map to on-chain tags.
 
 ### The Tracks Array
 

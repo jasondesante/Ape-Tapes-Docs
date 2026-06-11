@@ -13,7 +13,7 @@ View an example of a playlist's tags [here](https://viewblock.io/arweave/tx/h_e_
 Every playlist uploaded with The Contract Wizard has these tags added to them:
 
 * `App-Name:Contract-Wizard`
-* `Playlist-Version: 0.3`
+* `Playlist-Version: 0.4`
 * `Uploaded-Type:Playlist`
 * `IPFS-CID:`(ipfs content id)
 * `Uploaded-By:`(wallet that uploaded)
@@ -22,13 +22,16 @@ The most important is **Uploaded-Type:Playlist**. Make sure you write that exact
 
 ## Custom Tags
 
-Right now there are 3 playlist tags written by the user:
+Right now there are up to 6 playlist tags written by the user:
 
 * `Title:`(title)
 * `Genre:`(genre)
-* `Audio-Tag:`(audio tag)
+* `Search-Tag:`(searchable tag)
+* `Playlist-Type:`(playlist type)
+* `Artist:`(artist name — for ep/lp/single types)
+* `Image:`(arweave transaction id)
 
-There can be multiple Audio-Tag tags but only one Genre tag. **Remember** to [convert everything to lowercase](playlist-tags.md#importance-of-lower-case-tags) so it's easier to search.
+There can be multiple Search-Tag tags but only one Genre tag. **Remember** to [convert everything to lowercase](playlist-tags.md#importance-of-lower-case-tags) so it's easier to search.
 
 [Here](https://viewblock.io/arweave/tx/4WCirOpvoCEOa_SwBqzyyxSXIBmSQ6kfkfAEueXa0IQ) is an example of a published playlist's tags.
 
@@ -49,7 +52,7 @@ You can also do a query on other sites and see what happens when you search App-
 ### **System Tags (Always the Same)**
 
 * **App-Name** - Always "Contract-Wizard" to show what app uploaded the file
-* **Playlist-Version** - Always "0.3" for the current playlist metadata version
+* **Playlist-Version** - Currently "0.4" for the playlist metadata version
 * **IPFS-CID** - The IPFS content ID for permanent pinning
 * **Uploaded-By** - The wallet address of the uploader
 
@@ -57,7 +60,37 @@ You can also do a query on other sites and see what happens when you search App-
 
 * **Title** - The name you give your playlist
 * **Genre** - Musical genres you assign
-* **Audio-Tag** - Custom tags for discovery
+* **Search-Tag** - Unified searchable tags for discovery. The playlist Title, Genre, and any custom tags are all stored as `Search-Tag` entries so a single query matches everything.
+* **Playlist-Type** - The type of playlist (see below)
+* **Artist** - The artist name (included when Playlist-Type is ep, lp, or single)
+* **Image** - Optional cover art as a raw Arweave transaction ID (no `ar://` prefix)
+
+### Playlist-Type
+
+The `Playlist-Type` tag classifies what kind of playlist it is. It replaces the old "Remix" tag with more specific values:
+
+| Value | Description | Additional Tags |
+|-------|-------------|-----------------|
+| `new` | Default — a new original playlist | None |
+| `remix` | A remix of an existing playlist | `Original-Playlist` (tx_id of original) |
+| `ep` | Extended Play release | `Artist` (artist name) |
+| `lp` | Long Play release | `Artist` (artist name) |
+| `single` | Single track release | `Artist` (artist name) |
+
+When the type is `remix`, an additional tag called `Original-Playlist` is added with the Arweave transaction ID of the original playlist.
+
+When the type is `ep`, `lp`, or `single`, an `Artist` tag is added with the artist name (also duplicated as a `Search-Tag`).
+
+### **Search-Tag: Unified Search**
+
+The `Search-Tag` tag works the same way as it does for audio files. When a playlist is uploaded, the following values are all stored as `Search-Tag` entries:
+
+* The playlist **Title**
+* The **Genre**
+* Any **custom tags** entered by the user
+* The **Artist** name (when the playlist type is ep, lp, or single)
+
+This means you can search `Search-Tag` with a single query and match against all of these values at once.
 
 #### Importance of Lower Case Tags
 
@@ -68,6 +101,8 @@ If you write your custom tags in lower case:
 * Searching is twice as fast.
 * Easier for other builders to implement.&#x20;
 * More likely to show up in search results.
+
+For the full breakdown of why lowercase matters and all tagging conventions, see [Tagging Best Practices →](../tagging-best-practices.md).
 
 ### Ready To Build
 

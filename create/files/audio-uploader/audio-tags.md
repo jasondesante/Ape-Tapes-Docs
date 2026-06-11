@@ -22,7 +22,7 @@ The most important tag when uploading audio or metadata, is "**Uploaded-Type:Aud
 
 ## **Custom Tags**
 
-Custom tags are written by the user. Right now there are 5 optional audio tags:
+Custom tags are written by the user. Right now there are 6 optional audio tags:
 
 `Title:`(title)
 
@@ -32,9 +32,11 @@ Custom tags are written by the user. Right now there are 5 optional audio tags:
 
 `ISRC:`(isrc code)
 
-`Audio-Tag:`(audio tag)
+`Search-Tag:`(searchable tag)
 
-There's only ever one Title, Artist, Genre, and ISRC tag, but there can be multiple Audio-Tag tags. **Remember** to [convert everything to lowercase](audio-tags.md#importance-of-lower-case-tags) so it's easier to search.
+`Image:`(arweave transaction id)
+
+There's only ever one Title, Artist, Genre, ISRC, and Image tag, but there can be multiple Search-Tag tags. **Remember** to [convert everything to lowercase](audio-tags.md#importance-of-lower-case-tags) so it's easier to search.
 
 [Here](https://viewblock.io/arweave/tx/BDhxHebKarvMgDtM5t7fX2S6eGGroRF_7NLFgQ7ixgE) is an example of a published audio file's tags.
 
@@ -70,9 +72,22 @@ You can also do a query on other sites and see what happens when you search App-
 
 **Genre** - Musical genre you assign
 
-**Audio-Tag** - Custom tags for discovery
+**Search-Tag** - Unified searchable tags for discovery. Custom tags entered by the user are stored here, and the Title, Artist, and Genre values are also automatically duplicated as Search-Tag entries. This means a single query for `Search-Tag` can match against any of these values.
+
+**Image** - Optional cover art as a raw Arweave transaction ID (no `ar://` prefix or gateway URL — just the tx_id)
 
 **ISRC** - International Standard Recording Code for the track (case sensitive)
+
+### **Search-Tag: Unified Search**
+
+The `Search-Tag` tag replaces the old `Audio-Tag` tag. When an audio file is uploaded, the following values are all stored as `Search-Tag` entries:
+
+* The track **Title**
+* The **Artist** name
+* The **Genre**
+* Any **custom tags** entered by the user
+
+This means you can search `Search-Tag` with a single query and match against all of these values at once, making it much easier to discover music.
 
 #### Importance of Lower Case Tags
 
@@ -84,9 +99,10 @@ If you write your custom tags in lower case:
 * Easier for other builders to implement.&#x20;
 * More likely to show up in search results.
 
+For the full breakdown of why lowercase matters and all tagging conventions, see [Tagging Best Practices →](../../../curate/tagging-best-practices.md).
+
 ### Ready To Build
 
 These tags are made to create a shared library of files that can be easily searched and shared across decentralized apps. This is open for anyone to contribute to with their tagged files or by curating the growing archive.&#x20;
 
 When building your own uploader/tagger, for the most efficient tagging don't forget "**Uploaded-Type:Audio**" for audio files and audio metadata.
-

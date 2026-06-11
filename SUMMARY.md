@@ -33,6 +33,7 @@
 ## 🍳 Curate
 
 * [The Mission](curate/the-mission.md)
+* [Tagging Best Practices](curate/tagging-best-practices.md)
 * [Playlists](curate/playlists/README.md)
   * [Playlist Tags](curate/playlists/playlist-tags.md)
   * [Playlist Objects](curate/playlists/playlist-objects/README.md)

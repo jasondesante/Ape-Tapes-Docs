@@ -18,7 +18,11 @@ json
   "metadata": "{...stringified metadata object...}",
   "id": "ethereum/0xF956b9B324ec32BFeC53cF4eEf33578371692658/1",
   "uuid": "00537132-5b69-46ae-9789-e0dc7213f341",
-  "playlist_index": 1
+  "playlist_index": 1,
+  "audioUrl": "https://arweave.net/abc123...",
+  "artworkUrl": "https://arweave.net/def456...",
+  "audioIpfsHash": "Qm...",
+  "artworkIpfsHash": "Qm..."
 }
 ```
 
@@ -51,6 +55,28 @@ Additional identifiers and references:
 * `token_uri` - Metadata URL (the metadata field contains this file's contents)
 * `name` - Contract name (when applicable)
 * `symbol` - Contract symbol (when applicable)
+
+#### Resolved Media Fields (v0.4)
+
+When a playlist is uploaded, these fields are automatically resolved from the track's metadata. They provide direct access to the best audio and artwork URLs without needing to parse the metadata JSON:
+
+* `audioUrl` - Gateway-resolved URL for the best audio (e.g., `https://arweave.net/abc123`)
+* `artworkUrl` - Gateway-resolved URL for the best artwork image
+* `audioIpfsHash` - IPFS CID of the optimized audio file
+* `artworkIpfsHash` - IPFS CID of the artwork/image file
+
+The URL resolution uses priority queues to pick the best streaming-optimized option from the metadata's audio and image fields. This makes it easy for third-party players to access the audio and artwork without needing to parse the full metadata JSON themselves.
+
+#### Mint Fields (v0.4)
+
+Optional fields for tracks that represent mintable tokens:
+
+* `Mint-Function` - Preferred mint function name (e.g., "mint", "mintCopy")
+* `Mint-Price` - Mint price in wei
+* `Mint-Snapshot-Time` - Unix timestamp of when mint info was captured
+* `Mint-Token` - ERC20 token address for alternative payment (e.g., USDC)
+
+These fields are supported in the type system and stored in the JSON body, but do not have UI yet. When metadata containing these fields is used in a playlist, the values are automatically promoted to the top-level track fields.
 
 ### The Metadata Field: Where the Magic Happens
 
