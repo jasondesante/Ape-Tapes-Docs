@@ -102,7 +102,7 @@ If you write your custom tags in lower case:
 * Easier for other builders to implement.&#x20;
 * More likely to show up in search results.
 
-For the full breakdown of why lowercase matters and all tagging conventions, see [Tagging Best Practices →](../tagging-best-practices.md).
+For the full breakdown of why lowercase matters and all tagging conventions, see [Tagging Best Practices →](../../../create/build-your-vision/tagging-best-practices.md).
 
 ### Ready To Build
 
