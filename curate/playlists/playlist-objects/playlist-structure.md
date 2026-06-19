@@ -48,6 +48,7 @@ These optional fields classify the playlist type and provide additional metadata
 | `playlist_type`          | String | Type classification: "new", "remix", "ep", "lp", or "single" |
 | `original_playlist_tx_id`| String | For remixes — Arweave tx_id of the original playlist        |
 | `playlist_artist`        | String | For ep/lp/single — artist name                              |
+| `platform`               | String | Origin platform for directory-imported playlists. Currently `"contract-wizard"` (CW v0.3 → v0.4 migration) or `"nina"` (Nina multi-format split). Absent on user-created playlists. |
 
 See [Playlist Tags](../playlist-tags.md#playlist-type) for how these map to on-chain tags.
 
