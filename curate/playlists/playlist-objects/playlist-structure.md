@@ -20,7 +20,7 @@ json
   "version": "0.4",
   "playlist_type": "new",
   "tracks": [...],
-  "nextIndex": 6
+  "next_index": 6
 }
 ```
 
@@ -37,7 +37,7 @@ json
 | `creator`     | String | Wallet address of creator     |
 | `version`     | String | Metadata format version (currently "0.4") |
 | `tracks`      | Array  | Collection of track objects   |
-| `nextIndex`   | Number | Next available track position |
+| `next_index`  | Number | Next available track position |
 
 ### Playlist Type Fields (v0.4)
 
