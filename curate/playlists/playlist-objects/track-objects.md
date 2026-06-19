@@ -61,7 +61,7 @@ Additional identifiers and references:
 When a playlist is uploaded, these fields are automatically resolved from the track's metadata. They provide direct access to the best audio and artwork URLs without needing to parse the metadata JSON:
 
 * `audio_url` - Gateway-resolved URL for the best audio (e.g., `https://arweave.net/abc123`). Same field name as the metadata-interior audio URL — when present on the wrapper, it overrides any value found inside `metadata`.
-* `artwork_url` - Gateway-resolved URL for the best artwork image. This is the name ApeTapes writes onto the wrapper. Third-party players reading playlists with the `playlist-data-engine` will find the resolved image under the engine's canonical field name `image_url` (the engine reads `artwork_url` on input and normalizes it).
+* `artwork_url` - Gateway-resolved URL for the best artwork image. This is the name ApeTapes writes onto the wrapper. Third-party players using the `playlist-data-engine` will see this value exposed as `image_url` on the parsed `PlaylistTrack` — the engine accepts `artwork_url` on input and normalizes it to `image_url` (which pairs with `image_thumb_url`).
 * `audio_ipfs_hash` - IPFS CID of the optimized audio file
 * `artwork_ipfs_hash` - IPFS CID of the artwork/image file
 
