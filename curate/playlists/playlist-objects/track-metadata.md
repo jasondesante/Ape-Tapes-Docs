@@ -70,7 +70,7 @@ Attributes is an important array of objects that represents the traits that will
 
 * Playlist Index - The spot the track is in the playlist order.
 * Chain Name - The chain that the track is from.
-* Selected Mix - The name of the mix, if an alternate mix has been selected.
+* Selected Mix - The name of the mix, if an alternate mix has been selected. Absent when none was — there is no placeholder value. This trait mirrors the `selected_mix` field on the [track object](track-objects.md), which is the canonical location players read first.
 
 The new entries to the attributes array looks like this:&#x20;
 

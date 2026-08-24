@@ -56,6 +56,29 @@ Additional identifiers and references:
 * `name` - Contract name (when applicable)
 * `symbol` - Contract symbol (when applicable)
 
+#### Playback Fields
+
+These describe how this entry should be played, as opposed to what the track is:
+
+* `selected_mix` - Name of the mix this playlist entry plays
+
+A track can ship several mixes — radio edit, extended mix, instrumental, and lossless and lossy versions of each. Which one plays is a property of the playlist entry, not of the track, since the same song can sit in two playlists with two different mixes chosen. That is why `selected_mix` lives on the track object in the same layer as `chain_name` and `playlist_index`, rather than inside the stringified metadata:
+
+```json
+{
+  "title": "I'm With The DJ",
+  "chain_name": "ethereum",
+  "metadata": "{...stringified metadata object...}",
+  "uuid": "00537132-5b69-46ae-9789-e0dc7213f341",
+  "playlist_index": 1,
+  "selected_mix": "Extended VIP"
+}
+```
+
+**The field is absent when no mix was chosen.** There is no placeholder value — an entry that just plays the track's primary audio simply has no `selected_mix` key. Treat a missing field as "play the default audio", and never write a stand-in like `"default"`: a player reading that back would look for a mix by that name, find nothing, and cache the same audio under a second key.
+
+The chosen mix is also mirrored into the metadata's attributes as a `Selected Mix` trait, so it shows up on NFT marketplaces alongside the other playlist traits. Players read the top-level field first and fall back to the attribute for older playlists, but the track object is the canonical location.
+
 #### Resolved Media Fields (v0.4)
 
 When a playlist is uploaded, these fields are automatically resolved from the track's metadata. They provide direct access to the best audio and artwork URLs without needing to parse the metadata JSON:
