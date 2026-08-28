@@ -8,13 +8,11 @@
 
     **Bottom line:** Use `contractwizard.arweave.net` for signing in, ignore Metamask's drama, and you're good to go. This isn't a bug, it's just wallets being old-school about the permanent web.
 
-Top: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.21 AM (2).png>) Bottom: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.31 AM (1).png>)
+Top: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.21 AM.png>) Bottom: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.31 AM.png>)
 
 4. It will then ask "Are you sure?" and you have to click the checkmark and then the "Confirm" button. For TWO separate warnings!!
 
-&#x20;Warnings: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.45 AM (2).png>)  : ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.58 AM (1).png>)
-
-
+Warnings: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.45 AM.png>) : ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.58 AM.png>)
 
 5. After clicking "Confiirm" you will see the "Log In" button has been replaced with your wallet address on the sidebar to show you are signed in.
 6. If you didn't sign in fast enough, you will have to try again.

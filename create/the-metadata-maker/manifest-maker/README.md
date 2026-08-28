@@ -4,7 +4,7 @@ description: New and improved! Try it now!
 
 # Manifest Maker
 
-This page is where you upload all the metadata files for your collection into one folder. &#x20;
+This page is where you upload all the metadata files for your collection into one folder.
 
 ## Creating A Manifest
 
@@ -22,23 +22,23 @@ Import an existing manifest by clicking "Select Manifest". This opens the [File 
 
 ### Step 2 - Select Files
 
-Add files from your computer by dragging and dropping the files into the box. &#x20;
+Add files from your computer by dragging and dropping the files into the box.
 
 Click the "Select Metadata Files" button to open the [File Picker](../../files/file-picker.md) and choose both uploaded and locally saved metadata (which still needs to be uploaded).
 
-You can replace metadata files if you imported an existing folder. This is very awesome and simplifies upgrading an existing collection by a lot of steps. &#x20;
+You can replace metadata files if you imported an existing folder. This is very awesome and simplifies upgrading an existing collection by a lot of steps.
 
 ***
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 11.22.28 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-17 at 11.22.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3 - Configure Manifest
 
-Review the files, make sure you're cool with the ordering.  Manifests are small so you should have enough credits in your balance to upload.&#x20;
+Review the files, make sure you're cool with the ordering. Manifests are small so you should have enough credits in your balance to upload.
 
-In the "Options" tab you have a button to download a numbered list of the files so you can more easily keep track of the manifest's file order.&#x20;
+In the "Options" tab you have a button to download a numbered list of the files so you can more easily keep track of the manifest's file order.
 
-There's also an option to name the paths in the manifest by numbers or the original file names.  When the path is a number it's way less characters than the file names.  The default is to rename all the file paths to numbers because The Manifest Maker is meant to create folders for NFT collections, and you save a lot of gas when writing shorter songURIs.
+There's also an option to name the paths in the manifest by numbers or the original file names. When the path is a number it's way less characters than the file names. The default is to rename all the file paths to numbers because The Manifest Maker is meant to create folders for NFT collections, and you save a lot of gas when writing shorter songURIs.
 
 Once you're ready click upload and sign. The new files will be uploaded along with the manifest file detailing the folder structure.
 
@@ -60,4 +60,4 @@ It's recommended to download and bookmark the index and manifest url.
 
 For contract owners, when you're done creating the manifest, the next step is to set the baseURI.
 
-The manifest is what will return at the baseURI function on your smart contract.  It's set with the setBaseURI function.  By putting the manifest in the baseURI, you reduce the amount of characters needed to enter for each songURI.
+The manifest is what will return at the baseURI function on your smart contract. It's set with the setBaseURI function. By putting the manifest in the baseURI, you reduce the amount of characters needed to enter for each songURI.

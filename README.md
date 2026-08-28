@@ -30,7 +30,7 @@ One tool led to another. A player led to playlist creation. Individual contracts
 
 Together, they're building what we call a [**Decentralized Autonomous Music Network (D.A.M.N.)**](introduction/welcome/d.a.m.n..md) - a growing ecosystem where artists own their distribution and listeners curate the experience.
 
-<figure><img src=".gitbook/assets/TheContractWizard_ft (1) (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/TheContractWizard_ft.gif" alt=""><figcaption></figcaption></figure>
 
 ## What You Can Do Here
 

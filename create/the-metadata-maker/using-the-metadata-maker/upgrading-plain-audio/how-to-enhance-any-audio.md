@@ -13,13 +13,17 @@ layout:
     visible: true
   metadata:
     visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # How To Enhance Any Audio
 
 1. **Go to the Arweave Uploads Page.**
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-30 at 3.18.35 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-30 at 3.18.35 AM.png" alt=""><figcaption></figcaption></figure>
 
 2. **(optional) Click the "Arweave" button, on the right, to open up Arweave querying. Search the tx\_id of the audio file you want to enhance. Press "+" to add it to your list.**
 
@@ -39,4 +43,4 @@ layout:
 
 6. **Rinse and repeat.**
 
-&#x20;![](<../../../../.gitbook/assets/xpression06 (1).png>)
+![](../../../../.gitbook/assets/xpression06.png)

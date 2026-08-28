@@ -14,7 +14,7 @@ A live demo of every engine feature. [Read about it here](../../create/build-you
 
 ## Magic Fretboard
 
-An interactive guitar fretboard for practicing, writing, and jamming. [Read about it here](../magic-fretboard.md).
+An interactive guitar fretboard for practicing, writing, and jamming. [Read about it here](../fun-pages/magic-fretboard.md).
 
 {% embed url="https://magicfretboard_listen.arweave.net/" %}
 
@@ -42,7 +42,7 @@ You can upload files to Arweave using ArDrive.
 
 {% embed url="https://ardrive.io/" %}
 
-Here for the site [https://ardrive.io/](https://ardrive.io/)&#x20;
+Here for the site [https://ardrive.io/](https://ardrive.io/)
 
 Or here for the app [https://app.ardrive.io/#/sign-in](https://app.ardrive.io/#/sign-in)
 
@@ -54,7 +54,7 @@ EZ Gif is an easy browser based image editing site that lets you easily compress
 
 ## Testnet Faucets
 
-If you are using a test network, you will need some test tokens from a faucet.  Here are some faucets I used.
+If you are using a test network, you will need some test tokens from a faucet. Here are some faucets I used.
 
 #### Alchemy
 
@@ -62,7 +62,7 @@ This faucet is currently the most reliable and gives out for the most chains.
 
 {% embed url="https://www.alchemy.com/faucets/ethereum-sepolia" %}
 
-#### Chainlink&#x20;
+#### Chainlink
 
 Lets you get test ETH and test LINK, which you can use as a replacement for testing any ERC-20 tokens.
 
@@ -73,4 +73,3 @@ Lets you get test ETH and test LINK, which you can use as a replacement for test
 another option is to use this faucet from Infura
 
 {% embed url="https://www.infura.io/faucet/sepolia" %}
-

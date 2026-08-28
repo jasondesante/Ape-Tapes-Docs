@@ -1,8 +1,8 @@
 # Arweave Uploads Page
 
-This page shows files uploaded to Arweave. &#x20;
+This page shows files uploaded to Arweave.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-14 at 3.31.30 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-14 at 3.31.30 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## 5 Categories
 
@@ -24,9 +24,9 @@ One of the main uses of this page is to "upgrade" audio files. Find an audio or 
 
 ### Local Metadata
 
-Once you upgrade an audio file into metadata and save, it shows up as local metadata in the Metadata section.  Local metadata files are marked with the "local" tag so you can visually see the difference.&#x20;
+Once you upgrade an audio file into metadata and save, it shows up as local metadata in the Metadata section. Local metadata files are marked with the "local" tag so you can visually see the difference.
 
-From there you can continue to upgrade it until you're ready to permanently upload it. Once a file is uploaded it gets a tx\_id and can't be changed unless it's re-uploaded.&#x20;
+From there you can continue to upgrade it until you're ready to permanently upload it. Once a file is uploaded it gets a tx\_id and can't be changed unless it's re-uploaded.
 
 When you upload a local metadata file it gets the "uploaded" tag so you can tell which ones are safe to delete. This also helps you see that the uploaded file which has a tx\_id it's immutable, but the local file is still possible to be edited. This helps you get a feel and understand that Arweave is permanent data, and lets you decide if you want to keep the local file around for future edits possibly.
 
@@ -41,4 +41,3 @@ You can query Arweave through the Uploads Page. Add the files to your library to
 To query Arweave just click the Arweave button on the right side of the top bar. You will then see the files uploaded by your wallet. Filtered to that category, audio, files, metadata, manifests, or playlists. If you want to add a different file just enter the tx\_id in the search.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-31 at 3.55.03 AM.png" alt=""><figcaption><p>Add any file, search by tx id</p></figcaption></figure>
-

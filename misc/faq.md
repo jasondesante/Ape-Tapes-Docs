@@ -12,9 +12,7 @@ Here's what's happening: Your site lives on Arweave (the permanent web), but Met
 
 **The future:** Eventually, Metamask will get hip to how Arweave works and stop being so neurotic about decentralized hosting. Until then, bookmark `contractwizard.arweave.net` and you're golden.
 
-Top: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.21 AM.png>) Bottom:  ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.31 AM.png>)   Warnings: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.45 AM (1).png>)  :  ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.58 AM.png>)
-
-
+Top: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.21 AM.png>) Bottom: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.31 AM.png>) Warnings: ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.45 AM.png>) : ![](<../.gitbook/assets/Screenshot 2025-07-31 at 9.58.58 AM.png>)
 
 ## Why are none of the pictures loading?
 
