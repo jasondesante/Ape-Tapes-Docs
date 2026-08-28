@@ -8,6 +8,14 @@ You can prompt any type of player into existence that supports Serverless Playli
 
 The regular player is great for what it needs to do, but once the playlists are made, you can do anything.  You can take Serverless Playlists anywhere in the metaverse. &#x20;
 
+## Skip The Parsing
+
+If you would rather not hand-roll the JSON handling, [`playlist-data-engine`](playlist-data-engine.md) does it for you. It parses playlists into flat track objects with consistent field names, and resolves Arweave URLs through a gateway failover chain so a dead gateway never breaks your player.
+
+```bash
+npm install playlist-data-engine
+```
+
 ## Try It Out
 
 You can create any player you want. A great way to start is to use a tool like Websim.

@@ -10,6 +10,8 @@ Serverless Playlists are permanent building blocks for decentralized music curat
 
 They're simple enough that anyone can build players or creators for them, opening up infinite possibilities for music experiences.
 
+The [Playlist Data Engine](../../create/build-your-vision/playlist-data-engine.md) handles the reading for you if you want it: parsing, Arweave gateway failover, audio analysis, beat detection, and more, as an npm package.
+
 ## Enabling Decentralized Curation
 
 Serverless Playlists are a big deal because they take messy NFTs with bad or missing metadata and upgrade them while letting listeners add meaningful tags the artist didn't include.&#x20;

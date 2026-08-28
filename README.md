@@ -60,6 +60,8 @@ Together, they're building what we call a [**Decentralized Autonomous Music Netw
 
 [**The Contract Wizard**](create/tokens/the-contract-wizard/) creates smart contracts that let artists mint digital masters and manage their entire catalog on-chain.
 
+[**The Playlist Data Engine**](create/build-your-vision/playlist-data-engine.md) is the open source package behind the player. Install it and build your own music experiences on Serverless Playlists, from a simple player to beat-matched visuals and rhythm games.
+
 All these tools work independently or together. Use just the player to listen, or follow the full pathway from audio upload to contract deployment. [The Hat Helper](create/tokens/the-contract-wizard/hat-helper.md) guides you through every step.
 
 ### The Wizard's Library

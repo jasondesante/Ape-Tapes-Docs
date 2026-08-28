@@ -1,5 +1,23 @@
 # External Links
 
+## Playlist Data Engine
+
+The open source package that parses Serverless Playlists and analyzes their audio. [Read about it here](../../create/build-your-vision/playlist-data-engine.md).
+
+{% embed url="https://www.npmjs.com/package/playlist-data-engine" %}
+
+## Playlist Data Showcase
+
+A live demo of every engine feature. [Read about it here](../../create/build-your-vision/playlist-data-showcase.md).
+
+{% embed url="https://playlist-data-showcase_contractwizard.arweave.net/" %}
+
+## Magic Fretboard
+
+An interactive guitar fretboard for practicing, writing, and jamming. [Read about it here](../magic-fretboard.md).
+
+{% embed url="https://magicfretboard_listen.arweave.net/" %}
+
 ## 0xSplits
 
 You can make split contracts to be used for royalty splits on the 0xSplits website.

@@ -26,6 +26,14 @@ Your minting page becomes part of the artistic statement. Underground artists ge
 
 To view some examples and prompts [click here](minting-pages.md).
 
+### The Playlist Data Engine
+
+**Skip the plumbing entirely.**
+
+[`playlist-data-engine`](playlist-data-engine.md) is an open source package on npm that parses Serverless Playlists into clean, structured data, resolves Arweave URLs through a gateway failover chain, and analyzes the audio itself. Beats, genres, moods, pitch, colors, and an RPG layer that turns any song into a character and a combat encounter.
+
+It is the same code ar://listen runs. Every feature has a working demo in the [Playlist Data Showcase](playlist-data-showcase.md).
+
 ***
 
 ## Future Frontiers
