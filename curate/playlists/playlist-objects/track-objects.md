@@ -52,6 +52,7 @@ When the track represents a blockchain token:
 Additional identifiers and references:
 
 * `id` - Unique identifier for the track
+* `tx_id` - Arweave transaction ID
 * `token_uri` - Metadata URL (the metadata field contains this file's contents)
 * `name` - Contract name (when applicable)
 * `symbol` - Contract symbol (when applicable)
