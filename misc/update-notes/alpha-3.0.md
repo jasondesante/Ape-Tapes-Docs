@@ -45,6 +45,7 @@ Every major surface got rebuilt.
 * **Contract Manager** — new interface with a full modal suite
 * **Metadata Maker** — modular form tabs with a sidebar that tracks progress and jumps between sections
 * **Promos page** — new card UI
+* **Stats & Achievements** — the Records and Achievements pages merged into one tabbed page, opened from the wallet menu
 * **Store and Copies** — global search, toggleable sort directions, grouped grids
 * **Arweave Feed** — browse uploads as 3D crates
 * **Playlists** — cover uploads, generated collages, a paginated gallery, and an add-to-playlist drawer

@@ -145,8 +145,7 @@
 ## 🥩 Misc
 
 * [Fun Pages](misc/fun-pages/README.md)
-  * [Records Page](misc/fun-pages/records-page.md)
-  * [Achievements Page](misc/fun-pages/achievements-page.md)
+  * [Stats & Achievements](misc/fun-pages/stats-and-achievements.md)
   * [Magic Fretboard](misc/fun-pages/magic-fretboard.md)
 * [FAQ](misc/faq.md)
 * [Settings](misc/settings/README.md)

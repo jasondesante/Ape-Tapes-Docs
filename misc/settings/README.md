@@ -6,8 +6,7 @@ The settings page has some options you might need to use like:
 
 #### Pages
 
-* Records Page
-* Achievements
+* Stats & Achievements
 * Welcome Page
 * Show Credits
 
