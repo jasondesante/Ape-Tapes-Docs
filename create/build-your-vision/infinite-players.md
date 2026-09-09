@@ -64,7 +64,7 @@ Also in that parsed metadata json is a field called "image_small" or "image" whi
 
 {% code overflow="wrap" %}
 ```markdown
-The playlist object has "name" for the name of the playlist, "image" for a url of the playlist image, "creator" for the wallet of the playlist creator, and "tracks" which is an array objects for every track in the playlist.
+The playlist object has "name" for the name of the playlist, "image" for a url of the playlist image (also check "image_small" first — a smaller, faster-loading variant of the cover that some playlists include), "creator" for the wallet of the playlist creator, and "tracks" which is an array objects for every track in the playlist.
 Tracks is an array of objects where every track has chain_name to describe what chain the token is from.  token_address is the contract address the token is from, and token_id is the token id that the track is of.  name is the name of the contract the token is from, and platform describes what minting platform the token is from. The most important field of all in a track object is called metadata.  
 The metadata field inside a track object inside the array of tracks inside a playlist object is itself a stringified json.  To read the metadata in the metadata field you need to parse the stringified json into a json object.  
 Every track's parsed metadata has an image that can be found under "image_small" or "image".  Please check the images in that order and use the first field that has a working url to an image.  You want to prefer "image_small" because that image will load faster than the normal size.

@@ -8,7 +8,7 @@ View live playlist example [→](https://arweave.net/ubK7Ona9YZz6aHNvfzvD61xBG4c
 
 Every Serverless Playlist contains these core elements:
 
-* **Playlist Metadata**: Name, description, genre, creator info
+* **Playlist Metadata**: Name, description, genre, creator info, and cover art — `image` plus optional `image_small` / `image_thumb` resized variants
 * **Tracks Array**: Collection of music tokens and files
 * **Track Objects**: Individual entries in the tracks array
 * **Track Metadata**: Stringified JSON inside each track containing audio links

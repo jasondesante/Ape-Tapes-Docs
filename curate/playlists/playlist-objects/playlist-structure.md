@@ -16,6 +16,8 @@ json
   "genre": "House",
   "tags": ["spinamp", "eva myra may", "house"],
   "image": "https://arweave.net/vMOPd7UKmBR20pItrgIFIb9RgU57poiP3eQqYokevE0",
+  "image_small": "",
+  "image_thumb": "",
   "creator": "0x44b32db7c365d99ee8a5d5cc28875ad2008813e0",
   "version": "0.4",
   "playlist_type": "new",
@@ -34,6 +36,8 @@ json
 | `genre`       | String | Musical genre classification  |
 | `tags`        | Array  | Discovery and search tags     |
 | `image`       | String | Playlist artwork URL          |
+| `image_small` | String | Optional resized small (~500px) variant of the artwork |
+| `image_thumb` | String | Optional resized thumb (~50px) variant of the artwork |
 | `creator`     | String | Wallet address of creator     |
 | `version`     | String | Metadata format version (currently "0.4") |
 | `tracks`      | Array  | Collection of track objects   |
@@ -51,6 +55,12 @@ These optional fields classify the playlist type and provide additional metadata
 | `platform`               | String | Uploader stamp — `"contract-wizard"` on every ApeTapes/Contract Wizard upload, `"nina"` on Nina directory playlists. Older files may lack it. |
 
 See [Playlist Tags](../playlist-tags.md#playlist-type) for how these map to on-chain tags.
+
+### Resized Image Variants
+
+Alongside the full-size `image`, a playlist can carry `image_small` (500px) and `image_thumb` (50px) resized variants of the cover. All three are optional — preset artwork and older uploads ship `image` only. ApeTapes generates and uploads the variants automatically when you cover a playlist with your own image or a collage, and the image picker can fill them from an uploaded group of three.
+
+When displaying a playlist cover, prefer `image_small` and fall back to `image` if it's missing — the same pattern used for track metadata. The smaller file loads faster, which matters on grids and mobile connections.
 
 ### The Tracks Array
 

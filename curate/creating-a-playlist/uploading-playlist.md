@@ -16,6 +16,8 @@ The genre and audio tags are important for classifying your audio so it can be f
 
 Custom tags are stored as `Search-Tag` entries, and the playlist Title, Genre, and Artist values are also automatically duplicated as Search-Tags for unified search. You can also set the playlist type (new, remix, ep, lp, single) which determines additional tags added on-chain.
 
+If your cover was uploaded or made as a collage, its 500px and 50px resized variants ride along in the playlist file as `image_small` and `image_thumb` — players use them to load your cover faster.
+
 Adding a license like a UDL could be cool if you want to control access to the playlist itself.
 
 ![](<../../.gitbook/assets/Screenshot 2025-07-12 at 11.16.49 PM.png>)
