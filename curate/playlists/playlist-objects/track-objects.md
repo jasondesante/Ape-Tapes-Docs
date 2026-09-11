@@ -111,3 +111,28 @@ These fields are supported in the type system but have no UI yet, so they remain
 The `metadata` field contains stringified JSON with the actual audio files and detailed track information. This is what players parse to find the audio URLs, artwork, lyrics, and other rich content.
 
 **Next:** [Track Metadata →](track-metadata.md) - Dive into what's inside that stringified metadata field.
+
+
+### Web2 Tracks (YouTube)
+
+A web2 track mirrors the same file-like shape as an Arweave upload track — no token fields, and the id is the platform's own:
+
+```json
+{
+  "name": "Video title",
+  "chain_name": "youtube",
+  "platform": "youtube",
+  "tx_id": "dQw4w9WgXcQ",
+  "metadata": "{\"title\":\"Video title\",\"artist\":\"Channel name\",\"image\":\"https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg\",\"duration\":null,\"source_url\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"}"
+}
+```
+
+Rules that make web2 tracks safe to ship inside any playlist:
+
+* `chain_name: "youtube"` and `platform: "youtube"` identify the track; `tx_id` carries the 11-character YouTube video id.
+* **No token fields** (`token_address` / `token_id`) and **no audio fields** (`audio_url`, and never `animation_url` or `html_url` — those keys mean specific things to the player's HTML-NFT detection).
+* The `metadata` interior carries `title`, `artist` (channel name), `image` (always the `i.ytimg.com` `hqdefault.jpg`), `duration` (`null` until the first play fills it), and optionally `unplayable: true` for embed-disabled videos.
+* Capabilities are fixed: playback/seek/volume/favorites work; the visualizer, rhythm game, embeds, webamp, the directory, and playback-rate changes do not.
+* Playlist-level `platform` stays `contract-wizard` (or unset) even when the playlist contains web2 tracks — the flag is per-track only.
+
+Because YouTube videos are not permanent, a web2 track that becomes unavailable is skipped automatically at play time with a notice; it never breaks the rest of the playlist.

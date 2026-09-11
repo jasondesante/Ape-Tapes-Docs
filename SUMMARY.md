@@ -14,6 +14,7 @@
   * [Player Controls](consume/universal-music-player/player-controls.md)
   * [Other Features](consume/universal-music-player/other-features.md)
   * [Embedded Player](consume/universal-music-player/embedded-player.md)
+  * [Web2 Tracks (YouTube)](consume/universal-music-player/web2-tracks.md)
   * [Visualizer](consume/universal-music-player/visualizer/README.md)
     * [Hotkeys](consume/universal-music-player/visualizer/hotkeys.md)
     * [Custom Shaders](consume/universal-music-player/visualizer/custom-shaders.md)
