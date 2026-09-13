@@ -33,6 +33,7 @@ Please use this template below for inspiration when writing contract metadata.
     "image_banner_still": "",
     "external_url": "",
     "external_link": "",
+    "year_established": "",
     "website": "",
     "opensea": "",
     "discord": "",
@@ -52,6 +53,10 @@ Please use this template below for inspiration when writing contract metadata.
 ### Description
 
 The description of the collection is important because we are naturally curious and want to know more.
+
+### Year Established
+
+The year the label or artist started being active. Dapps can use it to show how long a label has been around — a little history goes a long way.
 
 ### Social Media Links
 
