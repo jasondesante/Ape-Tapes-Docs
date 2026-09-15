@@ -42,9 +42,9 @@ There's only ever one Title, Artist, Genre, ISRC, and Image tag, but there can b
 
 ### **Query Audio Data**
 
-You can query different tags directly at ar://listen with the [Arweave Explorer](../../../consume/discover/the-browse-page/arweave-explorer.md) page.
+You can query different tags directly at ar://listen with the [Arweave Feed](../../../consume/discover/the-browse-page/arweave-feed.md) page.
 
-{% embed url="https://listen.arweave.net/#/arweave-explorer" %}
+{% embed url="https://listen.arweave.net/#/arweave-feed" %}
 
 You can also do a query on other sites and see what happens when you search App-Name: Contract-Wizard, or Uploaded-Type: Audio, or any of the other tags.
 

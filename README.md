@@ -39,7 +39,7 @@ Together, they're building what we call a [**Decentralized Autonomous Music Netw
 * Stream music from any Ethereum wallet, NFT contract, or Arweave file
 * Search collections by contract address, ENS name, or Arweave transaction ID
 * Create permanent, serverless playlists that work across platforms
-* Discover music through the time machine and curation feeds
+* Discover music through the Arweave Feed and curation feeds
 * Support artists by minting copies directly
 
 **As an Artist:**

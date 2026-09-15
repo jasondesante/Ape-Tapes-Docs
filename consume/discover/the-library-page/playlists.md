@@ -1,6 +1,6 @@
 # Playlists
 
-This page shows a bunch of modules related to playlists.  View your created, favorited, published, and favorite spinamp playlists all in one spot. This page currently has a combination of playlists that are unique to you, and playlists that are made by other people.
+This page shows a bunch of modules related to playlists.  View your created, favorited, and published playlists all in one spot. This page currently has a combination of playlists that are unique to you, and playlists that are made by other people.
 
 ![](<../../../.gitbook/assets/Screenshot 2025-07-12 at 4.37.25 AM.png>)
 
@@ -15,7 +15,3 @@ Any playlist that you favorite will show up here.  These are playlists that have
 ### Published Playlists
 
 This shows the list of playlists that you have created and then publicly uploaded / shared.  Anyone can view these playlists that you published. &#x20;
-
-### Favorite Spinamp Playlists
-
-This list is where all the Spinamp playlists that you favorite will go.

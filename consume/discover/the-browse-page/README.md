@@ -7,16 +7,7 @@ The Browse Page lets you browse more libraries than just The Wizard's Library.&#
 #### The Browse Page lets you:
 
 * **Upload Audio** - Go to the audio uploader and add some music to the permanent library
-* [**Arweave Explorer**](arweave-explorer.md) - Use tags to search audio and playlists to find your vibe.
+* [**Arweave Feed**](arweave-feed.md) - Search audio, playlists, and files by tag, then roll back time and crate dig through history.
 * **Recent Playlists** - View the most recently uploaded playlists
 * **Featured Collections** - View a list of featured contracts.
-* [**Time Machine**](time-machine.md) - Crate dig through history using the Time Machine's intuitive interface.
-
-#### Spinamp Browse Features:
-
-* _**Recent Songs**_ - The most recently released tracks across many web3 platforms
-* _**Featured Playlists**_ - A static list of featured playlists
-* _**Trending Playlists**_ - A once changing list of the trending playlists, that I think is also static now?
-* _**Artists**_ - The full list of artists in the Spinamp Library
-
-Spinamp is a wonderful index of web3 music that helps organize many platforms into one feed.&#x20;
+* **Artists** - Browse the artists in the Track Directory, A to Z.

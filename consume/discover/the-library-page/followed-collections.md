@@ -14,10 +14,6 @@ Any contract address that you favorite will show up here. It will also show what
 
 Any wallets you favorite will show up here. It will also show what chain it was favorited on.
 
-## Spinamp Artists
-
-When viewing artists from Spinamp you can favorite any artist and it will show up in this list.
-
 ### ENS Verified
 
 Verification works slightly different for contracts and wallets.

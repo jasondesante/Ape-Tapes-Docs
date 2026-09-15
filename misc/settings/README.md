@@ -21,7 +21,7 @@ The settings page has some options you might need to use like:
 
 #### Tools
 
-* Arweave Explorer
+* Arweave Feed
 * Configure Embed Player
 * Webamp Toy - Classic Winamp player with skins that supports Serverless Playlists.
 
