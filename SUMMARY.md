@@ -28,6 +28,7 @@
     * [Favorite Songs](consume/discover/the-library-page/favorite-songs.md)
     * [Playlists](consume/discover/the-library-page/playlists.md)
     * [Followed Collections](consume/discover/the-library-page/followed-collections.md)
+  * [Verified Contracts & Wallets](consume/discover/verified-contracts-and-wallets.md)
 * [Search](consume/search.md)
 
 ## 🍳 Curate

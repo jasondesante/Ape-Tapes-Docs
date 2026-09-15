@@ -22,9 +22,11 @@ You can stake multiple tokens at once.
 
 ## View ENS
 
-You can view the ENS that is set to the contract address, if one is set.  If the ENS is matching the name of the contract, the collection becomes verified and receives a verified checkmark icon.
+You can view the ENS that is set to the contract address, if one is set. If the ENS matches the name of the contract, the collection shows the contract name with a verified checkmark. Any address with an ENS gets a checkmark either way.
 
-Make sure you name your contract something that you can grab the ENS for! Don't get caught slipping!
+Use Verify ENS to reveal the Current ENS row, then Sync to pull the latest record from the server. If you just set up your ENS, this is how you make it show up.
+
+See [Verified Contracts & Wallets](../../../consume/discover/verified-contracts-and-wallets.md) for how verification works and how to get it.
 
 ## Transfer Ownership
 

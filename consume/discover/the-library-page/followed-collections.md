@@ -16,8 +16,6 @@ Any wallets you favorite will show up here. It will also show what chain it was 
 
 ### ENS Verified
 
-Verification works slightly different for contracts and wallets.
+Addresses get a verified checkmark when they have an ENS name attached. For contracts, the strongest checkmark comes from the ENS matching the collection name — but any address with a primary ENS set gets a checkmark either way.
 
-You will see a verified checkmark next to the wallet if the wallet has the ENS set to resolve to the wallet and the wallet's primary name is set to the same ENS.
-
-You will see a verified checkmark next to any contract that has a contract name and matching ENS primary name registered to it. This requires the smart contract name to match the ENS.
+Full details live in [Verified Contracts & Wallets](../verified-contracts-and-wallets.md).
