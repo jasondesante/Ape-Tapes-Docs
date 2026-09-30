@@ -28,6 +28,14 @@ You can add in your own custom shader code with the shader mode.  Just turn it o
 
 You can watch youtube videos by turning on YouTube mode, choose from a preset list of videos to vibe to, or choose your own custom link.  Save your favorite videos for easy access later.
 
+### Reacting to YouTube Tracks
+
+Playing a YouTube track in the player? The visualizer works with that too. The first time you open the visualizer on a YouTube track, the browser asks to share this tab's audio — that's the visualizer's sound feed. Accept it and everything reacts to the video: milkdrop presets, custom shaders, the whole scene. One prompt per visit to the site.
+
+While the visualizer isn't listening yet — you skipped the prompt, or sharing stopped — a **Capture** button appears in its toolbar. Press it to attach. Chrome's own "Stop sharing" control is the off switch.
+
+Tab-audio sharing needs Chrome or Edge on desktop. Other browsers run the visualizer as usual on web3 tracks, but it stays calm on YouTube ones.
+
 #### Move and Resize
 
 You can move each of these layers around up and down, change the height and width of each window, and even change the layering of these extra layers in front or behind the dancing avatars.  You can do this with hotkeys or in the menus.

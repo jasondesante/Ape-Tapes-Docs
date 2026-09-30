@@ -27,13 +27,19 @@ A YouTube track is a first-class queue citizen: play, pause, seek, volume, shuff
 
 A few things are structurally impossible for a YouTube track, so they're switched off:
 
-* **The visualizer and rhythm game** — YouTube's audio can't be captured for analysis. The visualizer closes itself when a YouTube track plays and its entries are hidden.
+* **The rhythm game** — charting needs the track's actual audio bytes; a YouTube stream can't be fetched, so YouTube tracks stay unchartable.
 * **Embeds and webamp** — YouTube tracks never appear in embed players or the webamp queue.
 * **The directory** — YouTube tracks never become directory entries.
 * **Playback speed (fun mode)** — has no effect on a YouTube player.
 * **Offline caching** — YouTube audio isn't downloadable, so it's never cached.
 
 On mobile, screen-off auto-advance skips YouTube tracks (mobile browsers stop background video); a playlist made entirely of YouTube tracks stops cleanly instead of looping.
+
+## The visualizer
+
+The visualizer button works on YouTube tracks too. The first time you open it on one, the browser asks to share this tab's audio — that's the visualizer's sound feed. Accept once per visit and the whole scene reacts to the video: milkdrop presets, custom shaders, all of it. If the visualizer isn't listening (skipped prompt, or sharing stopped), a **Capture** button appears in its toolbar to attach it; Chrome's "Stop sharing" control turns the listening off.
+
+Tab-audio sharing is desktop Chrome/Edge; in other browsers the visualizer opens without reacting to YouTube audio. Web3 tracks always react normally.
 
 ## Permanence
 

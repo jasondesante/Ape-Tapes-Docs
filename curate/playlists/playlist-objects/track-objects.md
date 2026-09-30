@@ -82,29 +82,36 @@ The chosen mix is also mirrored into the metadata's attributes as a `Selected Mi
 
 #### Resolved Media Fields (v0.4)
 
-When a playlist is uploaded, these fields are automatically resolved from the track's metadata. They provide direct access to the best audio and artwork URLs without needing to parse the metadata JSON:
+When a playlist is uploaded, these fields are automatically resolved from the track's metadata and written onto the **main track object** — not inside the stringified `metadata`. They are the shallow read: players check the track object first and only fall back to parsing the `metadata` JSON when a field is absent:
 
-* `audio_url` - Gateway-resolved URL for the best audio (e.g., `https://arweave.net/abc123`). Same field name as the metadata-interior audio URL — when present on the wrapper, it overrides any value found inside `metadata`.
-* `artwork_url` - Gateway-resolved URL for the best artwork image. This is the name ApeTapes writes onto the wrapper. Third-party players using the `playlist-data-engine` will see this value exposed as `image_url` on the parsed `PlaylistTrack` — the engine accepts `artwork_url` on input and normalizes it to `image_url` (which pairs with `image_thumb_url`).
+* `audio_url` - Gateway-resolved URL for the best audio (e.g., `https://arweave.net/abc123`). Same field name as the metadata-interior audio URL — when present on the track object, it overrides any value found inside `metadata`.
+* `artwork_url` - Gateway-resolved URL for the best artwork image. This is the name ApeTapes writes onto the track object. Third-party players using the `playlist-data-engine` will see this value exposed as `image_url` on the parsed `PlaylistTrack` — the engine accepts `artwork_url` on input and normalizes it to `image_url` (which pairs with `image_thumb_url`).
 * `audio_ipfs_hash` - IPFS CID of the optimized audio file
 * `artwork_ipfs_hash` - IPFS CID of the artwork/image file
 
 The URL resolution uses priority queues to pick the best streaming-optimized option from the metadata's audio and image fields. This makes it easy for third-party players to access the audio and artwork without needing to parse the full metadata JSON themselves.
 
+**Read order: track object first, metadata interior second.** The metadata mirrors the track's `token_uri` and stays the source of truth for what the track *is*; the resolved fields on the track object are convenience mirrors so the common case — find the audio, find the artwork — never has to parse deep JSON.
+
 #### Mint Fields (v0.4)
 
-Mint metadata is **NOT** stored on the track wrapper. The `mint_function`, `mint_price`, `mint_snapshot_time`, and `mint_token` fields live only inside the stringified `metadata` interior (the `AudioMetadata` shape produced by the Metadata Maker). They are never promoted onto the track wrapper and never emitted as Arweave tags.
+Mint metadata lives on the **main track object**, alongside the resolved media fields — it is **not** stored inside the stringified `metadata`:
 
-To read mint info for a track, parse the `metadata` field and read the snake_case keys directly:
+* `mint_function` - Preferred mint function on the track's contract (e.g., `"mint"`, `"mintCopy"`)
+* `mint_price` - Mint price in wei
+* `mint_snapshot_time` - Unix timestamp of when the mint info was captured
+* `mint_token` - ERC20 token address if the preferred sale takes a token (e.g., USDC)
+
+The track object is the right home for these because `metadata` represents the track's `token_uri` — the stable description of what the track *is*. Mint info is snapshot state about how the track *sells*: prices move and snapshots age, and rewriting a permanent metadata file every time a price changes is the wrong trade. Readers take the four keys straight off the track object — no metadata parsing:
 
 ```typescript
-const metadata = JSON.parse(track.metadata);
-const mintFunction = metadata.mint_function;   // e.g. "mint"
-const mintPrice    = metadata.mint_price;       // wei
-const mintToken    = metadata.mint_token;       // ERC20 token address
+const mintFunction = track.mint_function;        // e.g. "mint"
+const mintPrice    = track.mint_price;           // wei
+const mintSnapshot = track.mint_snapshot_time;   // unix seconds
+const mintToken    = track.mint_token;           // ERC20 address, if any
 ```
 
-These fields are supported in the type system but have no UI yet, so they remain dormant until a Metadata Maker form populates them.
+They survive playlist upload on the track object (the upload whitelist carries them) and are never emitted as Arweave tags. They have no UI yet, so they remain dormant until a form populates them.
 
 ### The Metadata Field: Where the Magic Happens
 
