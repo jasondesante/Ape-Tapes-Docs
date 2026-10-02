@@ -35,10 +35,7 @@ You can create your metadata files manually by hand using this template, like it
     ],
     "album": "",
     "track_number": 7,
-    "genre": [
-        "",
-        ""
-    ],
+    "genre": "",
     "year": 7,
     "mime_type": "",
     "bit_depth": 16,

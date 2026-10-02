@@ -46,7 +46,7 @@ These other fields are optional for the Song URI.  Some notable optional fields 
 #### Metadata
 
 * [Lyrics](song-metadata.md#lyrics)
-* [Genres](metadata-standards/token-metadata/noteworthy-traits.md#genre-tags)
+* [Genre](metadata-standards/token-metadata/noteworthy-traits.md#genre-tags)
 * [Tags](metadata-standards/token-metadata/noteworthy-traits.md#genre-tags)
 * Description
 

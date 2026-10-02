@@ -44,6 +44,10 @@ The genre and tags are important because they are core to curation. Curation is 
 
 If a song doesn't include this metadata, then the track won't be curated as well. Tagging stuff is an essential part of the uploading routine.
 
+Genre is one single value — the main tag. Tags is the list, and it should always include the genre among its entries. That's the split: genre is singular, tags is plural, and the overlap is intentional because the tags list is what the Search-Tag queries run against.
+
+When the audio gets uploaded, the genre lands on the file as a single `Genre` tag and everything in tags lands as `Search-Tag` entries, all lowercased.
+
 ### Lyrics
 
 Including the lyrics in the metadata lets them show when playing.  Everyone likes the option to view the lyrics while listening. Adding lyrics to the metadata allows all players to show the lyrics to the listener if they want.
