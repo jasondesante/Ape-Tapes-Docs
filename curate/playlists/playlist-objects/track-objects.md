@@ -6,8 +6,6 @@ Track objects are the individual entries inside the playlist's tracks array. Eac
 
 A track object contains multiple types of information:
 
-json
-
 ```json
 {
   "title": "I'm With The DJ",
@@ -77,6 +75,8 @@ A track can ship several mixes — radio edit, extended mix, instrumental, and l
 ```
 
 **The field is absent when no mix was chosen.** There is no placeholder value — an entry that just plays the track's primary audio simply has no `selected_mix` key. Treat a missing field as "play the default audio", and never write a stand-in like `"default"`: a player reading that back would look for a mix by that name, find nothing, and cache the same audio under a second key.
+
+**When a pin does apply, the track's `audio_url` points at that mix.** The entry's `audio_url` in the raw file is whatever was resolved at upload; at parse time, players match `selected_mix` against the metadata's `mixes[].name` (exactly, case-sensitively) and repoint the audio at the mix they find — or they simply read the already-repointed `audio_url` and skip the metadata entirely. [Mixes End To End](mixes-end-to-end.md) walks a complete entry through both layers.
 
 The chosen mix is also mirrored into the metadata's attributes as a `Selected Mix` trait, so it shows up on NFT marketplaces alongside the other playlist traits. Players read the top-level field first and fall back to the attribute for older playlists, but the track object is the canonical location.
 

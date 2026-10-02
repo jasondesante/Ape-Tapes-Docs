@@ -35,3 +35,21 @@ Some example conditions that have been built into [The Metadata Maker](../../) a
 * Altitude - will play at a certain altitude
 * Favorite - will play if you favorite the song
 * Birthday - will play on your birthday
+
+In the metadata each condition is a `{ "type", "value" }` pair, and **both fields are strings**. The display names above map to these literal `type` values — copy them exactly, because players match on the string:
+
+| Display Name  | `type` Value    | Example `value` |
+| ------------- | --------------- | --------------- |
+| Weight        | `weight`        | `"3"`           |
+| Weather       | `weather`       | `"rain"`        |
+| Day           | `day`           | `"Friday"`      |
+| Start Time    | `start_time`    | `"22:00"`       |
+| End Time      | `end_time`      | `"23:00"`       |
+| Minimum Plays | `min_plays`     | `"5"`           |
+| Maximum Plays | `max_plays`     | `"10"`          |
+| Every x Plays | `every_x_plays` | `"4"`           |
+| Altitude      | `altitude`      | `">1000"`       |
+| Favorite      | `favorite`      | `"true"`        |
+| Birthday      | `birthday`      | `""`            |
+
+Two notes on values: Birthday doesn't read its `value` at all — the condition itself is the trigger, so an empty string is normal. And Favorite also accepts `"false"`, for a mix that only plays while the song is *not* favorited.

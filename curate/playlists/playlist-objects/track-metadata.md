@@ -48,7 +48,6 @@ For the complete specification of thicc music NFT metadata, see [Token Metadata 
 
 When the stringified metadata is parsed, it might look like:
 
-json
 
 ```json
 {
@@ -62,7 +61,7 @@ json
 }
 ```
 
-This parsed content is what drives the actual playback experience across the decentralized web.
+This parsed content is what drives the actual playback experience across the decentralized web. For the complete picture — a pin, the `mixes` array it resolves against, and what ends up playing — see [Mixes End To End](mixes-end-to-end.md).
 
 ### Attributes
 

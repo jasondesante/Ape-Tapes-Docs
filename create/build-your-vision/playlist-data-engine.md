@@ -32,7 +32,7 @@ The engine opens that door for any music. It listens to the track and reacts to 
 
 The core feature. Feed it a raw playlist JSON and every track comes back flattened into consistent field names no matter which platform it came from: `audio_url`, `audio_url_lossless`, `image_url`, `artist`, `genre`, `tags`, `duration`, `bpm`, `chain_name`.
 
-Extras come with it. Stems, alternate mixes, VRM avatars, lyrics, visualizers, video. Pinned mixes resolve automatically, so a track set to "Extended VIP" in one playlist and the primary mix in another plays correctly in both.
+Extras come with it. Stems, alternate mixes, VRM avatars, lyrics, visualizers, video. Pinned mixes resolve automatically: the entry's `selected_mix` field ([track objects](../../curate/playlists/playlist-objects/track-objects.md)) is matched against the `mixes` array declared in the token's metadata ([alternate mixes](../the-metadata-maker/metadata-standards/token-metadata/grouped-traits.md#mixes)), so a track set to "Extended VIP" in one playlist and the primary mix in another plays correctly in both. `getTrackExtras()` lifts the extras off a parsed track — `track.extras.mixes` among them — and the mix helpers take it from there: `findMixByName()` for a tolerant lookup, `selectMix()` to resolve a choice into a play-ready track, `resolveMixUrl()` for the last mile.
 
 One-line extractors pull whole columns out of a playlist: `getAudioUrls()`, `getTrackTitles()`, `getArtists()`, `getGenres()`, `getTotalDuration()`.
 

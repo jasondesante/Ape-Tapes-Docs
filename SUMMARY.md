@@ -40,6 +40,7 @@
     * [Playlist Structure](curate/playlists/playlist-objects/playlist-structure.md)
     * [Track Objects](curate/playlists/playlist-objects/track-objects.md)
     * [Track Metadata](curate/playlists/playlist-objects/track-metadata.md)
+    * [Mixes End To End](curate/playlists/playlist-objects/mixes-end-to-end.md)
 * [Creating A Playlist](curate/creating-a-playlist/README.md)
   * [Name The Playlist](curate/creating-a-playlist/name-the-playlist.md)
   * [Choosing An Image](curate/creating-a-playlist/choosing-an-image.md)
