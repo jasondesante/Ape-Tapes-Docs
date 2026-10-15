@@ -64,6 +64,8 @@ Together, they're building what we call a [**Decentralized Autonomous Music Netw
 
 All these tools work independently or together. Use just the player to listen, or follow the full pathway from audio upload to contract deployment. [The Hat Helper](create/tokens/the-contract-wizard/hat-helper.md) guides you through every step.
 
+Whatever you use, the rule is the same: your keys, your files, your calls. Nothing here needs our permission, and nothing stops working without us.
+
 ### The Wizard's Library
 
 Every contract created through The Contract Wizard joins [The Wizard's Library](create/tokens/the-contract-wizard/the-wizards-library.md) - a growing collection of independently owned record labels. What makes this powerful is interoperability: any feature built for one contract works for all contracts in the library.

@@ -24,6 +24,12 @@ Serverless Playlists work across any platform, can't be censored, and belong ent
 
 This isn't just about music - it's about building experiences that are genuinely permanent and open. Upload once, use everywhere, forever.
 
+### Power To The User
+
+Look at what the tools don't do: they don't hold your music, they don't approve your release, and they don't need you to come back. Your keys sign every upload, your files land in permanent storage, and your contracts, metadata, and playlists keep working whether you stay or go.
+
+The old industry ran on the opposite idea: keep the masters, keep the fans, keep the artist on a leash. Leaving power to the user is respect to the user. That's the design philosophy behind every tool here - hand the power over, or it doesn't ship.
+
 ### Curation Whether You Like It Or Not
 
 Here's the thing about closed platforms: they create artificial scarcity around who gets to play in the sandbox. If you're not one of the "approved" platforms, you're locked out.

@@ -10,5 +10,7 @@ There are three tools in the Metadata Maker:
 
 Each tool is important in creating a finished collection. Start with metadata for one track, and eventually create dozens of tracks.  Combine with the profile metadata and it's a full collection.
 
+Everything you make here is yours the moment it's written: your wallet signs it, Arweave keeps it, and no approval step stands between you and your music.
+
 [Click here](using-the-metadata-maker/metadata.md) to learn what a Metadata file is.
 
