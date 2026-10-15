@@ -26,7 +26,7 @@ This isn't just about music - it's about building experiences that are genuinely
 
 ### Power To The User
 
-Look at what the tools don't do: they don't hold your music, they don't approve your release, and they don't need you to come back. Your keys sign every upload, your files land in permanent storage, and your contracts, metadata, and playlists keep working whether you stay or go.
+Look at what the tools don't do: they don't hold your music, they don't approve your release, and they don't need you to come back. Your keys sign every upload, your files land in permanent storage, and your contracts, metadata, and playlists keep working whether you stay or go. And they don't dumb anything down: every field, every option, out in the open, because hiding the controls from you would be treating you like you can't handle your own music.
 
 The old industry ran on the opposite idea: keep the masters, keep the fans, keep the artist on a leash. Leaving power to the user is respect to the user. That's the design philosophy behind every tool here - hand the power over, or it doesn't ship.
 
