@@ -64,7 +64,7 @@ Together, they're building what we call a [**Decentralized Autonomous Music Netw
 
 All these tools work independently or together. Use just the player to listen, or follow the full pathway from audio upload to contract deployment. [The Hat Helper](create/tokens/the-contract-wizard/hat-helper.md) guides you through every step.
 
-Whatever you use, the rule is the same: your keys, your files, your calls. Nothing here needs our permission, and nothing stops working without us.
+Whatever you use, the rule is the same: your keys, your files, your calls. Nothing here needs anyone's permission, and nothing stops working without me.
 
 ### The Wizard's Library
 
