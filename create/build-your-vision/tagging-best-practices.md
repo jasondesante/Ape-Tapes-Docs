@@ -85,7 +85,7 @@ There can be multiple `Search-Tag` entries on a single transaction — one for e
 
 For **audio files**: Title, Artist, Genre, and any custom tags.
 
-For **playlists**: Title, Genre, any custom tags, and Artist (if the playlist type is ep, lp, or single).
+For **playlists**: Title, Genre, any custom tags, and Artist (whenever the playlist has an artist — any playlist type).
 
 ## The Image Tag
 
@@ -105,9 +105,11 @@ Playlists should include a `Playlist-Type` tag. The values are:
 |-------|-------------|
 | `new` | A new original playlist (default) |
 | `remix` | A remix of an existing playlist — also add `Original-Playlist` with the original's tx_id |
-| `ep` | Extended Play release — also add `Artist` tag |
-| `lp` | Long Play release — also add `Artist` tag |
-| `single` | Single track release — also add `Artist` tag |
+| `ep` | Extended Play release |
+| `lp` | Long Play release |
+| `single` | Single track release |
+
+The `Artist` tag is not tied to the type — add it whenever the playlist has an artist, whatever the `Playlist-Type`. ep/lp/single releases should always carry one.
 
 ## Quick Reference
 

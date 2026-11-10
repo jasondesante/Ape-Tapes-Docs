@@ -14,7 +14,7 @@ Before publishing a playlist it's recommended that you choose an image, have a d
 
 The genre and audio tags are important for classifying your audio so it can be found when different terms are searched.  This is essential because having genre and audio tags are the only way to start that base layer of curation.
 
-Custom tags are stored as `Search-Tag` entries, and the playlist Title, Genre, and Artist values are also automatically duplicated as Search-Tags for unified search. You can also set the playlist type (new, remix, ep, lp, single) which determines additional tags added on-chain.
+Custom tags are stored as `Search-Tag` entries, and the playlist Title, Genre, and Artist values are also automatically duplicated as Search-Tags for unified search. You can also set the playlist type (new, remix, ep, lp, single) — a remix adds the `Original-Playlist` tag on-chain, and the `Artist` tag rides along whenever the playlist has an artist, whatever the type.
 
 If your cover was uploaded or made as a collage, its 500px and 50px resized variants ride along in the playlist file as `image_small` and `image_thumb` — players use them to load your cover faster.
 

@@ -28,7 +28,7 @@ Right now there are up to 6 playlist tags written by the user:
 * `Genre:`(genre)
 * `Search-Tag:`(searchable tag)
 * `Playlist-Type:`(playlist type)
-* `Artist:`(artist name — for ep/lp/single types)
+* `Artist:`(artist name — any playlist type)
 * `Image:`(arweave transaction id)
 
 There can be multiple Search-Tag tags but only one Genre tag. **Remember** to [convert everything to lowercase](playlist-tags.md#importance-of-lower-case-tags) so it's easier to search.
@@ -62,7 +62,7 @@ You can also do a query on other sites and see what happens when you search App-
 * **Genre** - Musical genres you assign
 * **Search-Tag** - Unified searchable tags for discovery. The playlist Title, Genre, and any custom tags are all stored as `Search-Tag` entries so a single query matches everything.
 * **Playlist-Type** - The type of playlist (see below)
-* **Artist** - The artist name (included when Playlist-Type is ep, lp, or single)
+* **Artist** - The artist name. Emitted whenever the playlist has an artist set, whatever the type — a regular `new` playlist with an artist carries the tag too. ep/lp/single releases should always have one.
 * **Image** - Optional cover art as a raw Arweave transaction ID (no `ar://` prefix)
 
 ### Playlist-Type
@@ -71,15 +71,15 @@ The `Playlist-Type` tag classifies what kind of playlist it is. It replaces the 
 
 | Value | Description | Additional Tags |
 |-------|-------------|-----------------|
-| `new` | Default — a new original playlist | None |
-| `remix` | A remix of an existing playlist | `Original-Playlist` (tx_id of original) |
+| `new` | Default — a new original playlist | `Artist` (when the playlist has an artist) |
+| `remix` | A remix of an existing playlist | `Original-Playlist` (tx_id of original) + `Artist` (when the playlist has an artist) |
 | `ep` | Extended Play release | `Artist` (artist name) |
 | `lp` | Long Play release | `Artist` (artist name) |
 | `single` | Single track release | `Artist` (artist name) |
 
 When the type is `remix`, an additional tag called `Original-Playlist` is added with the Arweave transaction ID of the original playlist.
 
-When the type is `ep`, `lp`, or `single`, an `Artist` tag is added with the artist name (also duplicated as a `Search-Tag`).
+The `Artist` tag is independent of the type: whenever the playlist object carries an artist name, an `Artist` tag is added with that name (also duplicated as a `Search-Tag`). Playlist-Type describes the release shape; Artist is plain attribution — you don't have to claim ep/lp/single just to attach an artist to a regular playlist.
 
 ### **Search-Tag: Unified Search**
 
@@ -88,7 +88,7 @@ The `Search-Tag` tag works the same way as it does for audio files. When a playl
 * The playlist **Title**
 * The **Genre**
 * Any **custom tags** entered by the user
-* The **Artist** name (when the playlist type is ep, lp, or single)
+* The **Artist** name (whenever the playlist has an artist)
 
 This means you can search `Search-Tag` with a single query and match against all of these values at once.
 

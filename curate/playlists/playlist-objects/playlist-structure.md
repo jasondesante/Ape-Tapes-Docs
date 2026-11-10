@@ -21,6 +21,7 @@ json
   "creator": "0x44b32db7c365d99ee8a5d5cc28875ad2008813e0",
   "version": "0.4",
   "playlist_type": "new",
+  "playlist_artist": "Eva Myra May",
   "tracks": [...],
   "next_index": 6
 }
@@ -51,7 +52,7 @@ These optional fields classify the playlist type and provide additional metadata
 | ------------------------ | ------ | ------------------------------------------------------------ |
 | `playlist_type`          | String | Type classification: "new", "remix", "ep", "lp", or "single" |
 | `original_playlist_tx_id`| String | For remixes — Arweave tx_id of the original playlist        |
-| `playlist_artist`        | String | For ep/lp/single — artist name                              |
+| `playlist_artist`        | String | Artist name — any type. Emits the on-chain `Artist` tag whenever set; ep/lp/single releases should always carry it |
 | `platform`               | String | Uploader stamp — `"contract-wizard"` on every ApeTapes/Contract Wizard upload, `"nina"` on Nina directory playlists. Older files may lack it. |
 
 See [Playlist Tags](../playlist-tags.md#playlist-type) for how these map to on-chain tags.
